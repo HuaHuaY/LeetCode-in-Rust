@@ -1,4 +1,4 @@
-struct Solution {}
+pub struct Solution {}
 
 impl Solution {
     pub fn is_monotonic(a: Vec<i32>) -> bool {
