@@ -9,3 +9,4 @@ pub mod p496_next_greater_element_i;
 pub mod p503_next_greater_element_ii;
 pub mod p556_next_greater_element_iii;
 pub mod p896_monotonic_array;
+pub mod p1047_remove_all_adjacent_duplicates_in_string;
