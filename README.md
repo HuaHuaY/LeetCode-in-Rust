@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报
 
-### Easy
+### Easy(6)
 
 - [9. Palindrome Number](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p9_palindrome_number)
 - [13. Roman to Integer](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p13_roman_to_integer)
@@ -19,7 +19,7 @@ Call test by running `cargo test p[xxx]_`.
 - [496. Next Greater Element I](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p496_next_greater_element_i)
 - [896. Monotonic Array](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p896_monotonic_array)
 
-### Medium
+### Medium(3)
 
 - [338. Counting Bits](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p338_counting_bits)
 
@@ -27,7 +27,7 @@ Call test by running `cargo test p[xxx]_`.
 
 - [556. Next Greater Element III](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p556_next_greater_element_iii)
 
-### Hard
+### Hard(1)
 
 - [224. Basic Calculator](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p224_basic_calculator)
 
