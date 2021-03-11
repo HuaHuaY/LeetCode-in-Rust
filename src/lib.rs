@@ -1,9 +1,12 @@
+pub mod p1_two_sum;
+pub mod p2_add_two_numbers;
 pub mod p9_palindrome_number;
 pub mod p13_roman_to_integer;
 pub mod p14_longest_common_prefix;
 pub mod p20_valid_parentheses;
 pub mod p27_remove_element;
 pub mod p224_basic_calculator;
+pub mod p227_basic_calculator_ii;
 pub mod p300_longest_increasing_subsequence;
 pub mod p338_counting_bits;
 pub mod p496_next_greater_element_i;
