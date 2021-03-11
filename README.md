@@ -19,7 +19,7 @@ Call test by running `cargo test p[xxx]_`.
 - [496. Next Greater Element I](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p496_next_greater_element_i)
 - [896. Monotonic Array](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p896_monotonic_array)
 
-### Medium(3)
+### Medium(5)
 
 - [2. Add Two Numbers](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p2_add_two_numbers)
 - [227. Basic Calculator II](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p227_basic_calculator_ii)
