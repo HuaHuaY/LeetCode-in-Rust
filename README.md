@@ -35,6 +35,6 @@ Call test by running `cargo test p[xxx]_`.
 
 ### Hard(3)
 
+- [132. Palindrome Partitioning II](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p132_palindrome_partitioning_ii)
 - [224. Basic Calculator](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p224_basic_calculator)
 - [354. Russian Doll Envelopes](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p354_russian_doll_envelopes)
-- [132. Palindrome Partitioning II](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p132_palindrome_partitioning_ii)
