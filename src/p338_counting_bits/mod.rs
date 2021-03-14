@@ -17,11 +17,9 @@ impl Solution {
         results
     }
 
-    /*
-    fn foo2(num: i32) -> Vec<i32> {
-        (0..=num).map(|x| x.count_ones() as i32).collect()
-    }
-    */
+    // fn foo2(num: i32) -> Vec<i32> {
+    //     (0..=num).map(|x| x.count_ones() as i32).collect()
+    // }
 }
 
 #[cfg(test)]
@@ -29,11 +27,11 @@ mod tests {
     use super::*;
     #[test]
     fn test1() {
-        assert_eq!(Solution::count_bits(2), [0,1,1]);
+        assert_eq!(Solution::count_bits(2), [0, 1, 1]);
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::count_bits(5), [0,1,1,2,1,2]);
+        assert_eq!(Solution::count_bits(5), [0, 1, 1, 2, 1, 2]);
     }
 }
