@@ -21,9 +21,11 @@ Call test by running `cargo test p[xxx]_`.
 - [706. Design HashMap](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p706_design_hashmap)
 - [896. Monotonic Array](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p896_monotonic_array)
 
-### Medium(7)
+### Medium(9)
 
 - [2. Add Two Numbers](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p2_add_two_numbers)
+- [54. Spiral Matrix](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p54_spiral_matrix)
+- [131. Palindrome Partitioning](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p131_palindrome_partitioning)
 - [227. Basic Calculator II](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p227_basic_calculator_ii)
 - [300. Longest Increasing Subsequence](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p300_longest_increasing_subsequence)
 - [331. Verify Preorder Serialization of a Binary Tree](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p331_verify_preorder_serialization_of_a_binary_tree)
@@ -31,7 +33,8 @@ Call test by running `cargo test p[xxx]_`.
 - [503. Next Greater Element II](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p503_next_greater_element_ii)
 - [556. Next Greater Element III](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p556_next_greater_element_iii)
 
-### Hard(2)
+### Hard(3)
 
 - [224. Basic Calculator](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p224_basic_calculator)
 - [354. Russian Doll Envelopes](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p354_russian_doll_envelopes)
+- [132. Palindrome Partitioning II](https://github.com/HuaHuaY/LeetCode-in-Rust/tree/main/src/p132_palindrome_partitioning_ii)
