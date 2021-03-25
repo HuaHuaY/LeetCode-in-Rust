@@ -1,5 +1,6 @@
 pub struct Solution {}
 
+#[allow(dead_code)]
 impl Solution {
     pub fn count_bits(num: i32) -> Vec<i32> {
         Self::foo1(num)
@@ -17,9 +18,9 @@ impl Solution {
         results
     }
 
-    // fn foo2(num: i32) -> Vec<i32> {
-    //     (0..=num).map(|x| x.count_ones() as i32).collect()
-    // }
+    fn foo2(num: i32) -> Vec<i32> {
+        (0..=num).map(|x| x.count_ones() as i32).collect()
+    }
 }
 
 #[cfg(test)]

@@ -1,24 +1,25 @@
 pub struct Solution {}
 
+#[allow(dead_code)]
 impl Solution {
     pub fn length_of_lis(nums: Vec<i32>) -> i32 {
         Self::foo2(nums)
     }
 
-    // fn foo1(nums: Vec<i32>) -> i32 {
-    //     let mut dp = vec![1; nums.len()];
-    //     let mut answer = 1;
+    fn foo1(nums: Vec<i32>) -> i32 {
+        let mut dp = vec![1; nums.len()];
+        let mut answer = 1;
 
-    //     for i in 1..nums.len() {
-    //         for j in 0..i {
-    //             if nums[j] < nums[i] {
-    //                 dp[i] = dp[i].max(dp[j] + 1);
-    //             }
-    //         }
-    //         answer = answer.max(dp[i]);
-    //     }
-    //     answer
-    // }
+        for i in 1..nums.len() {
+            for j in 0..i {
+                if nums[j] < nums[i] {
+                    dp[i] = dp[i].max(dp[j] + 1);
+                }
+            }
+            answer = answer.max(dp[i]);
+        }
+        answer
+    }
 
     fn foo2(nums: Vec<i32>) -> i32 {
         let mut array = vec![0; nums.len() + 1];
