@@ -10,6 +10,7 @@ pub mod p27_remove_element;
 pub mod p54_spiral_matrix;
 pub mod p59_spiral_matrix_ii;
 pub mod p73_set_matrix_zeroes;
+pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p131_palindrome_partitioning;
 pub mod p132_palindrome_partitioning_ii;
