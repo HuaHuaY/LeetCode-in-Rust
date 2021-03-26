@@ -91,7 +91,7 @@ mod tests {
         }));
         let answer = Some(Box::new(ListNode {
             val: 2,
-            next: Some(Box::new(ListNode { val: 3, next: None })),
+            next: Some(Box::new(ListNode::new(3))),
         }));
         assert_eq!(Solution::delete_duplicates(test), answer);
     }

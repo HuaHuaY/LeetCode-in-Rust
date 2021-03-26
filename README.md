@@ -23,12 +23,13 @@ Call test by running `cargo test p[xxx]_`.
 - [706. Design HashMap](src/p706_design_hashmap)
 - [896. Monotonic Array](src/p896_monotonic_array)
 
-### Medium(15)
+### Medium(16)
 
 - [2. Add Two Numbers](src/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/p3_longest_substring_without_repeating_characters)
 - [54. Spiral Matrix](src/p54_spiral_matrix)
 - [59. Spiral Matrix II](src/p59_spiral_matrix_ii)
+- [61. Rotate List](src/p61_rotate_list)
 - [73. Set Matrix Zeroes](src/p73_set_matrix_zeroes)
 - [82. Remove Duplicates from Sorted List II](src/p82_remove_duplicates_from_sorted_list_ii)
 - [131. Palindrome Partitioning](src/p131_palindrome_partitioning)

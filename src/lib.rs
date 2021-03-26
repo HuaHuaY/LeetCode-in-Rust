@@ -9,6 +9,7 @@ pub mod p20_valid_parentheses;
 pub mod p27_remove_element;
 pub mod p54_spiral_matrix;
 pub mod p59_spiral_matrix_ii;
+pub mod p61_rotate_list;
 pub mod p73_set_matrix_zeroes;
 pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p83_remove_duplicates_from_sorted_list;
