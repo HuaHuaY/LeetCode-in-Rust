@@ -23,7 +23,7 @@ Call test by running `cargo test p[xxx]_`.
 - [706. Design HashMap](src/p706_design_hashmap)
 - [896. Monotonic Array](src/p896_monotonic_array)
 
-### Medium(16)
+### Medium(17)
 
 - [2. Add Two Numbers](src/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/p3_longest_substring_without_repeating_characters)
@@ -38,6 +38,7 @@ Call test by running `cargo test p[xxx]_`.
 - [300. Longest Increasing Subsequence](src/p300_longest_increasing_subsequence)
 - [331. Verify Preorder Serialization of a Binary Tree](src/p331_verify_preorder_serialization_of_a_binary_tree)
 - [338. Counting Bits](src/p338_counting_bits)
+- [456. 132 Pattern](src/p456_132_pattern)
 - [503. Next Greater Element II](src/p503_next_greater_element_ii)
 - [556. Next Greater Element III](src/p556_next_greater_element_iii)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/p1318_minimum_flips_to_make_a_or_b_equal_to_c)

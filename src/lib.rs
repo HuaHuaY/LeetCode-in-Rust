@@ -23,6 +23,7 @@ pub mod p300_longest_increasing_subsequence;
 pub mod p331_verify_preorder_serialization_of_a_binary_tree;
 pub mod p338_counting_bits;
 pub mod p354_russian_doll_envelopes;
+pub mod p456_132_pattern;
 pub mod p496_next_greater_element_i;
 pub mod p503_next_greater_element_ii;
 pub mod p556_next_greater_element_iii;
