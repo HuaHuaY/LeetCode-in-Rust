@@ -23,7 +23,7 @@ Call test by running `cargo test p[xxx]_`.
 - [706. Design HashMap](src/p706_design_hashmap)
 - [896. Monotonic Array](src/p896_monotonic_array)
 
-### Medium(17)
+### Medium(18)
 
 - [2. Add Two Numbers](src/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/p3_longest_substring_without_repeating_characters)
@@ -34,6 +34,7 @@ Call test by running `cargo test p[xxx]_`.
 - [82. Remove Duplicates from Sorted List II](src/p82_remove_duplicates_from_sorted_list_ii)
 - [131. Palindrome Partitioning](src/p131_palindrome_partitioning)
 - [150. Evaluate Reverse Polish Notation](src/p150_evaluate_reverse_polish_notation)
+- [173. Binary Search Tree Iterator](src/p173_binary_search_tree_iterator)
 - [227. Basic Calculator II](src/p227_basic_calculator_ii)
 - [300. Longest Increasing Subsequence](src/p300_longest_increasing_subsequence)
 - [331. Verify Preorder Serialization of a Binary Tree](src/p331_verify_preorder_serialization_of_a_binary_tree)
