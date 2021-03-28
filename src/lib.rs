@@ -17,6 +17,7 @@ pub mod p131_palindrome_partitioning;
 pub mod p132_palindrome_partitioning_ii;
 pub mod p150_evaluate_reverse_polish_notation;
 pub mod p173_binary_search_tree_iterator;
+pub mod p190_reverse_bits;
 pub mod p191_number_of_1_bits;
 pub mod p224_basic_calculator;
 pub mod p227_basic_calculator_ii;
