@@ -11,6 +11,7 @@ pub mod p54_spiral_matrix;
 pub mod p59_spiral_matrix_ii;
 pub mod p61_rotate_list;
 pub mod p73_set_matrix_zeroes;
+pub mod p74_search_a_2d_matrix;
 pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p131_palindrome_partitioning;

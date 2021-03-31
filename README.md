@@ -32,6 +32,7 @@ Call test by running `cargo test p[xxx]_`.
 - [59. Spiral Matrix II](src/p59_spiral_matrix_ii)
 - [61. Rotate List](src/p61_rotate_list)
 - [73. Set Matrix Zeroes](src/p73_set_matrix_zeroes)
+- [74. Search a 2D Matrix](src/p74_search_a_2d_matrix)
 - [82. Remove Duplicates from Sorted List II](src/p82_remove_duplicates_from_sorted_list_ii)
 - [131. Palindrome Partitioning](src/p131_palindrome_partitioning)
 - [150. Evaluate Reverse Polish Notation](src/p150_evaluate_reverse_polish_notation)
