@@ -33,5 +33,6 @@ pub mod p556_next_greater_element_iii;
 pub mod p705_design_hashset;
 pub mod p706_design_hashmap;
 pub mod p896_monotonic_array;
+pub mod p1006_clumsy_factorial;
 pub mod p1047_remove_all_adjacent_duplicates_in_string;
 pub mod p1318_minimum_flips_to_make_a_or_b_equal_to_c;
