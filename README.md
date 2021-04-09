@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报
 
-### Easy(12)
+### Easy(13)
 
 - [1. Two Sum](src/p1_two_sum)
 - [9. Palindrome Number](src/p9_palindrome_number)
@@ -19,6 +19,7 @@ Call test by running `cargo test p[xxx]_`.
 - [83. Remove Duplicates from Sorted List](src/p83_remove_duplicates_from_sorted_list)
 - [190. Reverse Bits](src/p190_reverse_bits)
 - [191. Number of 1 Bits](src/p191_number_of_1_bits)
+- [263. Ugly Number](src/p263_ugly_number)
 - [496. Next Greater Element I](src/p496_next_greater_element_i)
 - [705. Design HashSet](src/p705_design_hashset)
 - [706. Design HashMap](src/p706_design_hashmap)

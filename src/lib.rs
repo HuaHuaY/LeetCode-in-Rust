@@ -22,6 +22,7 @@ pub mod p190_reverse_bits;
 pub mod p191_number_of_1_bits;
 pub mod p224_basic_calculator;
 pub mod p227_basic_calculator_ii;
+pub mod p263_ugly_number;
 pub mod p300_longest_increasing_subsequence;
 pub mod p331_verify_preorder_serialization_of_a_binary_tree;
 pub mod p338_counting_bits;
