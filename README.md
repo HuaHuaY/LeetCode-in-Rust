@@ -9,13 +9,14 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报
 
-### Easy(13)
+### Easy(14)
 
 - [1. Two Sum](src/p1_two_sum)
 - [9. Palindrome Number](src/p9_palindrome_number)
 - [13. Roman to Integer](src/p13_roman_to_integer)
 - [14. Longest Common Prefix](src/p14_longest_common_prefix)
 - [20. Valid Parentheses](src/p20_valid_parentheses)
+- [26. Remove Duplicates from Sorted Array](src/p26_remove_duplicates_from_sorted_array)
 - [83. Remove Duplicates from Sorted List](src/p83_remove_duplicates_from_sorted_list)
 - [190. Reverse Bits](src/p190_reverse_bits)
 - [191. Number of 1 Bits](src/p191_number_of_1_bits)
@@ -25,7 +26,7 @@ Call test by running `cargo test p[xxx]_`.
 - [706. Design HashMap](src/p706_design_hashmap)
 - [896. Monotonic Array](src/p896_monotonic_array)
 
-### Medium(20)
+### Medium(21)
 
 - [2. Add Two Numbers](src/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/p3_longest_substring_without_repeating_characters)
@@ -39,6 +40,7 @@ Call test by running `cargo test p[xxx]_`.
 - [150. Evaluate Reverse Polish Notation](src/p150_evaluate_reverse_polish_notation)
 - [173. Binary Search Tree Iterator](src/p173_binary_search_tree_iterator)
 - [227. Basic Calculator II](src/p227_basic_calculator_ii)
+- [264. Ugly Number II](src/p264_ugly_number_ii)
 - [300. Longest Increasing Subsequence](src/p300_longest_increasing_subsequence)
 - [331. Verify Preorder Serialization of a Binary Tree](src/p331_verify_preorder_serialization_of_a_binary_tree)
 - [338. Counting Bits](src/p338_counting_bits)

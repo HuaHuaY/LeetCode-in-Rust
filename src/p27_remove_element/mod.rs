@@ -1,8 +1,12 @@
 pub struct Solution {}
 
+#[allow(dead_code)]
 impl Solution {
     pub fn remove_element(nums: &mut Vec<i32>, val: i32) -> i32 {
-        let mut j = 0;
+        Solution::foo2(nums, val)
+    }
+
+    fn foo1(nums: &mut Vec<i32>, val: i32) -> i32 {let mut j = 0;
 
         for i in 0..nums.len() {
             if nums[i] != val {
@@ -11,7 +15,11 @@ impl Solution {
             }
         }
 
-        j as i32
+        j as i32}
+
+    fn foo2(nums: &mut Vec<i32>, val: i32) -> i32 {
+        nums.retain(|x| *x != val);
+        nums.len() as i32
     }
 }
 
