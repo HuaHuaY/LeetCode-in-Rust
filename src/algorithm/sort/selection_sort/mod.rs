@@ -31,4 +31,18 @@ mod tests {
         Solution::selection_sort(&mut nums);
         assert_eq!([0, 0, 1, 2, 2], nums);
     }
+
+    #[test]
+    fn test3() {
+        let mut nums: [i32;0] = [];
+        Solution::selection_sort(&mut nums);
+        assert_eq!([] as [i32;0], nums);
+    }
+
+    #[test]
+    fn test4() {
+        let mut nums = [0];
+        Solution::selection_sort(&mut nums);
+        assert_eq!([0], nums);
+    }
 }
