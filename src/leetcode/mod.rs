@@ -11,6 +11,7 @@ pub mod p26_remove_duplicates_from_sorted_array;
 pub mod p27_remove_element;
 pub mod p53_maximum_subarray;
 pub mod p54_spiral_matrix;
+pub mod p58_length_of_last_word;
 pub mod p59_spiral_matrix_ii;
 pub mod p61_rotate_list;
 pub mod p73_set_matrix_zeroes;
