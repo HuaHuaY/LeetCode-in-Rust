@@ -3,34 +3,34 @@ pub struct Solution {}
 impl Solution {
     pub fn radix_sort(nums: &mut Vec<i32>) {
         let mut tmp = nums.clone();
-        let mut sum = [[0; 256]; 4];
+        let mut rank = [[0; 256]; 4];
         for i in nums.iter() {
-            sum[0][*i as usize & 255] += 1;
-            sum[1][(*i >> 8) as usize & 255] += 1;
-            sum[2][(*i >> 16) as usize & 255] += 1;
-            sum[3][(*i as usize >> 24) & 255] += 1;
+            rank[0][*i as usize & 255] += 1;
+            rank[1][(*i >> 8) as usize & 255] += 1;
+            rank[2][(*i >> 16) as usize & 255] += 1;
+            rank[3][(*i as usize >> 24) & 255] += 1;
         }
         for i in 1..=255 {
-            sum[0][i] += sum[0][i - 1];
-            sum[1][i] += sum[1][i - 1];
-            sum[2][i] += sum[2][i - 1];
-            sum[3][i] += sum[3][i - 1];
+            rank[0][i] += rank[0][i - 1];
+            rank[1][i] += rank[1][i - 1];
+            rank[2][i] += rank[2][i - 1];
+            rank[3][i] += rank[3][i - 1];
         }
         for i in (0..nums.len()).rev() {
-            sum[0][nums[i] as usize & 255] -= 1;
-            tmp[sum[0][nums[i] as usize & 255]] = nums[i];
+            rank[0][nums[i] as usize & 255] -= 1;
+            tmp[rank[0][nums[i] as usize & 255]] = nums[i];
         }
         for i in (0..nums.len()).rev() {
-            sum[1][(tmp[i] as usize >> 8) & 255] -= 1;
-            nums[sum[1][(tmp[i] as usize >> 8) & 255]] = tmp[i];
+            rank[1][(tmp[i] as usize >> 8) & 255] -= 1;
+            nums[rank[1][(tmp[i] as usize >> 8) & 255]] = tmp[i];
         }
         for i in (0..nums.len()).rev() {
-            sum[2][(nums[i] as usize >> 16) & 255] -= 1;
-            tmp[sum[2][(nums[i] as usize >> 16) & 255]] = nums[i];
+            rank[2][(nums[i] as usize >> 16) & 255] -= 1;
+            tmp[rank[2][(nums[i] as usize >> 16) & 255]] = nums[i];
         }
         for i in (0..nums.len()).rev() {
-            sum[3][(tmp[i] as usize >> 24) & 255] -= 1;
-            nums[sum[3][(tmp[i] as usize >> 24) & 255]] = tmp[i];
+            rank[3][(tmp[i] as usize >> 24) & 255] -= 1;
+            nums[rank[3][(tmp[i] as usize >> 24) & 255]] = tmp[i];
         }
     }
 }
