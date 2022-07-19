@@ -5,7 +5,7 @@ impl Solution {
         if left >= right {
             return;
         }
-        
+
         let mid = (right - left) / 2 + left;
         nums.swap(left as usize, mid as usize);
 

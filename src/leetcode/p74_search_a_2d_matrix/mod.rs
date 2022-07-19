@@ -16,7 +16,6 @@ impl Solution {
             }
         }
 
-
         if right < 0 {
             return false;
         }

@@ -34,9 +34,9 @@ mod tests {
 
     #[test]
     fn test3() {
-        let mut nums: [i32;0] = [];
+        let mut nums: [i32; 0] = [];
         Solution::selection_sort(&mut nums);
-        assert_eq!([] as [i32;0], nums);
+        assert_eq!([] as [i32; 0], nums);
     }
 
     #[test]

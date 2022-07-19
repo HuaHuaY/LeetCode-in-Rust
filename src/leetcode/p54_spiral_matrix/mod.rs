@@ -44,7 +44,8 @@ impl Solution {
                     }
                 }
                 Direction::Right => {
-                    if j + 1 >= matrix[0].len() as i32 || matrix[i as usize][j as usize + 1] == -101 {
+                    if j + 1 >= matrix[0].len() as i32 || matrix[i as usize][j as usize + 1] == -101
+                    {
                         direction = Direction::Down;
                         i += 1;
                     } else {

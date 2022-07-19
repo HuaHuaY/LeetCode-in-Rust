@@ -18,7 +18,10 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(6, Solution::max_sub_array(vec![-2,1,-3,4,-1,2,1,-5,4]));
+        assert_eq!(
+            6,
+            Solution::max_sub_array(vec![-2, 1, -3, 4, -1, 2, 1, -5, 4])
+        );
     }
 
     #[test]
@@ -28,6 +31,6 @@ mod tests {
 
     #[test]
     fn test3() {
-        assert_eq!(23, Solution::max_sub_array(vec![5,4,-1,7,8]));
+        assert_eq!(23, Solution::max_sub_array(vec![5, 4, -1, 7, 8]));
     }
 }
