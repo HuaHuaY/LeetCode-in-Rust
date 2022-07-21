@@ -40,6 +40,7 @@ pub mod p705_design_hashset;
 pub mod p706_design_hashmap;
 pub mod p73_set_matrix_zeroes;
 pub mod p74_search_a_2d_matrix;
+pub mod p814_binary_tree_pruning;
 pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p896_monotonic_array;

@@ -2,11 +2,12 @@ pub trait ToVecVec<A> {
     fn to_vec_vec(self) -> Vec<Vec<A>>;
 }
 
-impl<A, const L1: usize, const L2: usize> ToVecVec<A> for [[A; L1]; L2]
+impl<A, I1, I2> ToVecVec<A> for I2
 where
-    A: Clone,
+    I2: IntoIterator<Item = I1>,
+    I1: IntoIterator<Item = A>,
 {
     fn to_vec_vec(self) -> Vec<Vec<A>> {
-        IntoIterator::into_iter(self).map(|e| e.to_vec()).collect()
+        self.into_iter().map(|e| e.into_iter().collect()).collect()
     }
 }

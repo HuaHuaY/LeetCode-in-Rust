@@ -1,4 +1,4 @@
 pub mod algorithm;
 #[cfg(test)]
-pub mod common;
+mod common;
 pub mod leetcode;
