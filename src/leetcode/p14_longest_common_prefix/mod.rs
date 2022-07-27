@@ -33,24 +33,17 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::common::ToVecString;
 
     #[test]
     fn test1() {
-        let test = vec![
-            String::from("flower"),
-            String::from("flow"),
-            String::from("flight"),
-        ];
+        let test = ["flower", "flow", "flight"].to_vec_string();
         assert_eq!(Solution::longest_common_prefix(test), "fl");
     }
 
     #[test]
     fn test2() {
-        let test = vec![
-            String::from("dog"),
-            String::from("racecar"),
-            String::from("car"),
-        ];
+        let test = ["dog", "racecar", "car"].to_vec_string();
         assert_eq!(Solution::longest_common_prefix(test), "");
     }
 }

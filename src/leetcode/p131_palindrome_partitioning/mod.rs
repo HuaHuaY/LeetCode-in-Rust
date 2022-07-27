@@ -46,52 +46,19 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::common::ToSortVecVec;
 
     #[test]
     fn test1() {
-        let mut test = Solution::partition(String::from("aab"))
-            .into_iter()
-            .map(|mut x| {
-                x.sort();
-                x
-            })
-            .collect::<Vec<Vec<String>>>();
-        test.sort();
-
-        let mut answer = [vec!["a", "a", "b"], vec!["aa", "b"]]
-            .to_vec()
-            .into_iter()
-            .map(|mut x| {
-                x.sort();
-                x
-            })
-            .collect::<Vec<Vec<&str>>>();
-        answer.sort();
-
+        let test = Solution::partition(String::from("aab")).to_sort_vec_vec();
+        let answer = [vec!["a", "a", "b"], vec!["aa", "b"]].to_sort_vec_vec();
         assert_eq!(test, answer);
     }
 
     #[test]
     fn test2() {
-        let mut test = Solution::partition(String::from("a"))
-            .into_iter()
-            .map(|mut x| {
-                x.sort();
-                x
-            })
-            .collect::<Vec<Vec<String>>>();
-        test.sort();
-
-        let mut answer = [vec!["a"]]
-            .to_vec()
-            .into_iter()
-            .map(|mut x| {
-                x.sort();
-                x
-            })
-            .collect::<Vec<Vec<&str>>>();
-        answer.sort();
-
+        let test = Solution::partition(String::from("a")).to_sort_vec_vec();
+        let answer = [vec!["a"]].to_sort_vec_vec();
         assert_eq!(test, answer);
     }
 }

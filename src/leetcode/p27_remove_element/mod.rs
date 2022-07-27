@@ -32,7 +32,6 @@ mod tests {
     #[test]
     fn test1() {
         let mut test = vec![3, 2, 2, 3];
-
         assert_eq!(Solution::remove_element(&mut test, 3), 2);
 
         let mut test = test[..2].to_vec();
@@ -47,7 +46,6 @@ mod tests {
     #[test]
     fn test2() {
         let mut test = vec![0, 1, 2, 2, 3, 0, 4, 2];
-
         assert_eq!(Solution::remove_element(&mut test, 2), 5);
 
         let mut test = test[..5].to_vec();

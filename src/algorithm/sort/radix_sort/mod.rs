@@ -1,8 +1,8 @@
 pub struct Solution {}
 
 impl Solution {
-    pub fn radix_sort(nums: &mut Vec<i32>) {
-        let mut tmp = nums.clone();
+    pub fn radix_sort(nums: &mut [i32]) {
+        let mut tmp = nums.to_vec();
         let mut rank = [[0; 256]; 4];
         for i in nums.iter() {
             rank[0][*i as usize & 255] += 1;
@@ -41,29 +41,29 @@ mod tests {
 
     #[test]
     fn test1() {
-        let mut nums = vec![2, 4, 1, 3, 5];
+        let mut nums = [2, 4, 1, 3, 5];
         Solution::radix_sort(&mut nums);
-        assert_eq!(vec![1, 2, 3, 4, 5], nums);
+        assert_eq!(nums, [1, 2, 3, 4, 5]);
     }
 
     #[test]
     fn test2() {
-        let mut nums = vec![1, 2, 0, 0, 2];
+        let mut nums = [1, 2, 0, 0, 2];
         Solution::radix_sort(&mut nums);
-        assert_eq!(vec![0, 0, 1, 2, 2], nums);
+        assert_eq!(nums, [0, 0, 1, 2, 2]);
     }
 
     #[test]
     fn test3() {
-        let mut nums: Vec<i32> = vec![];
+        let mut nums = [];
         Solution::radix_sort(&mut nums);
-        assert_eq!(vec![] as Vec<i32>, nums);
+        assert_eq!(nums, []);
     }
 
     #[test]
     fn test4() {
-        let mut nums = vec![0];
+        let mut nums = [0];
         Solution::radix_sort(&mut nums);
-        assert_eq!(vec![0], nums);
+        assert_eq!(nums, [0]);
     }
 }

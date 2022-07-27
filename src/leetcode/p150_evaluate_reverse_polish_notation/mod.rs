@@ -35,35 +35,26 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::common::ToVecString;
 
     #[test]
     fn test1() {
-        let mut test = Vec::new();
-        for i in ["2", "1", "+", "3", "*"].iter() {
-            test.push(String::from(*i));
-        }
+        let test = ["2", "1", "+", "3", "*"].to_vec_string();
         assert_eq!(Solution::eval_rpn(test), 9);
     }
 
     #[test]
     fn test2() {
-        let mut test = Vec::new();
-        for i in ["4", "13", "5", "/", "+"].iter() {
-            test.push(String::from(*i));
-        }
+        let test = ["4", "13", "5", "/", "+"].to_vec_string();
         assert_eq!(Solution::eval_rpn(test), 6);
     }
 
     #[test]
     fn test3() {
-        let mut test = Vec::new();
-        for i in [
+        let test = [
             "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+",
         ]
-        .iter()
-        {
-            test.push(String::from(*i));
-        }
+        .to_vec_string();
         assert_eq!(Solution::eval_rpn(test), 22);
     }
 }

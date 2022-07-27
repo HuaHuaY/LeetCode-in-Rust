@@ -13,7 +13,7 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::common::*;
+    use crate::common::ToVecVec;
 
     #[test]
     fn test1() {

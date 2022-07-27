@@ -14,24 +14,24 @@ mod tests {
     #[test]
     fn test1() {
         assert_eq!(
-            5,
-            Solution::length_of_last_word(String::from("Hello World"))
+            Solution::length_of_last_word(String::from("Hello World")),
+            5
         );
     }
 
     #[test]
     fn test2() {
         assert_eq!(
-            4,
-            Solution::length_of_last_word(String::from("   fly me   to   the moon  "))
+            Solution::length_of_last_word(String::from("   fly me   to   the moon  ")),
+            4
         );
     }
 
     #[test]
     fn test3() {
         assert_eq!(
-            6,
-            Solution::length_of_last_word(String::from("luffy is still joyboy"))
+            Solution::length_of_last_word(String::from("luffy is still joyboy")),
+            6
         );
     }
 }

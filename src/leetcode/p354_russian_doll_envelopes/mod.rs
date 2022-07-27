@@ -34,20 +34,17 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::common::ToVecVec;
 
     #[test]
     fn test1() {
-        assert_eq!(
-            Solution::max_envelopes(vec![vec![5, 4], vec![6, 4], vec![6, 7], vec![2, 3]]),
-            3
-        );
+        let test = [[5, 4], [6, 4], [6, 7], [2, 3]].to_vec_vec();
+        assert_eq!(Solution::max_envelopes(test), 3);
     }
 
     #[test]
     fn test2() {
-        assert_eq!(
-            Solution::max_envelopes(vec![vec![1, 1], vec![1, 1], vec![1, 1]]),
-            1
-        );
+        let test = [[1, 1], [1, 1], [1, 1]].to_vec_vec();
+        assert_eq!(Solution::max_envelopes(test), 1);
     }
 }

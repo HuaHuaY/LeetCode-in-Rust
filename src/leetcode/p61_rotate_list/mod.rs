@@ -52,53 +52,40 @@ impl Solution {
 mod tests {
     use super::*;
 
+    impl ListNode {
+        #[inline]
+        fn new_with(val: i32, next: Option<Box<ListNode>>) -> Option<Box<Self>> {
+            Some(Box::new(ListNode { next, val }))
+        }
+    }
+
     #[test]
     fn test1() {
-        let test = Some(Box::new(ListNode {
-            val: 1,
-            next: Some(Box::new(ListNode {
-                val: 2,
-                next: Some(Box::new(ListNode {
-                    val: 3,
-                    next: Some(Box::new(ListNode {
-                        val: 4,
-                        next: Some(Box::new(ListNode::new(5))),
-                    })),
-                })),
-            })),
-        }));
-        let answer = Some(Box::new(ListNode {
-            val: 4,
-            next: Some(Box::new(ListNode {
-                val: 5,
-                next: Some(Box::new(ListNode {
-                    val: 1,
-                    next: Some(Box::new(ListNode {
-                        val: 2,
-                        next: Some(Box::new(ListNode::new(3))),
-                    })),
-                })),
-            })),
-        }));
+        let mut test = Some(Box::new(ListNode::new(5)));
+        test = ListNode::new_with(4, test);
+        test = ListNode::new_with(3, test);
+        test = ListNode::new_with(2, test);
+        test = ListNode::new_with(1, test);
+
+        let mut answer = Some(Box::new(ListNode::new(3)));
+        answer = ListNode::new_with(2, answer);
+        answer = ListNode::new_with(1, answer);
+        answer = ListNode::new_with(5, answer);
+        answer = ListNode::new_with(4, answer);
+
         assert_eq!(Solution::rotate_right(test, 2), answer);
     }
 
     #[test]
     fn test2() {
-        let test = Some(Box::new(ListNode {
-            val: 0,
-            next: Some(Box::new(ListNode {
-                val: 1,
-                next: Some(Box::new(ListNode::new(2))),
-            })),
-        }));
-        let answer = Some(Box::new(ListNode {
-            val: 2,
-            next: Some(Box::new(ListNode {
-                val: 0,
-                next: Some(Box::new(ListNode::new(1))),
-            })),
-        }));
+        let mut test = Some(Box::new(ListNode::new(2)));
+        test = ListNode::new_with(1, test);
+        test = ListNode::new_with(0, test);
+
+        let mut answer = Some(Box::new(ListNode::new(1)));
+        answer = ListNode::new_with(0, answer);
+        answer = ListNode::new_with(2, answer);
+
         assert_eq!(Solution::rotate_right(test, 4), answer);
     }
 }

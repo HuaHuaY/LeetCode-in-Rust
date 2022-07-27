@@ -50,200 +50,66 @@ impl Solution {
 mod tests {
     use super::*;
 
+    impl TreeNode {
+        #[inline]
+        fn new_with(
+            val: i32,
+            left: Option<Rc<RefCell<TreeNode>>>,
+            right: Option<Rc<RefCell<TreeNode>>>,
+        ) -> Option<Rc<RefCell<Self>>> {
+            Some(Rc::new(RefCell::new(TreeNode { val, left, right })))
+        }
+    }
+
     #[test]
     fn test1() {
-        let root = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        root.as_ref().unwrap().borrow_mut().left = None;
-        root.as_ref().unwrap().borrow_mut().right = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        let result = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        result.as_ref().unwrap().borrow_mut().left = None;
-        result.as_ref().unwrap().borrow_mut().right = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        result
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left = None;
-        result
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        assert_eq!(Solution::prune_tree(root), result);
+        let t1 = Some(Rc::new(RefCell::new(TreeNode::new(0))));
+        let t2 = Some(Rc::new(RefCell::new(TreeNode::new(1))));
+        let t3 = TreeNode::new_with(0, t1, t2);
+        let root = TreeNode::new_with(1, None, t3);
+
+        let t4 = Some(Rc::new(RefCell::new(TreeNode::new(1))));
+        let t5 = TreeNode::new_with(0, None, t4);
+        let answer = TreeNode::new_with(1, None, t5);
+
+        assert_eq!(Solution::prune_tree(root), answer);
     }
 
     #[test]
     fn test2() {
-        let root = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        root.as_ref().unwrap().borrow_mut().left = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        root.as_ref().unwrap().borrow_mut().right = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        let result = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        result.as_ref().unwrap().borrow_mut().left = None;
-        result.as_ref().unwrap().borrow_mut().right = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        result
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left = None;
-        result
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        assert_eq!(Solution::prune_tree(root), result);
+        let t1 = Some(Rc::new(RefCell::new(TreeNode::new(0))));
+        let t2 = Some(Rc::new(RefCell::new(TreeNode::new(0))));
+        let t3 = Some(Rc::new(RefCell::new(TreeNode::new(0))));
+        let t4 = Some(Rc::new(RefCell::new(TreeNode::new(1))));
+        let t5 = TreeNode::new_with(0, t1, t2);
+        let t6 = TreeNode::new_with(1, t3, t4);
+        let root = TreeNode::new_with(1, t5, t6);
+
+        let t7 = Some(Rc::new(RefCell::new(TreeNode::new(1))));
+        let t8 = TreeNode::new_with(1, None, t7);
+        let answer = TreeNode::new_with(1, None, t8);
+
+        assert_eq!(Solution::prune_tree(root), answer);
     }
 
     #[test]
     fn test3() {
-        let root = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        root.as_ref().unwrap().borrow_mut().left = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        root.as_ref().unwrap().borrow_mut().right = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        root.as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        let result = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        result.as_ref().unwrap().borrow_mut().left = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        result.as_ref().unwrap().borrow_mut().right = Some(Rc::new(RefCell::new(TreeNode::new(0))));
-        result
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        result
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        result
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .left = None;
-        result
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right
-            .as_ref()
-            .unwrap()
-            .borrow_mut()
-            .right = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        assert_eq!(Solution::prune_tree(root), result);
+        let t1 = Some(Rc::new(RefCell::new(TreeNode::new(0))));
+        let t2 = Some(Rc::new(RefCell::new(TreeNode::new(1))));
+        let t3 = Some(Rc::new(RefCell::new(TreeNode::new(0))));
+        let t4 = Some(Rc::new(RefCell::new(TreeNode::new(1))));
+        let t5 = TreeNode::new_with(1, t1, None);
+        let t6 = TreeNode::new_with(1, t5, t2);
+        let t7 = TreeNode::new_with(0, t3, t4);
+        let root = TreeNode::new_with(1, t6, t7);
+
+        let t8 = Some(Rc::new(RefCell::new(TreeNode::new(1))));
+        let t9 = Some(Rc::new(RefCell::new(TreeNode::new(1))));
+        let t10 = Some(Rc::new(RefCell::new(TreeNode::new(1))));
+        let t11 = TreeNode::new_with(1, t8, t9);
+        let t12 = TreeNode::new_with(0, None, t10);
+        let answer = TreeNode::new_with(1, t11, t12);
+
+        assert_eq!(Solution::prune_tree(root), answer);
     }
 }

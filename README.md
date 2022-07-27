@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 
 
-## 现在可以公开的情报
+## 现在可以公开的情报(Problems Solved)
 
 ### Easy(18)
 

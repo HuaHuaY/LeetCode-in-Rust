@@ -61,11 +61,12 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::common::ToVecVec;
 
     #[test]
     fn test1() {
         assert_eq!(
-            Solution::spiral_order(vec![vec![1, 2, 3], vec![4, 5, 6], vec![7, 8, 9]]),
+            Solution::spiral_order([[1, 2, 3], [4, 5, 6], [7, 8, 9]].to_vec_vec()),
             [1, 2, 3, 6, 9, 8, 7, 4, 5]
         );
     }
@@ -73,11 +74,7 @@ mod tests {
     #[test]
     fn test2() {
         assert_eq!(
-            Solution::spiral_order(vec![
-                vec![1, 2, 3, 4],
-                vec![5, 6, 7, 8],
-                vec![9, 10, 11, 12]
-            ]),
+            Solution::spiral_order([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]].to_vec_vec()),
             [1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7]
         );
     }

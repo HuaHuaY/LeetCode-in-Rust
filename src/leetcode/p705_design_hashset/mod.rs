@@ -46,10 +46,13 @@ mod tests {
         let mut test = MyHashSet::new();
         test.add(1);
         test.add(2);
+        
         assert_eq!(test.contains(1), true);
         assert_eq!(test.contains(3), false);
+
         test.add(2);
         assert_eq!(test.contains(2), true);
+
         test.remove(2);
         assert_eq!(test.contains(2), false);
     }

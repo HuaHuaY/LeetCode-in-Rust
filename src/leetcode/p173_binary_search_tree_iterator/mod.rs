@@ -57,17 +57,24 @@ impl BSTIterator {
 mod tests {
     use super::*;
 
+    impl TreeNode {
+        #[inline]
+        fn new_with(
+            val: i32,
+            left: Option<Rc<RefCell<TreeNode>>>,
+            right: Option<Rc<RefCell<TreeNode>>>,
+        ) -> Option<Rc<RefCell<Self>>> {
+            Some(Rc::new(RefCell::new(TreeNode { val, left, right })))
+        }
+    }
+
     #[test]
     fn test1() {
-        let root = Some(Rc::new(RefCell::new(TreeNode {
-            val: 7,
-            left: Some(Rc::new(RefCell::new(TreeNode::new(3)))),
-            right: Some(Rc::new(RefCell::new(TreeNode {
-                val: 15,
-                left: Some(Rc::new(RefCell::new(TreeNode::new(9)))),
-                right: Some(Rc::new(RefCell::new(TreeNode::new(20)))),
-            }))),
-        })));
+        let t1 = Some(Rc::new(RefCell::new(TreeNode::new(9))));
+        let t2 = Some(Rc::new(RefCell::new(TreeNode::new(20))));
+        let t3 = Some(Rc::new(RefCell::new(TreeNode::new(3))));
+        let t4 = TreeNode::new_with(15, t1, t2);
+        let root = TreeNode::new_with(7, t3, t4);
         let mut obj = BSTIterator::new(root);
         assert_eq!(obj.next(), 3);
         assert_eq!(obj.next(), 7);

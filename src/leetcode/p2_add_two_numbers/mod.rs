@@ -61,100 +61,62 @@ impl Solution {
 mod tests {
     use super::*;
 
+    impl ListNode {
+        #[inline]
+        fn new_with(val: i32, next: Option<Box<ListNode>>) -> Option<Box<Self>> {
+            Some(Box::new(ListNode { next, val }))
+        }
+    }
+
     #[test]
     fn test1() {
-        let l1 = Some(Box::new(ListNode {
-            val: 2,
-            next: Some(Box::new(ListNode {
-                val: 4,
-                next: Some(Box::new(ListNode { val: 3, next: None })),
-            })),
-        }));
+        let mut l1 = Some(Box::new(ListNode::new(3)));
+        l1 = ListNode::new_with(4, l1);
+        l1 = ListNode::new_with(2, l1);
 
-        let l2 = Some(Box::new(ListNode {
-            val: 5,
-            next: Some(Box::new(ListNode {
-                val: 6,
-                next: Some(Box::new(ListNode { val: 4, next: None })),
-            })),
-        }));
+        let mut l2 = Some(Box::new(ListNode::new(4)));
+        l2 = ListNode::new_with(6, l2);
+        l2 = ListNode::new_with(5, l2);
 
-        let answer = Some(Box::new(ListNode {
-            val: 7,
-            next: Some(Box::new(ListNode {
-                val: 0,
-                next: Some(Box::new(ListNode { val: 8, next: None })),
-            })),
-        }));
+        let mut answer = Some(Box::new(ListNode::new(8)));
+        answer = ListNode::new_with(0, answer);
+        answer = ListNode::new_with(7, answer);
+
         assert_eq!(Solution::add_two_numbers(l1, l2), answer);
     }
 
     #[test]
     fn test2() {
-        let l1 = Some(Box::new(ListNode { val: 0, next: None }));
-
-        let l2 = Some(Box::new(ListNode { val: 0, next: None }));
-
-        let answer = Some(Box::new(ListNode { val: 0, next: None }));
-
+        let l1 = ListNode::new_with(0, None);
+        let l2 = ListNode::new_with(0, None);
+        let answer = ListNode::new_with(0, None);
         assert_eq!(Solution::add_two_numbers(l1, l2), answer);
     }
 
     #[test]
     fn test3() {
-        let l1 = Some(Box::new(ListNode {
-            val: 9,
-            next: Some(Box::new(ListNode {
-                val: 9,
-                next: Some(Box::new(ListNode {
-                    val: 9,
-                    next: Some(Box::new(ListNode {
-                        val: 9,
-                        next: Some(Box::new(ListNode {
-                            val: 9,
-                            next: Some(Box::new(ListNode {
-                                val: 9,
-                                next: Some(Box::new(ListNode { val: 9, next: None })),
-                            })),
-                        })),
-                    })),
-                })),
-            })),
-        }));
+        let mut l1 = Some(Box::new(ListNode::new(9)));
+        l1 = ListNode::new_with(9, l1);
+        l1 = ListNode::new_with(9, l1);
+        l1 = ListNode::new_with(9, l1);
+        l1 = ListNode::new_with(9, l1);
+        l1 = ListNode::new_with(9, l1);
+        l1 = ListNode::new_with(9, l1);
 
-        let l2 = Some(Box::new(ListNode {
-            val: 9,
-            next: Some(Box::new(ListNode {
-                val: 9,
-                next: Some(Box::new(ListNode {
-                    val: 9,
-                    next: Some(Box::new(ListNode { val: 9, next: None })),
-                })),
-            })),
-        }));
+        let mut l2 = Some(Box::new(ListNode::new(9)));
+        l2 = ListNode::new_with(9, l2);
+        l2 = ListNode::new_with(9, l2);
+        l2 = ListNode::new_with(9, l2);
 
-        let answer = Some(Box::new(ListNode {
-            val: 8,
-            next: Some(Box::new(ListNode {
-                val: 9,
-                next: Some(Box::new(ListNode {
-                    val: 9,
-                    next: Some(Box::new(ListNode {
-                        val: 9,
-                        next: Some(Box::new(ListNode {
-                            val: 0,
-                            next: Some(Box::new(ListNode {
-                                val: 0,
-                                next: Some(Box::new(ListNode {
-                                    val: 0,
-                                    next: Some(Box::new(ListNode { val: 1, next: None })),
-                                })),
-                            })),
-                        })),
-                    })),
-                })),
-            })),
-        }));
+        let mut answer = Some(Box::new(ListNode::new(1)));
+        answer = ListNode::new_with(0, answer);
+        answer = ListNode::new_with(0, answer);
+        answer = ListNode::new_with(0, answer);
+        answer = ListNode::new_with(9, answer);
+        answer = ListNode::new_with(9, answer);
+        answer = ListNode::new_with(9, answer);
+        answer = ListNode::new_with(8, answer);
+        
         assert_eq!(Solution::add_two_numbers(l1, l2), answer);
     }
 }

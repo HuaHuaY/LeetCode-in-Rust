@@ -40,16 +40,17 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::common::ToVecVec;
 
     #[test]
     fn test1() {
-        let test = vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]];
+        let test = [[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 60]].to_vec_vec();
         assert_eq!(Solution::search_matrix(test, 3), true);
     }
 
     #[test]
     fn test2() {
-        let test = vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]];
+        let test = [[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 60]].to_vec_vec();
         assert_eq!(Solution::search_matrix(test, 13), false);
     }
 }

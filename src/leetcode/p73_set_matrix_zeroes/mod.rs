@@ -43,17 +43,18 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::common::ToVecVec;
 
     #[test]
     fn test1() {
-        let mut test = vec![vec![1, 1, 1], vec![1, 0, 1], vec![1, 1, 1]];
+        let mut test = [[1, 1, 1], [1, 0, 1], [1, 1, 1]].to_vec_vec();
         Solution::set_zeroes(&mut test);
         assert_eq!(test, [[1, 0, 1], [0, 0, 0], [1, 0, 1]]);
     }
 
     #[test]
     fn test2() {
-        let mut test = vec![vec![0, 1, 2, 0], vec![3, 4, 5, 2], vec![1, 3, 1, 5]];
+        let mut test = [[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]].to_vec_vec();
         Solution::set_zeroes(&mut test);
         assert_eq!(test, [[0, 0, 0, 0], [0, 4, 5, 0], [0, 3, 1, 0]]);
     }

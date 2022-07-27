@@ -45,54 +45,46 @@ impl Solution {
 mod tests {
     use super::*;
 
+    impl ListNode {
+        #[inline]
+        fn new_with(val: i32, next: Option<Box<ListNode>>) -> Option<Box<Self>> {
+            Some(Box::new(ListNode { next, val }))
+        }
+    }
+
     #[test]
     fn test1() {
-        let l1 = Some(Box::new(ListNode {
-            val: 1,
-            next: Some(Box::new(ListNode {
-                val: 2,
-                next: Some(Box::new(ListNode { val: 4, next: None })),
-            })),
-        }));
-        let l2 = Some(Box::new(ListNode {
-            val: 1,
-            next: Some(Box::new(ListNode {
-                val: 3,
-                next: Some(Box::new(ListNode { val: 4, next: None })),
-            })),
-        }));
-        let list = Some(Box::new(ListNode {
-            val: 1,
-            next: Some(Box::new(ListNode {
-                val: 1,
-                next: Some(Box::new(ListNode {
-                    val: 2,
-                    next: Some(Box::new(ListNode {
-                        val: 3,
-                        next: Some(Box::new(ListNode {
-                            val: 4,
-                            next: Some(Box::new(ListNode { val: 4, next: None })),
-                        })),
-                    })),
-                })),
-            })),
-        }));
-        assert_eq!(list, Solution::merge_two_lists(l1, l2));
+        let mut l1 = Some(Box::new(ListNode::new(4)));
+        l1 = ListNode::new_with(2, l1);
+        l1 = ListNode::new_with(1, l1);
+
+        let mut l2 = Some(Box::new(ListNode::new(4)));
+        l2 = ListNode::new_with(3, l2);
+        l2 = ListNode::new_with(1, l2);
+
+        let mut answer = Some(Box::new(ListNode::new(4)));
+        answer = ListNode::new_with(4, answer);
+        answer = ListNode::new_with(3, answer);
+        answer = ListNode::new_with(2, answer);
+        answer = ListNode::new_with(1, answer);
+        answer = ListNode::new_with(1, answer);
+
+        assert_eq!(Solution::merge_two_lists(l1, l2), answer);
     }
 
     #[test]
     fn test2() {
         let l1 = None;
         let l2 = None;
-        let list = None;
-        assert_eq!(list, Solution::merge_two_lists(l1, l2));
+        let answer = None;
+        assert_eq!(Solution::merge_two_lists(l1, l2), answer);
     }
 
     #[test]
     fn test3() {
         let l1 = None;
-        let l2 = Some(Box::new(ListNode { val: 0, next: None }));
-        let list = Some(Box::new(ListNode { val: 0, next: None }));
-        assert_eq!(list, Solution::merge_two_lists(l1, l2));
+        let l2 = Some(Box::new(ListNode::new(0)));
+        let answer = Some(Box::new(ListNode::new(0)));
+        assert_eq!(Solution::merge_two_lists(l1, l2), answer);
     }
 }
