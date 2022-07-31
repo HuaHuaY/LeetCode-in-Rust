@@ -12,6 +12,7 @@ pub mod p1318_minimum_flips_to_make_a_or_b_equal_to_c;
 pub mod p131_palindrome_partitioning;
 pub mod p132_palindrome_partitioning_ii;
 pub mod p1331_rank_transform_of_an_array;
+pub mod p1374_generate_a_string_with_characters_that_have_odd_counts;
 pub mod p13_roman_to_integer;
 pub mod p14_longest_common_prefix;
 pub mod p150_evaluate_reverse_polish_notation;
