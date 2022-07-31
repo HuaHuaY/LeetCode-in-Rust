@@ -8,23 +8,23 @@ impl Solution {
         let mut length = 1;
 
         array[1] = envelopes[0][1];
-        for i in 1..envelopes.len() {
-            if envelopes[i][1] > array[length] {
+        for i in envelopes.into_iter().skip(1) {
+            if i[1] > array[length] {
                 length += 1;
-                array[length] = envelopes[i][1];
+                array[length] = i[1];
             } else {
                 let mut left = 1;
                 let mut right = length;
                 let mut mid;
                 while left <= right {
                     mid = (right - left) / 2 + left;
-                    if envelopes[i][1] > array[mid] {
+                    if i[1] > array[mid] {
                         left = mid + 1;
                     } else {
                         right = mid - 1;
                     }
                 }
-                array[left] = envelopes[i][1];
+                array[left] = i[1];
             }
         }
         length as i32

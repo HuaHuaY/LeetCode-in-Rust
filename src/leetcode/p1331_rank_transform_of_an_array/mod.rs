@@ -5,15 +5,15 @@ use std::collections::HashMap;
 impl Solution {
     pub fn array_rank_transform(mut arr: Vec<i32>) -> Vec<i32> {
         let mut result = arr.clone();
-        arr.sort();
+        arr.sort_unstable();
         arr.dedup();
         let hashmap = arr
             .into_iter()
             .enumerate()
             .map(|(i, v)| (v, i + 1))
             .collect::<HashMap<i32, usize>>();
-        for i in 0..result.len() {
-            result[i] = *hashmap.get(&result[i]).unwrap() as i32;
+        for i in result.iter_mut() {
+            *i = *hashmap.get(i).unwrap() as i32;
         }
         result
     }

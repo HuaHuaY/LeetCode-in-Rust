@@ -35,10 +35,10 @@ mod tests {
         assert_eq!(Solution::remove_element(&mut test, 3), 2);
 
         let mut test = test[..2].to_vec();
-        test.sort();
+        test.sort_unstable();
 
         let mut answer = [2, 2];
-        answer.sort();
+        answer.sort_unstable();
 
         assert_eq!(test, answer);
     }
@@ -49,10 +49,10 @@ mod tests {
         assert_eq!(Solution::remove_element(&mut test, 2), 5);
 
         let mut test = test[..5].to_vec();
-        test.sort();
+        test.sort_unstable();
 
         let mut answer = [0, 1, 4, 0, 3];
-        answer.sort();
+        answer.sort_unstable();
 
         assert_eq!(test, answer);
     }

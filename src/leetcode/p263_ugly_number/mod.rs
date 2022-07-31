@@ -14,7 +14,7 @@ impl Solution {
             while n % 5 == 0 {
                 n /= 5;
             }
-            return n == 1;
+            n == 1
         }
     }
 }
@@ -25,21 +25,21 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::is_ugly(6), true);
+        assert!(Solution::is_ugly(6));
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::is_ugly(8), true);
+        assert!(Solution::is_ugly(8));
     }
 
     #[test]
     fn test3() {
-        assert_eq!(Solution::is_ugly(14), false);
+        assert!(!Solution::is_ugly(14));
     }
 
     #[test]
     fn test4() {
-        assert_eq!(Solution::is_ugly(1), true);
+        assert!(Solution::is_ugly(1));
     }
 }

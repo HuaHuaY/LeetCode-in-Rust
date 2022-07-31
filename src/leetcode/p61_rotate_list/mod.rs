@@ -16,11 +16,11 @@ impl ListNode {
 
 impl Solution {
     pub fn rotate_right(head: Option<Box<ListNode>>, k: i32) -> Option<Box<ListNode>> {
-        if let Some(_) = head.as_ref() {
+        if head.as_ref().is_some() {
             let mut head = head;
             let mut length = 1;
             let mut tail = head.as_mut();
-            while let Some(_) = tail.as_ref().unwrap().next {
+            while tail.as_ref().unwrap().next.is_some() {
                 tail = tail.unwrap().next.as_mut();
                 length += 1;
             }
@@ -35,7 +35,7 @@ impl Solution {
                 }
                 let mut result = p.unwrap().next.take();
                 p = result.as_mut();
-                while let Some(_) = p.as_ref().unwrap().next {
+                while p.as_ref().unwrap().next.is_some() {
                     p = p.unwrap().next.as_mut();
                     length += 1;
                 }

@@ -1,6 +1,3 @@
-use std::cell::RefCell;
-use std::rc::Rc;
-
 // Definition for a binary tree node.
 #[derive(Debug, PartialEq, Eq)]
 pub struct TreeNode {
@@ -20,6 +17,9 @@ impl TreeNode {
     }
 }
 
+use std::cell::RefCell;
+use std::rc::Rc;
+
 pub struct BSTIterator {
     cur: Option<Rc<RefCell<TreeNode>>>,
     stack: Vec<Rc<RefCell<TreeNode>>>,
@@ -35,8 +35,8 @@ impl BSTIterator {
         BSTIterator { cur: root, stack }
     }
 
-    pub fn next(&mut self) -> i32 {
-        while let Some(_) = self.cur.as_ref() {
+    fn next(&mut self) -> i32 {
+        while self.cur.as_ref().is_some() {
             self.stack.push(Rc::clone(self.cur.as_ref().unwrap()));
             let tmp = self.cur.as_ref().unwrap().borrow_mut().left.take();
             self.cur = tmp;
@@ -50,6 +50,18 @@ impl BSTIterator {
 
     pub fn has_next(&self) -> bool {
         !(self.cur == None && self.stack.is_empty())
+    }
+}
+
+impl Iterator for BSTIterator {
+    type Item = i32;
+
+    fn next(&mut self) -> Option<Self::Item> {
+        if self.has_next() {
+            Some(self.next())
+        } else {
+            None
+        }
     }
 }
 
@@ -78,12 +90,12 @@ mod tests {
         let mut obj = BSTIterator::new(root);
         assert_eq!(obj.next(), 3);
         assert_eq!(obj.next(), 7);
-        assert_eq!(obj.has_next(), true);
+        assert!(obj.has_next());
         assert_eq!(obj.next(), 9);
-        assert_eq!(obj.has_next(), true);
+        assert!(obj.has_next());
         assert_eq!(obj.next(), 15);
-        assert_eq!(obj.has_next(), true);
+        assert!(obj.has_next());
         assert_eq!(obj.next(), 20);
-        assert_eq!(obj.has_next(), false);
+        assert!(!obj.has_next());
     }
 }

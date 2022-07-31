@@ -8,12 +8,9 @@ impl Solution {
 
     fn foo1(num: i32) -> Vec<i32> {
         let mut results: Vec<i32> = Vec::with_capacity(num as usize + 1);
-        unsafe {
-            results.set_len(num as usize + 1);
-        }
-        results[0] = 0;
-        for i in 1..results.len() {
-            results[i] = results[i >> 1] + (i as i32 & 1);
+        results.push(0);
+        for i in 1..num as usize + 1 {
+            results.push(results[i >> 1] + (i as i32 & 1));
         }
         results
     }

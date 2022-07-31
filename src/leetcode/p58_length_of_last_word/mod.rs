@@ -2,7 +2,10 @@ pub struct Solution {}
 
 impl Solution {
     pub fn length_of_last_word(s: String) -> i32 {
-        let t = s.split(" ").filter(|x| x.len() > 0).collect::<Vec<&str>>();
+        let t = s
+            .split(' ')
+            .filter(|x| !x.is_empty())
+            .collect::<Vec<&str>>();
         t[(t.len() - 1) as usize].len() as i32
     }
 }

@@ -7,7 +7,7 @@ impl Solution {
 
         for i in nodes {
             degree_diff -= 1;
-            if !(degree_diff >= 0) {
+            if degree_diff < 0 {
                 return false;
             }
             if i != "#" {
@@ -24,22 +24,18 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(
-            Solution::is_valid_serialization(String::from("9,3,4,#,#,1,#,#,2,#,6,#,#")),
-            true
-        );
+        assert!(Solution::is_valid_serialization(String::from(
+            "9,3,4,#,#,1,#,#,2,#,6,#,#"
+        )));
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::is_valid_serialization(String::from("1,#")), false);
+        assert!(!Solution::is_valid_serialization(String::from("1,#")));
     }
 
     #[test]
     fn test3() {
-        assert_eq!(
-            Solution::is_valid_serialization(String::from("9,#,#,1")),
-            false
-        );
+        assert!(!Solution::is_valid_serialization(String::from("9,#,#,1")));
     }
 }

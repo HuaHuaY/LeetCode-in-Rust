@@ -28,11 +28,8 @@ impl Solution {
                     break;
                 }
             }
-            if is_increasing || is_decreasing {
-                true
-            } else {
-                false
-            }
+
+            is_increasing || is_decreasing
         }
     }
 }
@@ -43,26 +40,26 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::is_monotonic(vec![1, 2, 2, 3]), true);
+        assert!(Solution::is_monotonic(vec![1, 2, 2, 3]));
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::is_monotonic(vec![6, 5, 4, 4]), true);
+        assert!(Solution::is_monotonic(vec![6, 5, 4, 4]));
     }
 
     #[test]
     fn test3() {
-        assert_eq!(Solution::is_monotonic(vec![1, 3, 2]), false);
+        assert!(!Solution::is_monotonic(vec![1, 3, 2]));
     }
 
     #[test]
     fn test4() {
-        assert_eq!(Solution::is_monotonic(vec![1, 2, 4, 5]), true);
+        assert!(Solution::is_monotonic(vec![1, 2, 4, 5]));
     }
 
     #[test]
     fn test5() {
-        assert_eq!(Solution::is_monotonic(vec![1, 1, 1]), true);
+        assert!(Solution::is_monotonic(vec![1, 1, 1]));
     }
 }

@@ -37,10 +37,10 @@ impl Solution {
             p2 = &p2.as_ref().unwrap().next;
         }
 
-        if let Some(_) = p2 {
+        if p2.is_some() {
             p1 = p2;
         }
-        while let Some(_) = p1 {
+        while p1.is_some() {
             let mut sum = p1.as_ref().unwrap().val + carry;
             carry = sum / 10;
             sum %= 10;

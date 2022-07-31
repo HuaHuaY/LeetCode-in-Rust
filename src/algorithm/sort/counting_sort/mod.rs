@@ -2,7 +2,7 @@ pub struct Solution {}
 
 impl Solution {
     pub fn counting_sort(nums: &mut [i32]) {
-        if nums.len() == 0 {
+        if nums.is_empty() {
             return;
         }
 

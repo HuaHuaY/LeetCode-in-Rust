@@ -26,23 +26,23 @@ impl Solution {
         let mut length = 1;
 
         array[1] = nums[0];
-        for i in 1..nums.len() {
-            if nums[i] > array[length] {
+        for i in nums.into_iter().skip(1) {
+            if i > array[length] {
                 length += 1;
-                array[length] = nums[i];
+                array[length] = i;
             } else {
                 let mut left = 1;
                 let mut right = length;
                 let mut mid;
                 while left <= right {
                     mid = (right - left) / 2 + left;
-                    if nums[i] > array[mid] {
+                    if i > array[mid] {
                         left = mid + 1;
                     } else {
                         right = mid - 1;
                     }
                 }
-                array[left] = nums[i];
+                array[left] = i;
             }
         }
         length as i32

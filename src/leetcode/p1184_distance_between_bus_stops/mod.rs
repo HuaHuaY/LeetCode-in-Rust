@@ -7,12 +7,12 @@ impl Solution {
         } else {
             (destination, start)
         };
-        
+
         let distance = vec![0]
             .into_iter()
             .chain(distance.into_iter())
             .scan(0, |state, x| {
-                *state = x + *state;
+                *state += x;
                 Some(*state)
             })
             .collect::<Vec<i32>>();

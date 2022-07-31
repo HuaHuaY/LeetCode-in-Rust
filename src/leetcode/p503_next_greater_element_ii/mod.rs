@@ -7,7 +7,7 @@ impl Solution {
         let mut result = vec![-1; length];
 
         for i in 0..2 * length as i32 - 1 {
-            while monotonic_stack.len() != 0
+            while !monotonic_stack.is_empty()
                 && nums[i as usize % length] > nums[*monotonic_stack.last().unwrap()]
             {
                 result[monotonic_stack.pop().unwrap()] = nums[i as usize % length];

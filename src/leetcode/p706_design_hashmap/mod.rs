@@ -42,6 +42,12 @@ impl MyHashMap {
     }
 }
 
+impl Default for MyHashMap {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 /**
  * Your MyHashMap object will be instantiated and called as such:
  * let obj = MyHashMap::new();

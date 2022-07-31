@@ -29,6 +29,12 @@ impl MyHashSet {
     }
 }
 
+impl Default for MyHashSet {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 /**
  * Your MyHashSet object will be instantiated and called as such:
  * let obj = MyHashSet::new();
@@ -47,13 +53,13 @@ mod tests {
         test.add(1);
         test.add(2);
 
-        assert_eq!(test.contains(1), true);
-        assert_eq!(test.contains(3), false);
+        assert!(test.contains(1));
+        assert!(!test.contains(3));
 
         test.add(2);
-        assert_eq!(test.contains(2), true);
+        assert!(test.contains(2));
 
         test.remove(2);
-        assert_eq!(test.contains(2), false);
+        assert!(!test.contains(2));
     }
 }

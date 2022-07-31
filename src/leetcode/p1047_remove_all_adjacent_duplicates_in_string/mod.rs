@@ -4,7 +4,7 @@ impl Solution {
     pub fn remove_duplicates(s: String) -> String {
         let mut stack = Vec::with_capacity(s.len());
         for i in s.chars() {
-            if stack.len() > 0 && i == *stack.last().unwrap() {
+            if !stack.is_empty() && i == *stack.last().unwrap() {
                 stack.pop();
             } else {
                 stack.push(i);

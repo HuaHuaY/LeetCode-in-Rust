@@ -12,21 +12,21 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::is_palindrome(121), true);
+        assert!(Solution::is_palindrome(121));
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::is_palindrome(-121), false);
+        assert!(!Solution::is_palindrome(-121));
     }
 
     #[test]
     fn test3() {
-        assert_eq!(Solution::is_palindrome(10), false);
+        assert!(!Solution::is_palindrome(10));
     }
 
     #[test]
     fn test4() {
-        assert_eq!(Solution::is_palindrome(-101), false);
+        assert!(!Solution::is_palindrome(-101));
     }
 }

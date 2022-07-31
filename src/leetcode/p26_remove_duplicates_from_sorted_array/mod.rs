@@ -7,7 +7,7 @@ impl Solution {
     }
 
     fn foo1(nums: &mut Vec<i32>) -> i32 {
-        if nums.len() == 0 {
+        if nums.is_empty() {
             0
         } else {
             let mut j = 0;

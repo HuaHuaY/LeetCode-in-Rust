@@ -18,9 +18,7 @@ impl Solution {
                 j -= 1;
             }
 
-            let tmp = str[i as usize];
-            str[i as usize] = str[j];
-            str[j] = tmp;
+            str.swap(i as usize, j);
 
             str[i as usize + 1..].reverse();
 
