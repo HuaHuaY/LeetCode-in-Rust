@@ -46,3 +46,4 @@ pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p896_monotonic_array;
 pub mod p1331_rank_transform_of_an_array;
+pub mod p1184_distance_between_bus_stops;
