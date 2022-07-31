@@ -65,7 +65,7 @@ mod tests {
 
         test.put(2, 1);
         assert_eq!(test.get(2), 1);
-        
+
         test.remove(2);
         assert_eq!(test.get(2), -1);
     }

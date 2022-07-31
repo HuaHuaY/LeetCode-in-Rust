@@ -30,7 +30,7 @@ Call test by running `cargo test p[xxx]_`.
 - [896. Monotonic Array](src/p896_monotonic_array)
 - [1260. Shift 2D Grid](src/leetcode/p1260_shift_2d_grid)
 
-### Medium(22)
+### Medium(23)
 
 - [2. Add Two Numbers](src/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/p3_longest_substring_without_repeating_characters)
@@ -53,6 +53,7 @@ Call test by running `cargo test p[xxx]_`.
 - [556. Next Greater Element III](src/p556_next_greater_element_iii)
 - [814. Binary Tree Pruning](src/p814_binary_tree_pruning)
 - [1006. Clumsy Factorial](src/p1006_clumsy_factorial)
+- [1161. Maximum Level Sum of a Binary Tree](src/p1161_maximum_level_sum_of_a_binary_tree)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 
 ### Hard(3)

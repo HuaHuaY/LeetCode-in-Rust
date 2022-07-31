@@ -5,6 +5,7 @@ pub mod p9_palindrome_number;
 // pub mod p10_regular_expression_matching;
 pub mod p1006_clumsy_factorial;
 pub mod p1047_remove_all_adjacent_duplicates_in_string;
+pub mod p1161_maximum_level_sum_of_a_binary_tree;
 pub mod p1260_shift_2d_grid;
 pub mod p1318_minimum_flips_to_make_a_or_b_equal_to_c;
 pub mod p131_palindrome_partitioning;

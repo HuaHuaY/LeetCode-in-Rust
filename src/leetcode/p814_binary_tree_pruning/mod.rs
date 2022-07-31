@@ -20,6 +20,7 @@ impl TreeNode {
 }
 
 pub struct Solution {}
+
 impl Solution {
     fn traverse(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
         if root.is_none() {

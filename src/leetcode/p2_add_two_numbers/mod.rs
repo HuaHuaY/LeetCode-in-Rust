@@ -116,7 +116,7 @@ mod tests {
         answer = ListNode::new_with(9, answer);
         answer = ListNode::new_with(9, answer);
         answer = ListNode::new_with(8, answer);
-        
+
         assert_eq!(Solution::add_two_numbers(l1, l2), answer);
     }
 }
