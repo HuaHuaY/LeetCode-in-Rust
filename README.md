@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(18)
+### Easy(19)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -29,6 +29,7 @@ Call test by running `cargo test p[xxx]_`.
 - [706. Design HashMap](src/leetcode/p706_design_hashmap)
 - [896. Monotonic Array](src/leetcode/p896_monotonic_array)
 - [1260. Shift 2D Grid](src/leetcode/leetcode/p1260_shift_2d_grid)
+- [1331. Rank Transform of an Array](src/leetcode/p1331_rank_transform_of_an_array)
 
 ### Medium(23)
 
