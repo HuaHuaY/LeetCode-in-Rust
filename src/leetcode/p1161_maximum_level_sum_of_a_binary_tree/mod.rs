@@ -19,7 +19,7 @@ impl TreeNode {
     }
 }
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     fn dfs(sums: &mut Vec<i32>, node: Option<Rc<RefCell<TreeNode>>>, level: usize) {

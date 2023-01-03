@@ -1,4 +1,4 @@
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     fn merge(nums: &mut [i32], arr1: &[i32], arr2: &[i32]) {

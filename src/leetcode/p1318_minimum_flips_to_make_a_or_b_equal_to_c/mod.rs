@@ -1,4 +1,4 @@
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn min_flips(mut a: i32, mut b: i32, mut c: i32) -> i32 {

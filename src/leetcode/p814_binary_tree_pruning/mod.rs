@@ -19,7 +19,7 @@ impl TreeNode {
     }
 }
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     fn traverse(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {

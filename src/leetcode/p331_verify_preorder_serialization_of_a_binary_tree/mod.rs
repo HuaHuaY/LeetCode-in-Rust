@@ -1,4 +1,4 @@
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn is_valid_serialization(preorder: String) -> bool {

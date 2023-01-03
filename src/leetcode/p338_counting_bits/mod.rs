@@ -1,4 +1,4 @@
-pub struct Solution {}
+pub struct Solution;
 
 #[allow(dead_code)]
 impl Solution {

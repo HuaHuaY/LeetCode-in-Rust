@@ -1,4 +1,4 @@
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn shell_sort(nums: &mut [i32]) {

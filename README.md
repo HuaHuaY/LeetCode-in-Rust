@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(21)
+### Easy(22)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -32,6 +32,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1260. Shift 2D Grid](src/leetcode/leetcode/p1260_shift_2d_grid)
 - [1331. Rank Transform of an Array](src/leetcode/p1331_rank_transform_of_an_array)
 - [1374. Generate a String With Characters That Have Odd Counts](src/leetcode/p1374_generate_a_string_with_characters_that_have_odd_counts)
+- [2042. Check if Numbers Are Ascending in a Sentence](src/leetcode/p2042_check_if_numbers_are_ascending_in_a_sentence/)
 
 ### Medium(23)
 

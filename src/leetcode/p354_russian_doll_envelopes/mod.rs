@@ -1,4 +1,4 @@
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn max_envelopes(mut envelopes: Vec<Vec<i32>>) -> i32 {

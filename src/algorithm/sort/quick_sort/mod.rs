@@ -1,4 +1,4 @@
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     fn sort(nums: &mut [i32], left: isize, right: isize) {
