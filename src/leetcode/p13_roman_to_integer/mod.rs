@@ -45,26 +45,26 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::roman_to_int(String::from("III")), 3);
+        assert_eq!(Solution::roman_to_int("III".to_string()), 3);
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::roman_to_int(String::from("IV")), 4);
+        assert_eq!(Solution::roman_to_int("IV".to_string()), 4);
     }
 
     #[test]
     fn test3() {
-        assert_eq!(Solution::roman_to_int(String::from("IX")), 9);
+        assert_eq!(Solution::roman_to_int("IX".to_string()), 9);
     }
 
     #[test]
     fn test4() {
-        assert_eq!(Solution::roman_to_int(String::from("LVIII")), 58);
+        assert_eq!(Solution::roman_to_int("LVIII".to_string()), 58);
     }
 
     #[test]
     fn test5() {
-        assert_eq!(Solution::roman_to_int(String::from("MCMXCIV")), 1994);
+        assert_eq!(Solution::roman_to_int("MCMXCIV".to_string()), 1994);
     }
 }

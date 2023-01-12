@@ -20,6 +20,6 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::remove_duplicates(String::from("abbaca")), "ca");
+        assert_eq!(Solution::remove_duplicates("abbaca".to_string()), "ca");
     }
 }

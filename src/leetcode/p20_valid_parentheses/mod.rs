@@ -46,26 +46,26 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert!(Solution::is_valid(String::from("()")));
+        assert!(Solution::is_valid("()".to_string()));
     }
 
     #[test]
     fn test2() {
-        assert!(Solution::is_valid(String::from("()[]{}")));
+        assert!(Solution::is_valid("()[]{}".to_string()));
     }
 
     #[test]
     fn test3() {
-        assert!(!Solution::is_valid(String::from("(]")));
+        assert!(!Solution::is_valid("(]".to_string()));
     }
 
     #[test]
     fn test4() {
-        assert!(!Solution::is_valid(String::from("([)]")));
+        assert!(!Solution::is_valid("([)]".to_string()));
     }
 
     #[test]
     fn test5() {
-        assert!(Solution::is_valid(String::from("{[]}")));
+        assert!(Solution::is_valid("{[]}".to_string()));
     }
 }

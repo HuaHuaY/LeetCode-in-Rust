@@ -50,14 +50,14 @@ mod tests {
 
     #[test]
     fn test1() {
-        let test = Solution::partition(String::from("aab")).to_sort_vec_vec();
+        let test = Solution::partition("aab".to_string()).to_sort_vec_vec();
         let answer = [vec!["a", "a", "b"], vec!["aa", "b"]].to_sort_vec_vec();
         assert_eq!(test, answer);
     }
 
     #[test]
     fn test2() {
-        let test = Solution::partition(String::from("a")).to_sort_vec_vec();
+        let test = Solution::partition("a".to_string()).to_sort_vec_vec();
         let answer = [vec!["a"]].to_sort_vec_vec();
         assert_eq!(test, answer);
     }

@@ -31,7 +31,7 @@ mod tests {
     #[test]
     fn test1() {
         assert_eq!(
-            Solution::length_of_longest_substring(String::from("abcabcbb")),
+            Solution::length_of_longest_substring("abcabcbb".to_string()),
             3
         );
     }
@@ -39,7 +39,7 @@ mod tests {
     #[test]
     fn test2() {
         assert_eq!(
-            Solution::length_of_longest_substring(String::from("bbbbb")),
+            Solution::length_of_longest_substring("bbbbb".to_string()),
             1
         );
     }
@@ -47,13 +47,13 @@ mod tests {
     #[test]
     fn test3() {
         assert_eq!(
-            Solution::length_of_longest_substring(String::from("pwwkew")),
+            Solution::length_of_longest_substring("pwwkew".to_string()),
             3
         );
     }
 
     #[test]
     fn test4() {
-        assert_eq!(Solution::length_of_longest_substring(String::from("")), 0);
+        assert_eq!(Solution::length_of_longest_substring("".to_string()), 0);
     }
 }

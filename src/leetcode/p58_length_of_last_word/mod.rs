@@ -16,16 +16,13 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(
-            Solution::length_of_last_word(String::from("Hello World")),
-            5
-        );
+        assert_eq!(Solution::length_of_last_word("Hello World".to_string()), 5);
     }
 
     #[test]
     fn test2() {
         assert_eq!(
-            Solution::length_of_last_word(String::from("   fly me   to   the moon  ")),
+            Solution::length_of_last_word("   fly me   to   the moon  ".to_string()),
             4
         );
     }
@@ -33,7 +30,7 @@ mod tests {
     #[test]
     fn test3() {
         assert_eq!(
-            Solution::length_of_last_word(String::from("luffy is still joyboy")),
+            Solution::length_of_last_word("luffy is still joyboy".to_string()),
             6
         );
     }

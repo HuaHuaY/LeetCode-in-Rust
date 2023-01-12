@@ -39,16 +39,16 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::calculate(String::from("3+2*2")), 7);
+        assert_eq!(Solution::calculate("3+2*2".to_string()), 7);
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::calculate(String::from(" 3/2 ")), 1);
+        assert_eq!(Solution::calculate(" 3/2 ".to_string()), 1);
     }
 
     #[test]
     fn test3() {
-        assert_eq!(Solution::calculate(String::from(" 3+5 / 2 ")), 5);
+        assert_eq!(Solution::calculate(" 3+5 / 2 ".to_string()), 5);
     }
 }

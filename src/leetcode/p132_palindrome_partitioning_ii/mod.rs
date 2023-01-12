@@ -31,16 +31,16 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::min_cut(String::from("aab")), 1);
+        assert_eq!(Solution::min_cut("aab".to_string()), 1);
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::min_cut(String::from("a")), 0);
+        assert_eq!(Solution::min_cut("a".to_string()), 0);
     }
 
     #[test]
     fn test3() {
-        assert_eq!(Solution::min_cut(String::from("ab")), 1);
+        assert_eq!(Solution::min_cut("ab".to_string()), 1);
     }
 }

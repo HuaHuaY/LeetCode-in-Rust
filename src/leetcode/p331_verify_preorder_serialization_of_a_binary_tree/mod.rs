@@ -31,11 +31,11 @@ mod tests {
 
     #[test]
     fn test2() {
-        assert!(!Solution::is_valid_serialization(String::from("1,#")));
+        assert!(!Solution::is_valid_serialization("1,#".to_string()));
     }
 
     #[test]
     fn test3() {
-        assert!(!Solution::is_valid_serialization(String::from("9,#,#,1")));
+        assert!(!Solution::is_valid_serialization("9,#,#,1".to_string()));
     }
 }
