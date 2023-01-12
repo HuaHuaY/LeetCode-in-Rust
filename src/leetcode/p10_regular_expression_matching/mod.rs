@@ -2,27 +2,64 @@ pub struct Solution;
 
 use std::collections::HashMap;
 
-#[derive(Default)]
-struct RegexNode {
-    character: char,
-    parent: usize,
-    children: HashMap<char, Vec<usize>>,
-    with_sign: bool,
-    end: bool,
-}
-
-impl RegexNode {
-    pub fn new(character: char, parent: usize) -> Self {
-        Self {
-            character,
-            parent,
-            ..Default::default()
-        }
-    }
-}
-
 impl Solution {
     pub fn is_match(s: String, p: String) -> bool {
+        Solution::foo2(s, p)
+    }
+
+    pub fn foo1(s: String, p: String) -> bool {
+        let s = s.chars().collect::<Vec<_>>();
+        let p = p.chars().collect::<Vec<_>>();
+        let m = s.len();
+        let n = p.len();
+
+        let matches = |i: usize, j: usize| {
+            if i == 0 {
+                false
+            } else if p[j - 1] == '.' {
+                true
+            } else {
+                s[i - 1] == p[j - 1]
+            }
+        };
+
+        let mut dp = vec![vec![false; n + 1]; m + 1];
+        dp[0][0] = true;
+        for i in 0..=m {
+            for j in 1..=n {
+                if p[j - 1] == '*' {
+                    dp[i][j] = dp[i][j - 2];
+                    if matches(i, j - 1) {
+                        dp[i][j] |= dp[i - 1][j];
+                    }
+                } else if matches(i, j) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                }
+            }
+        }
+        dp[m][n]
+    }
+
+    pub fn foo2(s: String, p: String) -> bool {
+        #[derive(Default)]
+        struct RegexNode {
+            character: char,
+            parent: usize,
+            children: HashMap<char, Vec<usize>>,
+            with_sign: bool,
+            end: bool,
+        }
+
+        impl RegexNode {
+            pub fn new(character: char, parent: usize) -> Self {
+                Self {
+                    character,
+                    parent,
+                    ..Default::default()
+                }
+            }
+        }
+
         let mut nodes = Vec::new();
         let mut last_index = 0;
         nodes.push(RegexNode::default());
