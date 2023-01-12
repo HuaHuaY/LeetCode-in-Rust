@@ -34,7 +34,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1374. Generate a String With Characters That Have Odd Counts](src/leetcode/p1374_generate_a_string_with_characters_that_have_odd_counts)
 - [2042. Check if Numbers Are Ascending in a Sentence](src/leetcode/p2042_check_if_numbers_are_ascending_in_a_sentence/)
 
-### Medium(28)
+### Medium(35)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -42,6 +42,13 @@ Call test by running `cargo test p[xxx]_`.
 - [6. Zigzag Conversion](src/leetcode/p6_zigzag_conversion)
 - [7. Reverse Integer](src/leetcode/p7_reverse_integer)
 - [8. String to Integer (atoi)](src/leetcode/p8_string_to_integer_atoi)
+- [11. Container With Most Water](src/leetcode/p11_container_with_most_water)
+- [12. Integer to Roman](src/leetcode/p12_integer_to_roman)
+- [15. 3Sum](src/leetcode/p15_3sum)
+- [16. 3Sum Closest](src/leetcode/p16_3sum_closest)
+- [17. Letter Combinations of a Phone Number](src/leetcode/p17_letter_combinations_of_a_phone_number)
+- [18. 4Sum](src/leetcode/p18_4sum)
+- [19. Remove Nth Node From End of List](src/leetcode/p19_remove_nth_node_from_end_of_list)
 - [54. Spiral Matrix](src/leetcode/p54_spiral_matrix)
 - [59. Spiral Matrix II](src/leetcode/p59_spiral_matrix_ii)
 - [61. Rotate List](src/leetcode/p61_rotate_list)

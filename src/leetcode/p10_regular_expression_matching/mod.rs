@@ -2,12 +2,13 @@ pub struct Solution;
 
 use std::collections::HashMap;
 
+#[allow(dead_code)]
 impl Solution {
     pub fn is_match(s: String, p: String) -> bool {
         Solution::foo2(s, p)
     }
 
-    pub fn foo1(s: String, p: String) -> bool {
+    fn foo1(s: String, p: String) -> bool {
         let s = s.chars().collect::<Vec<_>>();
         let p = p.chars().collect::<Vec<_>>();
         let m = s.len();
@@ -40,7 +41,7 @@ impl Solution {
         dp[m][n]
     }
 
-    pub fn foo2(s: String, p: String) -> bool {
+    fn foo2(s: String, p: String) -> bool {
         #[derive(Default)]
         struct RegexNode {
             character: char,

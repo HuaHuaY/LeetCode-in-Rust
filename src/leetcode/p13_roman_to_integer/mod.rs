@@ -1,7 +1,38 @@
 pub struct Solution;
 
+use std::collections::HashMap;
+
+#[allow(dead_code)]
 impl Solution {
     pub fn roman_to_int(s: String) -> i32 {
+        Solution::foo1(s)
+    }
+
+    fn foo1(s: String) -> i32 {
+        let map: HashMap<_, _> = vec![
+            ('I', 1),
+            ('V', 5),
+            ('X', 10),
+            ('L', 50),
+            ('C', 100),
+            ('D', 500),
+            ('M', 1000),
+        ]
+        .into_iter()
+        .collect();
+        let mut result = 0;
+        let chars = s.chars().collect::<Vec<_>>();
+        for i in 0..chars.len() {
+            if i + 1 < chars.len() && map[&chars[i]] < map[&chars[i + 1]] {
+                result -= map[&chars[i]];
+            } else {
+                result += map[&chars[i]];
+            }
+        }
+        result
+    }
+
+    fn foo2(s: String) -> i32 {
         let chars: Vec<char> = s.chars().collect();
         let mut sum = 0;
         let length = chars.len();
