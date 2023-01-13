@@ -29,6 +29,8 @@ pub mod p20_valid_parentheses;
 pub mod p21_merge_two_sorted_lists;
 pub mod p224_basic_calculator;
 pub mod p227_basic_calculator_ii;
+pub mod p22_generate_parentheses;
+pub mod p23_merge_k_sorted_lists;
 pub mod p263_ugly_number;
 pub mod p264_ugly_number_ii;
 pub mod p26_remove_duplicates_from_sorted_array;
