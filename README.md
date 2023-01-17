@@ -1,4 +1,4 @@
-# LeetCode-in-Rust
+# LeetCode in Rust
 刷题不要停下来啊！！Don't stop writing!!
 
 运行`cargo test p[xxx]_`调用test。
@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(22)
+### Easy(25)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -18,6 +18,7 @@ Call test by running `cargo test p[xxx]_`.
 - [20. Valid Parentheses](src/leetcode/p20_valid_parentheses)
 - [21. Merge Two Sorted Lists](src/leetcode/p21_merge_two_sorted_lists)
 - [26. Remove Duplicates from Sorted Array](src/leetcode/p26_remove_duplicates_from_sorted_array)
+- [27. Remove Element](src/leetcode/p27_remove_element)
 - [53. Maximum Subarray](src/leetcode/p53_maximum_subarray)
 - [58. Length of Last Word](src/leetcode/p58_length_of_last_word)
 - [83. Remove Duplicates from Sorted List](src/leetcode/p83_remove_duplicates_from_sorted_list)
@@ -28,13 +29,15 @@ Call test by running `cargo test p[xxx]_`.
 - [705. Design HashSet](src/leetcode/p705_design_hashset)
 - [706. Design HashMap](src/leetcode/p706_design_hashmap)
 - [896. Monotonic Array](src/leetcode/p896_monotonic_array)
+- [1047. Remove All Adjacent Duplicates In String](src/leetcode/p1047_remove_all_adjacent_duplicates_in_string)
 - [1184. Distance Between Bus Stops](src/leetcode/p1184_distance_between_bus_stops)
 - [1260. Shift 2D Grid](src/leetcode/leetcode/p1260_shift_2d_grid)
 - [1331. Rank Transform of an Array](src/leetcode/p1331_rank_transform_of_an_array)
 - [1374. Generate a String With Characters That Have Odd Counts](src/leetcode/p1374_generate_a_string_with_characters_that_have_odd_counts)
 - [2042. Check if Numbers Are Ascending in a Sentence](src/leetcode/p2042_check_if_numbers_are_ascending_in_a_sentence/)
+- [2293. Min Max Game](src/leetcode/p2293_min_max_game)
 
-### Medium(36)
+### Medium(41)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -50,6 +53,9 @@ Call test by running `cargo test p[xxx]_`.
 - [18. 4Sum](src/leetcode/p18_4sum)
 - [19. Remove Nth Node From End of List](src/leetcode/p19_remove_nth_node_from_end_of_list)
 - [22. Generate Parentheses](src/leetcode/p22_generate_parentheses)
+- [24. Swap Nodes in Pairs](src/leetcode/p24_swap_nodes_in_pairs)
+- [28. Find the Index of the First Occurrence in a String](src/leetcode/p28_find_the_index_of_the_first_occurrence_in_a_string)
+- [29. Divide Two Integers](src/leetcode/p29_divide_two_integers)
 - [54. Spiral Matrix](src/leetcode/p54_spiral_matrix)
 - [59. Spiral Matrix II](src/leetcode/p59_spiral_matrix_ii)
 - [61. Rotate List](src/leetcode/p61_rotate_list)
@@ -64,6 +70,7 @@ Call test by running `cargo test p[xxx]_`.
 - [300. Longest Increasing Subsequence](src/leetcode/p300_longest_increasing_subsequence)
 - [331. Verify Preorder Serialization of a Binary Tree](src/leetcode/p331_verify_preorder_serialization_of_a_binary_tree)
 - [338. Counting Bits](src/leetcode/p338_counting_bits)
+- [438. Find All Anagrams in a String](src/leetcode/p438_find_all_anagrams_in_a_string)
 - [456. 132 Pattern](src/leetcode/p456_132_pattern)
 - [503. Next Greater Element II](src/leetcode/p503_next_greater_element_ii)
 - [556. Next Greater Element III](src/leetcode/p556_next_greater_element_iii)
@@ -72,12 +79,16 @@ Call test by running `cargo test p[xxx]_`.
 - [1161. Maximum Level Sum of a Binary Tree](src/leetcode/p1161_maximum_level_sum_of_a_binary_tree)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1807. Evaluate the Bracket Pairs of a String](src/leetcode/p1807_evaluate_the_bracket_pairs_of_a_string)
+- [1813. Sentence Similarity III](src/leetcode/p1813_sentence_similarity_iii)
 
-### Hard(6)
+### Hard(9)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
 - [23. Merge k Sorted Lists](src/leetcode/p23_merge_k_sorted_lists)
+- [25. Reverse Nodes in k-Group](src/leetcode/p25_reverse_nodes_in_k_group)
+- [30. Substring with Concatenation of All Words](src/leetcode/p30_substring_with_concatenation_of_all_words)
 - [132. Palindrome Partitioning II](src/leetcode/p132_palindrome_partitioning_ii)
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
+- [1819. Number of Different Subsequences GCDs](src/leetcode/p1819_number_of_different_subsequences_gcds)
