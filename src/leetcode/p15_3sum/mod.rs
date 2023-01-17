@@ -41,18 +41,18 @@ mod tests {
     #[test]
     fn test1() {
         assert_eq!(
-            Solution::three_sum([-1, 0, 1, 2, -1, -4].to_vec()),
+            Solution::three_sum(vec![-1, 0, 1, 2, -1, -4]),
             [[-1, -1, 2], [-1, 0, 1]]
         );
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::three_sum([0, 1, 1].to_vec()), [] as [Vec<i32>; 0]);
+        assert_eq!(Solution::three_sum(vec![0, 1, 1]), [] as [Vec<i32>; 0]);
     }
 
     #[test]
     fn test3() {
-        assert_eq!(Solution::three_sum([0, 0, 0].to_vec()), [[0, 0, 0]]);
+        assert_eq!(Solution::three_sum(vec![0, 0, 0]), [[0, 0, 0]]);
     }
 }

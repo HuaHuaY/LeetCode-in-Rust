@@ -14,7 +14,7 @@ impl Solution {
             map.insert(n, i);
         }
 
-        [].to_vec()
+        vec![]
     }
 }
 

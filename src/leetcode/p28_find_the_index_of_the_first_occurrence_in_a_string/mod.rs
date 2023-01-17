@@ -33,7 +33,7 @@ impl Solution {
             }
             j += 1;
             if j as usize == length {
-                return (i - length + 1) as i32;
+                return (i + 1 - length) as i32;
             }
         }
 

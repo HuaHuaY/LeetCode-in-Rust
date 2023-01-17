@@ -37,7 +37,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2042. Check if Numbers Are Ascending in a Sentence](src/leetcode/p2042_check_if_numbers_are_ascending_in_a_sentence/)
 - [2293. Min Max Game](src/leetcode/p2293_min_max_game)
 
-### Medium(41)
+### Medium(44)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -56,6 +56,8 @@ Call test by running `cargo test p[xxx]_`.
 - [24. Swap Nodes in Pairs](src/leetcode/p24_swap_nodes_in_pairs)
 - [28. Find the Index of the First Occurrence in a String](src/leetcode/p28_find_the_index_of_the_first_occurrence_in_a_string)
 - [29. Divide Two Integers](src/leetcode/p29_divide_two_integers)
+- [31. Next Permutation](src/leetcode/p31_next_permutation)
+- [33. Search in Rotated Sorted Array](src/leetcode/p33_search_in_rotated_sorted_array)
 - [54. Spiral Matrix](src/leetcode/p54_spiral_matrix)
 - [59. Spiral Matrix II](src/leetcode/p59_spiral_matrix_ii)
 - [61. Rotate List](src/leetcode/p61_rotate_list)
@@ -80,6 +82,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1807. Evaluate the Bracket Pairs of a String](src/leetcode/p1807_evaluate_the_bracket_pairs_of_a_string)
 - [1813. Sentence Similarity III](src/leetcode/p1813_sentence_similarity_iii)
+- [1814. Count Nice Pairs in an Array](src/leetcode/p1814_count_nice_pairs_in_an_array)
 
 ### Hard(10)
 

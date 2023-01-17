@@ -23,11 +23,11 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::min_max_game([1, 3, 5, 2, 4, 8, 2, 2].to_vec()), 1);
+        assert_eq!(Solution::min_max_game(vec![1, 3, 5, 2, 4, 8, 2, 2]), 1);
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::min_max_game([3].to_vec()), 3);
+        assert_eq!(Solution::min_max_game(vec![3]), 3);
     }
 }

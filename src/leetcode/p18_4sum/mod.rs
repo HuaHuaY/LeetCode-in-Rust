@@ -46,24 +46,21 @@ mod tests {
     #[test]
     fn test1() {
         assert_eq!(
-            Solution::four_sum([1, 0, -1, 0, -2, 2].to_vec(), 0),
+            Solution::four_sum(vec![1, 0, -1, 0, -2, 2], 0),
             [[-2, -1, 1, 2], [-2, 0, 0, 2], [-1, 0, 0, 1]]
         );
     }
 
     #[test]
     fn test2() {
-        assert_eq!(
-            Solution::four_sum([2, 2, 2, 2, 2].to_vec(), 8),
-            [[2, 2, 2, 2]]
-        );
+        assert_eq!(Solution::four_sum(vec![2, 2, 2, 2, 2], 8), [[2, 2, 2, 2]]);
     }
 
     #[test]
     fn test3() {
         assert_eq!(
             Solution::four_sum(
-                [1000000000, 1000000000, 1000000000, 1000000000].to_vec(),
+                vec![1000000000, 1000000000, 1000000000, 1000000000],
                 -294967296
             ),
             [] as [Vec<i32>; 0]
