@@ -38,7 +38,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2042. Check if Numbers Are Ascending in a Sentence](src/leetcode/p2042_check_if_numbers_are_ascending_in_a_sentence/)
 - [2293. Min Max Game](src/leetcode/p2293_min_max_game)
 
-### Medium(45)
+### Medium(46)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -60,6 +60,7 @@ Call test by running `cargo test p[xxx]_`.
 - [31. Next Permutation](src/leetcode/p31_next_permutation)
 - [33. Search in Rotated Sorted Array](src/leetcode/p33_search_in_rotated_sorted_array)
 - [34. Find First and Last Position of Element in Sorted Array](src/leetcode/p34_find_first_and_last_position_of_element_in_sorted_array)
+- [36. Valid Sudoku](src/leetcode/p36_valid_sudoku)
 - [54. Spiral Matrix](src/leetcode/p54_spiral_matrix)
 - [59. Spiral Matrix II](src/leetcode/p59_spiral_matrix_ii)
 - [61. Rotate List](src/leetcode/p61_rotate_list)
@@ -86,7 +87,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1813. Sentence Similarity III](src/leetcode/p1813_sentence_similarity_iii)
 - [1814. Count Nice Pairs in an Array](src/leetcode/p1814_count_nice_pairs_in_an_array)
 
-### Hard(10)
+### Hard(11)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -94,6 +95,7 @@ Call test by running `cargo test p[xxx]_`.
 - [25. Reverse Nodes in k-Group](src/leetcode/p25_reverse_nodes_in_k_group)
 - [30. Substring with Concatenation of All Words](src/leetcode/p30_substring_with_concatenation_of_all_words)
 - [32. Longest Valid Parentheses](src/leetcode/p32_longest_valid_parentheses)
+- [37. Sudoku Solver](src/leetcode/p37_sudoku_solver)
 - [132. Palindrome Partitioning II](src/leetcode/p132_palindrome_partitioning_ii)
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)

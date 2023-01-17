@@ -1,6 +1,16 @@
 pub struct Solution;
 
 impl Solution {
+    pub fn search_range(nums: Vec<i32>, target: i32) -> Vec<i32> {
+        let left = Solution::binary_search(&nums, target) as usize;
+        let right = Solution::binary_search(&nums, target + 1) - 1;
+        if left < nums.len() && nums[left] == target {
+            vec![left as i32, right]
+        } else {
+            vec![-1, -1]
+        }
+    }
+
     fn binary_search(nums: &[i32], target: i32) -> i32 {
         let mut left = 0;
         let mut right = nums.len() as i32 - 1;
@@ -13,16 +23,6 @@ impl Solution {
             }
         }
         left
-    }
-
-    pub fn search_range(nums: Vec<i32>, target: i32) -> Vec<i32> {
-        let left = Solution::binary_search(&nums, target) as usize;
-        let right = Solution::binary_search(&nums, target + 1) - 1;
-        if left < nums.len() && nums[left] == target {
-            vec![left as i32, right]
-        } else {
-            vec![-1, -1]
-        }
     }
 }
 

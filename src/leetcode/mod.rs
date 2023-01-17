@@ -54,6 +54,8 @@ pub mod p33_search_in_rotated_sorted_array;
 pub mod p34_find_first_and_last_position_of_element_in_sorted_array;
 pub mod p354_russian_doll_envelopes;
 pub mod p35_search_insert_position;
+pub mod p36_valid_sudoku;
+pub mod p37_sudoku_solver;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p438_find_all_anagrams_in_a_string;
 pub mod p456_132_pattern;
