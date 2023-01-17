@@ -17,7 +17,7 @@ impl Solution {
 
             let mut diff = map.len();
             let mut count = 0;
-            for j in (0 + i..s.len()).step_by(word_length) {
+            for j in (i..s.len()).step_by(word_length) {
                 if j + word_length > s.len() {
                     break;
                 }

@@ -8,7 +8,7 @@ impl Solution {
         if s.len() < p_length {
             return vec![];
         }
-        
+
         let mut map = [0; 26];
         let mut result = Vec::new();
 

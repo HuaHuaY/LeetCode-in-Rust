@@ -14,8 +14,7 @@ impl Solution {
             divisor = -divisor;
         }
 
-        let mut vec = Vec::new();
-        vec.push(divisor);
+        let mut vec = vec![divisor];
         while divisor > dividend - divisor {
             divisor <<= 1;
             vec.push(divisor);
