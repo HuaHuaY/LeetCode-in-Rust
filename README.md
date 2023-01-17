@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(25)
+### Easy(26)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -19,6 +19,7 @@ Call test by running `cargo test p[xxx]_`.
 - [21. Merge Two Sorted Lists](src/leetcode/p21_merge_two_sorted_lists)
 - [26. Remove Duplicates from Sorted Array](src/leetcode/p26_remove_duplicates_from_sorted_array)
 - [27. Remove Element](src/leetcode/p27_remove_element)
+- [35. Search Insert Position](src/leetcode/p35_search_insert_position)
 - [53. Maximum Subarray](src/leetcode/p53_maximum_subarray)
 - [58. Length of Last Word](src/leetcode/p58_length_of_last_word)
 - [83. Remove Duplicates from Sorted List](src/leetcode/p83_remove_duplicates_from_sorted_list)
@@ -37,7 +38,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2042. Check if Numbers Are Ascending in a Sentence](src/leetcode/p2042_check_if_numbers_are_ascending_in_a_sentence/)
 - [2293. Min Max Game](src/leetcode/p2293_min_max_game)
 
-### Medium(44)
+### Medium(45)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -58,6 +59,7 @@ Call test by running `cargo test p[xxx]_`.
 - [29. Divide Two Integers](src/leetcode/p29_divide_two_integers)
 - [31. Next Permutation](src/leetcode/p31_next_permutation)
 - [33. Search in Rotated Sorted Array](src/leetcode/p33_search_in_rotated_sorted_array)
+- [34. Find First and Last Position of Element in Sorted Array](src/leetcode/p34_find_first_and_last_position_of_element_in_sorted_array)
 - [54. Spiral Matrix](src/leetcode/p54_spiral_matrix)
 - [59. Spiral Matrix II](src/leetcode/p59_spiral_matrix_ii)
 - [61. Rotate List](src/leetcode/p61_rotate_list)
