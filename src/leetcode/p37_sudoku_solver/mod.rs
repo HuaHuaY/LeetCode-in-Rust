@@ -38,7 +38,7 @@ impl Solution {
             while mask != 0 {
                 let num = mask.trailing_zeros() as u8;
                 mask &= mask - 1;
-                board[i][j] = (num + '1' as u8) as char;
+                board[i][j] = (num + b'1') as char;
                 flip(line, column, block, i, j, num);
                 if dfs(board, spaces, idx + 1, line, column, block) {
                     return true;
@@ -52,10 +52,10 @@ impl Solution {
         let mut line = [0u16; 9];
         let mut column = [0u16; 9];
         let mut block = [[0u16; 3]; 3];
-        for i in 0..9 {
-            for j in 0..9 {
-                if board[i][j] != '.' {
-                    let num = board[i][j] as u8 - '1' as u8;
+        for (i, row) in board.iter().enumerate().take(9) {
+            for (j, c) in row.iter().enumerate().take(9) {
+                if *c != '.' {
+                    let num = *c as u8 - b'1';
                     flip(&mut line, &mut column, &mut block, i, j, num);
                 }
             }
@@ -71,7 +71,7 @@ impl Solution {
                     let mask = (!(line[i] | column[j] | block[i / 3][j / 3])) & 0x1ff;
                     if mask.count_ones() == 1 {
                         let num = mask.trailing_zeros() as u8;
-                        board[i][j] = (num + '1' as u8) as char;
+                        board[i][j] = (num + b'1') as char;
                         flip(&mut line, &mut column, &mut block, i, j, num);
                     }
                 }
@@ -81,9 +81,9 @@ impl Solution {
             }
         }
 
-        for i in 0..9 {
-            for j in 0..9 {
-                if board[i][j] == '.' {
+        for (i, row) in board.iter().enumerate().take(9) {
+            for (j, c) in row.iter().enumerate().take(9) {
+                if *c == '.' {
                     spaces.push_back((i, j));
                 }
             }
@@ -93,7 +93,7 @@ impl Solution {
     }
 
     fn foo2(board: &mut Vec<Vec<char>>) {
-        fn is_valid(board: &Vec<Vec<char>>, row: usize, col: usize, c: char) -> bool {
+        fn is_valid(board: &[Vec<char>], row: usize, col: usize, c: char) -> bool {
             for i in 0..9 {
                 if board[row][i] == c {
                     return false;
@@ -119,7 +119,7 @@ impl Solution {
                 return dfs(board, row, col + 1);
             }
             for i in 1..=9 {
-                let c = (i as u8 + '0' as u8) as char;
+                let c = (i as u8 + b'0') as char;
                 if !is_valid(board, row, col, c) {
                     continue;
                 }

@@ -20,7 +20,8 @@ impl TreeNode {
 use std::cell::RefCell;
 use std::rc::Rc;
 
-pub struct BSTIterator {
+#[allow(dead_code)]
+struct BSTIterator {
     cur: Option<Rc<RefCell<TreeNode>>>,
     stack: Vec<Rc<RefCell<TreeNode>>>,
 }
@@ -29,8 +30,9 @@ pub struct BSTIterator {
  * `&self` means the method takes an immutable reference.
  * If you need a mutable reference, change it to `&mut self` instead.
  */
+#[allow(dead_code)]
 impl BSTIterator {
-    pub fn new(root: Option<Rc<RefCell<TreeNode>>>) -> Self {
+    fn new(root: Option<Rc<RefCell<TreeNode>>>) -> Self {
         let stack = Vec::new();
         BSTIterator { cur: root, stack }
     }
@@ -48,7 +50,7 @@ impl BSTIterator {
         result
     }
 
-    pub fn has_next(&self) -> bool {
+    fn has_next(&self) -> bool {
         !(self.cur == None && self.stack.is_empty())
     }
 }

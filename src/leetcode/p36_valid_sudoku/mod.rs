@@ -2,20 +2,20 @@ pub struct Solution;
 
 impl Solution {
     pub fn is_valid_sudoku(board: Vec<Vec<char>>) -> bool {
-        let mut row = [[false; 9]; 9];
-        let mut col = [[false; 9]; 9];
+        let mut rows = [[false; 9]; 9];
+        let mut cols = [[false; 9]; 9];
         let mut boxs = [[[false; 9]; 3]; 3];
-        for i in 0..9 {
-            for j in 0..9 {
+        for (i, row) in rows.iter_mut().enumerate() {
+            for (j, col) in cols.iter_mut().enumerate() {
                 if board[i][j] == '.' {
                     continue;
                 }
                 let num = board[i][j] as usize - '1' as usize;
-                if row[i][num] || col[j][num] || boxs[i / 3][j / 3][num] {
+                if row[num] || col[num] || boxs[i / 3][j / 3][num] {
                     return false;
                 }
-                row[i][num] = true;
-                col[j][num] = true;
+                row[num] = true;
+                col[num] = true;
                 boxs[i / 3][j / 3][num] = true;
             }
         }

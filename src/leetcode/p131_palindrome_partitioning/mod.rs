@@ -47,18 +47,19 @@ impl Solution {
 mod tests {
     use super::*;
     use crate::common::ToSortVecVec;
+    use crate::vec_vec;
 
     #[test]
     fn test1() {
         let test = Solution::partition("aab".to_string()).to_sort_vec_vec();
-        let answer = [vec!["a", "a", "b"], vec!["aa", "b"]].to_sort_vec_vec();
+        let answer = vec_vec![["a", "a", "b"], ["aa", "b"]].to_sort_vec_vec();
         assert_eq!(test, answer);
     }
 
     #[test]
     fn test2() {
         let test = Solution::partition("a".to_string()).to_sort_vec_vec();
-        let answer = [vec!["a"]].to_sort_vec_vec();
+        let answer = vec_vec![["a"]].to_sort_vec_vec();
         assert_eq!(test, answer);
     }
 }
