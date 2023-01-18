@@ -22,7 +22,7 @@ impl Solution {
             }
         }
 
-        candidates.sort();
+        candidates.sort_unstable();
         let mut result = vec![];
         dfs(&mut result, &mut vec![], &candidates, target);
         result

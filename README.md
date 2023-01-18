@@ -38,7 +38,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2042. Check if Numbers Are Ascending in a Sentence](src/leetcode/p2042_check_if_numbers_are_ascending_in_a_sentence/)
 - [2293. Min Max Game](src/leetcode/p2293_min_max_game)
 
-### Medium(51)
+### Medium(56)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -66,6 +66,11 @@ Call test by running `cargo test p[xxx]_`.
 - [40. Combination Sum II](src/leetcode/p40_combination_sum_ii)
 - [43. Multiply Strings](src/leetcode/p43_multiply_strings)
 - [45. Jump Game II](src/leetcode/p45_jump_game_ii)
+- [46. Permutations](src/leetcode/p46_permutations)
+- [47. Permutations II](src/leetcode/p47_permutations_ii)
+- [48. Rotate Image](src/leetcode/p48_rotate_image)
+- [49. Group Anagrams](src/leetcode/p49_group_anagrams)
+- [50. Pow(x, n)](src/leetcode/p50_pow_x_n)
 - [54. Spiral Matrix](src/leetcode/p54_spiral_matrix)
 - [59. Spiral Matrix II](src/leetcode/p59_spiral_matrix_ii)
 - [61. Rotate List](src/leetcode/p61_rotate_list)

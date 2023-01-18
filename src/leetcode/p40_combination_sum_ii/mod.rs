@@ -25,7 +25,7 @@ impl Solution {
             }
         }
 
-        candidates.sort();
+        candidates.sort_unstable();
         let mut result = Vec::new();
         dfs(&mut result, &mut vec![], &candidates, target);
         result
