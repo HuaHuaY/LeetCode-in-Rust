@@ -7,7 +7,7 @@ impl Solution {
         let mut answer: HashMap<Vec<u8>, Vec<String>> = HashMap::new();
         for str in strs {
             let mut str_v = str.bytes().collect::<Vec<_>>();
-            str_v.sort();
+            str_v.sort_unstable();
             answer.entry(str_v).or_default().push(str);
         }
         answer.into_values().collect()

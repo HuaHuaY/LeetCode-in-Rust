@@ -25,9 +25,9 @@ impl Solution {
 
     fn foo2(x: f64, n: i32) -> f64 {
         match n {
-            0 => return 1.0,
-            1 => return x,
-            -1 => return 1.0 / x,
+            0 => 1.0,
+            1 => x,
+            -1 => 1.0 / x,
             _ => {
                 let y = Solution::my_pow(x, n >> 1);
                 y * y * Solution::my_pow(x, n & 1)
