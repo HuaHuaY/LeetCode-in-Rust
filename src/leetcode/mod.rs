@@ -21,6 +21,7 @@ pub mod p17_letter_combinations_of_a_phone_number;
 pub mod p1807_evaluate_the_bracket_pairs_of_a_string;
 pub mod p1813_sentence_similarity_iii;
 pub mod p1814_count_nice_pairs_in_an_array;
+pub mod p1817_finding_the_users_active_minutes;
 pub mod p1819_number_of_different_subsequences_gcds;
 pub mod p1825_finding_mk_average;
 pub mod p18_4sum;

@@ -39,7 +39,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2293. Min Max Game](src/leetcode/p2293_min_max_game)
 - [2299. Strong Password Checker II](src/leetcode/p2299_strong_password_checker_ii)
 
-### Medium(56)
+### Medium(57)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -97,6 +97,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1807. Evaluate the Bracket Pairs of a String](src/leetcode/p1807_evaluate_the_bracket_pairs_of_a_string)
 - [1813. Sentence Similarity III](src/leetcode/p1813_sentence_similarity_iii)
 - [1814. Count Nice Pairs in an Array](src/leetcode/p1814_count_nice_pairs_in_an_array)
+- [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 
 ### Hard(15)
 
