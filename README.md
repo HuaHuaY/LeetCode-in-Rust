@@ -93,6 +93,7 @@ Call test by running `cargo test p[xxx]_`.
 - [556. Next Greater Element III](src/leetcode/p556_next_greater_element_iii)
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
 - [1006. Clumsy Factorial](src/leetcode/p1006_clumsy_factorial)
+- [1129. Shortest Path with Alternating Colors](src/leetcode/p1129_shortest_path_with_alternating_colors)
 - [1161. Maximum Level Sum of a Binary Tree](src/leetcode/p1161_maximum_level_sum_of_a_binary_tree)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1807. Evaluate the Bracket Pairs of a String](src/leetcode/p1807_evaluate_the_bracket_pairs_of_a_string)
