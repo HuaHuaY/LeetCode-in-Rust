@@ -1,0 +1,35 @@
+name: Rust
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+  RUSTFLAGS: "-Dwarnings"
+  
+jobs:
+  format_check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install format
+      run: rustup component add rustfmt
+    - name: Check format
+      run: cargo fmt --check
+  clippy_check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install clippy
+      run: rustup component add clippy
+    - name: Run clippy
+      run: cargo clippy --all-targets --all-features
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run tests
+      run: cargo test --verbose
