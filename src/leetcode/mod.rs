@@ -19,6 +19,7 @@ pub mod p150_evaluate_reverse_polish_notation;
 pub mod p15_3sum;
 pub mod p16_3sum_closest;
 pub mod p173_binary_search_tree_iterator;
+pub mod p1798_maximum_number_of_consecutive_values_you_can_make;
 pub mod p17_letter_combinations_of_a_phone_number;
 pub mod p1807_evaluate_the_bracket_pairs_of_a_string;
 pub mod p1813_sentence_similarity_iii;

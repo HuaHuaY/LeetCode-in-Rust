@@ -40,7 +40,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2299. Strong Password Checker II](src/leetcode/p2299_strong_password_checker_ii)
 - [2325. Decode the Message](src/leetcode/p2325_decode_the_message)
 
-### Medium(60)
+### Medium(61)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -97,6 +97,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1145. Binary Tree Coloring Game](src/leetcode/p1145_binary_tree_coloring_game)
 - [1161. Maximum Level Sum of a Binary Tree](src/leetcode/p1161_maximum_level_sum_of_a_binary_tree)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
+- [1798. Maximum Number of Consecutive Values You Can Make](src/leetcode/p1798_maximum_number_of_consecutive_values_you_can_make)
 - [1807. Evaluate the Bracket Pairs of a String](src/leetcode/p1807_evaluate_the_bracket_pairs_of_a_string)
 - [1813. Sentence Similarity III](src/leetcode/p1813_sentence_similarity_iii)
 - [1814. Count Nice Pairs in an Array](src/leetcode/p1814_count_nice_pairs_in_an_array)
