@@ -17,6 +17,7 @@ pub mod p13_roman_to_integer;
 pub mod p14_longest_common_prefix;
 pub mod p150_evaluate_reverse_polish_notation;
 pub mod p15_3sum;
+pub mod p1632_rank_transform_of_a_matrix;
 pub mod p16_3sum_closest;
 pub mod p173_binary_search_tree_iterator;
 pub mod p1798_maximum_number_of_consecutive_values_you_can_make;
