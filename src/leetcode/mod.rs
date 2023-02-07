@@ -44,6 +44,7 @@ pub mod p2293_min_max_game;
 pub mod p2299_strong_password_checker_ii;
 pub mod p22_generate_parentheses;
 pub mod p2325_decode_the_message;
+pub mod p2331_evaluate_boolean_binary_tree;
 pub mod p23_merge_k_sorted_lists;
 pub mod p24_swap_nodes_in_pairs;
 pub mod p25_reverse_nodes_in_k_group;

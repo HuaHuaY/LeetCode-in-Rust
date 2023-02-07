@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(28)
+### Easy(29)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -39,6 +39,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2293. Min Max Game](src/leetcode/p2293_min_max_game)
 - [2299. Strong Password Checker II](src/leetcode/p2299_strong_password_checker_ii)
 - [2325. Decode the Message](src/leetcode/p2325_decode_the_message)
+- [2331. Evaluate Boolean Binary Tree](src/leetcode/p2331_evaluate_boolean_binary_tree)
 
 ### Medium(61)
 
