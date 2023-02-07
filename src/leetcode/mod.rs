@@ -6,6 +6,7 @@ pub mod p1145_binary_tree_coloring_game;
 pub mod p1161_maximum_level_sum_of_a_binary_tree;
 pub mod p1184_distance_between_bus_stops;
 pub mod p11_container_with_most_water;
+pub mod p1210_minimum_moves_to_reach_target_with_rotations;
 pub mod p1260_shift_2d_grid;
 pub mod p12_integer_to_roman;
 pub mod p1318_minimum_flips_to_make_a_or_b_equal_to_c;
