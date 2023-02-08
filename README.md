@@ -41,7 +41,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2325. Decode the Message](src/leetcode/p2325_decode_the_message)
 - [2331. Evaluate Boolean Binary Tree](src/leetcode/p2331_evaluate_boolean_binary_tree)
 
-### Medium(61)
+### Medium(62)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -97,6 +97,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1129. Shortest Path with Alternating Colors](src/leetcode/p1129_shortest_path_with_alternating_colors)
 - [1145. Binary Tree Coloring Game](src/leetcode/p1145_binary_tree_coloring_game)
 - [1161. Maximum Level Sum of a Binary Tree](src/leetcode/p1161_maximum_level_sum_of_a_binary_tree)
+- [1233. Remove Sub-Folders from the Filesystem](src/leetcode/p1233_remove_sub_folders_from_the_filesystem)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1798. Maximum Number of Consecutive Values You Can Make](src/leetcode/p1798_maximum_number_of_consecutive_values_you_can_make)
 - [1807. Evaluate the Bracket Pairs of a String](src/leetcode/p1807_evaluate_the_bracket_pairs_of_a_string)
