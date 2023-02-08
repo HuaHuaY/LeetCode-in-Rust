@@ -18,7 +18,7 @@ impl Solution {
                 map_mut = map_mut
                     .map
                     .entry(s.to_string())
-                    .or_insert(TreeNode::default());
+                    .or_insert_with(TreeNode::default);
             }
             map_mut.is_leaf = true;
         });
@@ -41,9 +41,8 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::common::{ToSortVec, ToVecString};
-
     use super::*;
+    use crate::common::{ToSortVec, ToVecString};
 
     #[test]
     fn test1() {
