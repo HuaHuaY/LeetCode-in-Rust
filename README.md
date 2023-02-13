@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(29)
+### Easy(30)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -40,8 +40,9 @@ Call test by running `cargo test p[xxx]_`.
 - [2299. Strong Password Checker II](src/leetcode/p2299_strong_password_checker_ii)
 - [2325. Decode the Message](src/leetcode/p2325_decode_the_message)
 - [2331. Evaluate Boolean Binary Tree](src/leetcode/p2331_evaluate_boolean_binary_tree)
+- [2335. Minimum Amount of Time to Fill Cups](src/leetcode/p2335_minimum_amount_of_time_to_fill_cups)
 
-### Medium(63)
+### Medium(65)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -95,9 +96,11 @@ Call test by running `cargo test p[xxx]_`.
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
 - [1006. Clumsy Factorial](src/leetcode/p1006_clumsy_factorial)
 - [1129. Shortest Path with Alternating Colors](src/leetcode/p1129_shortest_path_with_alternating_colors)
+- [1138. Alphabet Board Path](src/leetcode/p1138_alphabet_board_path)
 - [1145. Binary Tree Coloring Game](src/leetcode/p1145_binary_tree_coloring_game)
 - [1161. Maximum Level Sum of a Binary Tree](src/leetcode/p1161_maximum_level_sum_of_a_binary_tree)
 - [1233. Remove Sub-Folders from the Filesystem](src/leetcode/p1233_remove_sub_folders_from_the_filesystem)
+- [1234. Replace the Substring for Balanced String](src/leetcode/p1234_replace_the_substring_for_balanced_string)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](src/leetcode/p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period)
 - [1798. Maximum Number of Consecutive Values You Can Make](src/leetcode/p1798_maximum_number_of_consecutive_values_you_can_make)
@@ -107,7 +110,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 
-### Hard(19)
+### Hard(20)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -125,6 +128,7 @@ Call test by running `cargo test p[xxx]_`.
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
 - [1210. Minimum Moves to Reach Target with Rotations](src/leetcode/p1210_minimum_moves_to_reach_target_with_rotations)
+- [1223. Dice Roll Simulation](src/leetcode/p1223_dice_roll_simulation)
 - [1632. Rank Transform of a Matrix](src/leetcode/p1632_rank_transform_of_a_matrix)
 - [1819. Number of Different Subsequences GCDs](src/leetcode/p1819_number_of_different_subsequences_gcds)
 - [1825. Finding MK Average](src/leetcode/p1825_finding_mk_average)
