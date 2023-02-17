@@ -1,6 +1,7 @@
 pub mod p1006_clumsy_factorial;
 pub mod p1047_remove_all_adjacent_duplicates_in_string;
 pub mod p10_regular_expression_matching;
+pub mod p1124_longest_well_performing_interval;
 pub mod p1129_shortest_path_with_alternating_colors;
 pub mod p1138_alphabet_board_path;
 pub mod p1145_binary_tree_coloring_game;

@@ -43,7 +43,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2335. Minimum Amount of Time to Fill Cups](src/leetcode/p2335_minimum_amount_of_time_to_fill_cups)
 - [2341. Maximum Number of Pairs in Array](src/leetcode/p2341_maximum_number_of_pairs_in_array)
 
-### Medium(66)
+### Medium(67)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -96,6 +96,7 @@ Call test by running `cargo test p[xxx]_`.
 - [556. Next Greater Element III](src/leetcode/p556_next_greater_element_iii)
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
 - [1006. Clumsy Factorial](src/leetcode/p1006_clumsy_factorial)
+- [1124. Longest Well-Performing Interval](src/leetcode/p1124_longest_well_performing_interval)
 - [1129. Shortest Path with Alternating Colors](src/leetcode/p1129_shortest_path_with_alternating_colors)
 - [1138. Alphabet Board Path](src/leetcode/p1138_alphabet_board_path)
 - [1145. Binary Tree Coloring Game](src/leetcode/p1145_binary_tree_coloring_game)
