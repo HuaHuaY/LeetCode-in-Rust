@@ -11,10 +11,8 @@ impl Solution {
             pre_sum += if hour > 8 { 1 } else { -1 };
             if pre_sum > 0 {
                 max_len = max_len.max(idx as i32 + 1);
-            } else {
-                if let Some(&pre_idx) = map.get(&(pre_sum - 1)) {
-                    max_len = max_len.max((idx - pre_idx) as i32);
-                }
+            } else if let Some(&pre_idx) = map.get(&(pre_sum - 1)) {
+                max_len = max_len.max((idx - pre_idx) as i32);
             }
             map.entry(pre_sum).or_insert(idx);
         }
