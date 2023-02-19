@@ -43,7 +43,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2335. Minimum Amount of Time to Fill Cups](src/leetcode/p2335_minimum_amount_of_time_to_fill_cups)
 - [2341. Maximum Number of Pairs in Array](src/leetcode/p2341_maximum_number_of_pairs_in_array)
 
-### Medium(67)
+### Medium(70)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -99,6 +99,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1124. Longest Well-Performing Interval](src/leetcode/p1124_longest_well_performing_interval)
 - [1129. Shortest Path with Alternating Colors](src/leetcode/p1129_shortest_path_with_alternating_colors)
 - [1138. Alphabet Board Path](src/leetcode/p1138_alphabet_board_path)
+- [1139. Largest 1-Bordered Square](src/leetcode/p1139_largest_1_bordered_square)
 - [1145. Binary Tree Coloring Game](src/leetcode/p1145_binary_tree_coloring_game)
 - [1161. Maximum Level Sum of a Binary Tree](src/leetcode/p1161_maximum_level_sum_of_a_binary_tree)
 - [1233. Remove Sub-Folders from the Filesystem](src/leetcode/p1233_remove_sub_folders_from_the_filesystem)
@@ -106,6 +107,8 @@ Call test by running `cargo test p[xxx]_`.
 - [1237. Find Positive Integer Solution for a Given Equation](src/leetcode/p1237_find_positive_integer_solution_for_a_given_equation)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](src/leetcode/p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period)
+- [1792. Maximum Average Pass Ratio](src/leetcode/p1792_maximum_average_pass_ratio)
+- [1797. Design Authentication Manager](src/leetcode/p1797_design_authentication_manager)
 - [1798. Maximum Number of Consecutive Values You Can Make](src/leetcode/p1798_maximum_number_of_consecutive_values_you_can_make)
 - [1807. Evaluate the Bracket Pairs of a String](src/leetcode/p1807_evaluate_the_bracket_pairs_of_a_string)
 - [1813. Sentence Similarity III](src/leetcode/p1813_sentence_similarity_iii)

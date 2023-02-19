@@ -4,6 +4,7 @@ pub mod p10_regular_expression_matching;
 pub mod p1124_longest_well_performing_interval;
 pub mod p1129_shortest_path_with_alternating_colors;
 pub mod p1138_alphabet_board_path;
+pub mod p1139_largest_1_bordered_square;
 pub mod p1145_binary_tree_coloring_game;
 pub mod p1161_maximum_level_sum_of_a_binary_tree;
 pub mod p1184_distance_between_bus_stops;
@@ -29,6 +30,8 @@ pub mod p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period
 pub mod p1632_rank_transform_of_a_matrix;
 pub mod p16_3sum_closest;
 pub mod p173_binary_search_tree_iterator;
+pub mod p1792_maximum_average_pass_ratio;
+pub mod p1797_design_authentication_manager;
 pub mod p1798_maximum_number_of_consecutive_values_you_can_make;
 pub mod p17_letter_combinations_of_a_phone_number;
 pub mod p1807_evaluate_the_bracket_pairs_of_a_string;
