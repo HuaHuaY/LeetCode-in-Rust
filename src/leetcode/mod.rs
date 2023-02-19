@@ -58,6 +58,7 @@ pub mod p2325_decode_the_message;
 pub mod p2331_evaluate_boolean_binary_tree;
 pub mod p2335_minimum_amount_of_time_to_fill_cups;
 pub mod p2341_maximum_number_of_pairs_in_array;
+pub mod p2347_best_poker_hand;
 pub mod p23_merge_k_sorted_lists;
 pub mod p24_swap_nodes_in_pairs;
 pub mod p25_reverse_nodes_in_k_group;
