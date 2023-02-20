@@ -44,7 +44,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2341. Maximum Number of Pairs in Array](src/leetcode/p2341_maximum_number_of_pairs_in_array)
 - [2347. Best Poker Hand](src/leetcode/p2347_best_poker_hand)
 
-### Medium(70)
+### Medium(73)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -78,6 +78,9 @@ Call test by running `cargo test p[xxx]_`.
 - [49. Group Anagrams](src/leetcode/p49_group_anagrams)
 - [50. Pow(x, n)](src/leetcode/p50_pow_x_n)
 - [54. Spiral Matrix](src/leetcode/p54_spiral_matrix)
+- [55. Jump Game](src/leetcode/p55_jump_game)
+- [56. Merge Intervals](src/leetcode/p56_merge_intervals)
+- [57. Insert Interval](src/leetcode/p57_insert_interval)
 - [59. Spiral Matrix II](src/leetcode/p59_spiral_matrix_ii)
 - [61. Rotate List](src/leetcode/p61_rotate_list)
 - [73. Set Matrix Zeroes](src/leetcode/p73_set_matrix_zeroes)
