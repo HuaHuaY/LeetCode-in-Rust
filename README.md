@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(32)
+### Easy(33)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -43,8 +43,9 @@ Call test by running `cargo test p[xxx]_`.
 - [2335. Minimum Amount of Time to Fill Cups](src/leetcode/p2335_minimum_amount_of_time_to_fill_cups)
 - [2341. Maximum Number of Pairs in Array](src/leetcode/p2341_maximum_number_of_pairs_in_array)
 - [2347. Best Poker Hand](src/leetcode/p2347_best_poker_hand)
+- [2357. Make Array Zero by Subtracting Equal Amounts](src/leetcode/p2357_make_array_zero_by_subtracting_equal_amounts)
 
-### Medium(73)
+### Medium(77)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -86,6 +87,7 @@ Call test by running `cargo test p[xxx]_`.
 - [73. Set Matrix Zeroes](src/leetcode/p73_set_matrix_zeroes)
 - [74. Search a 2D Matrix](src/leetcode/p74_search_a_2d_matrix)
 - [82. Remove Duplicates from Sorted List II](src/leetcode/p82_remove_duplicates_from_sorted_list_ii)
+- [89. Gray Code](src/leetcode/p89_gray_code)
 - [131. Palindrome Partitioning](src/leetcode/p131_palindrome_partitioning)
 - [150. Evaluate Reverse Polish Notation](src/leetcode/p150_evaluate_reverse_polish_notation)
 - [173. Binary Search Tree Iterator](src/leetcode/p173_binary_search_tree_iterator)
@@ -99,16 +101,19 @@ Call test by running `cargo test p[xxx]_`.
 - [503. Next Greater Element II](src/leetcode/p503_next_greater_element_ii)
 - [556. Next Greater Element III](src/leetcode/p556_next_greater_element_iii)
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
+- [877. Stone Game](src/leetcode/p877_stone_game)
 - [1006. Clumsy Factorial](src/leetcode/p1006_clumsy_factorial)
 - [1124. Longest Well-Performing Interval](src/leetcode/p1124_longest_well_performing_interval)
 - [1129. Shortest Path with Alternating Colors](src/leetcode/p1129_shortest_path_with_alternating_colors)
 - [1138. Alphabet Board Path](src/leetcode/p1138_alphabet_board_path)
 - [1139. Largest 1-Bordered Square](src/leetcode/p1139_largest_1_bordered_square)
+- [1140. Stone Game II](src/leetcode/p1140_stone_game_ii)
 - [1145. Binary Tree Coloring Game](src/leetcode/p1145_binary_tree_coloring_game)
 - [1161. Maximum Level Sum of a Binary Tree](src/leetcode/p1161_maximum_level_sum_of_a_binary_tree)
 - [1233. Remove Sub-Folders from the Filesystem](src/leetcode/p1233_remove_sub_folders_from_the_filesystem)
 - [1234. Replace the Substring for Balanced String](src/leetcode/p1234_replace_the_substring_for_balanced_string)
 - [1237. Find Positive Integer Solution for a Given Equation](src/leetcode/p1237_find_positive_integer_solution_for_a_given_equation)
+- [1238. Circular Permutation in Binary Representation](src/leetcode/p1238_circular_permutation_in_binary_representation)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](src/leetcode/p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period)
 - [1792. Maximum Average Pass Ratio](src/leetcode/p1792_maximum_average_pass_ratio)
