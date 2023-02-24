@@ -16,6 +16,7 @@ pub mod p1233_remove_sub_folders_from_the_filesystem;
 pub mod p1234_replace_the_substring_for_balanced_string;
 pub mod p1237_find_positive_integer_solution_for_a_given_equation;
 pub mod p1238_circular_permutation_in_binary_representation;
+pub mod p1247_minimum_swaps_to_make_strings_equal;
 pub mod p1250_check_if_it_is_a_good_array;
 pub mod p1260_shift_2d_grid;
 pub mod p12_integer_to_roman;

@@ -45,7 +45,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2347. Best Poker Hand](src/leetcode/p2347_best_poker_hand)
 - [2357. Make Array Zero by Subtracting Equal Amounts](src/leetcode/p2357_make_array_zero_by_subtracting_equal_amounts)
 
-### Medium(77)
+### Medium(78)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -114,6 +114,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1234. Replace the Substring for Balanced String](src/leetcode/p1234_replace_the_substring_for_balanced_string)
 - [1237. Find Positive Integer Solution for a Given Equation](src/leetcode/p1237_find_positive_integer_solution_for_a_given_equation)
 - [1238. Circular Permutation in Binary Representation](src/leetcode/p1238_circular_permutation_in_binary_representation)
+- [1247. Minimum Swaps to Make Strings Equal](src/leetcode/p1247_minimum_swaps_to_make_strings_equal)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](src/leetcode/p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period)
 - [1792. Maximum Average Pass Ratio](src/leetcode/p1792_maximum_average_pass_ratio)
