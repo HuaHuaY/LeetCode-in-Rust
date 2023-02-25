@@ -45,7 +45,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2347. Best Poker Hand](src/leetcode/p2347_best_poker_hand)
 - [2357. Make Array Zero by Subtracting Equal Amounts](src/leetcode/p2357_make_array_zero_by_subtracting_equal_amounts)
 
-### Medium(78)
+### Medium(79)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -103,6 +103,7 @@ Call test by running `cargo test p[xxx]_`.
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
 - [877. Stone Game](src/leetcode/p877_stone_game)
 - [1006. Clumsy Factorial](src/leetcode/p1006_clumsy_factorial)
+- [1024. Video Stitching](src/leetcode/p1024_video_stitching)
 - [1124. Longest Well-Performing Interval](src/leetcode/p1124_longest_well_performing_interval)
 - [1129. Shortest Path with Alternating Colors](src/leetcode/p1129_shortest_path_with_alternating_colors)
 - [1138. Alphabet Board Path](src/leetcode/p1138_alphabet_board_path)
@@ -126,7 +127,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 
-### Hard(21)
+### Hard(22)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -146,6 +147,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1210. Minimum Moves to Reach Target with Rotations](src/leetcode/p1210_minimum_moves_to_reach_target_with_rotations)
 - [1223. Dice Roll Simulation](src/leetcode/p1223_dice_roll_simulation)
 - [1250. Check If It Is a Good Array](src/leetcode/p1250_check_if_it_is_a_good_array)
+- [1326. Minimum Number of Taps to Open to Water a Garden](src/leetcode/p1326_minimum_number_of_taps_to_open_to_water_a_garden)
 - [1632. Rank Transform of a Matrix](src/leetcode/p1632_rank_transform_of_a_matrix)
 - [1819. Number of Different Subsequences GCDs](src/leetcode/p1819_number_of_different_subsequences_gcds)
 - [1825. Finding MK Average](src/leetcode/p1825_finding_mk_average)

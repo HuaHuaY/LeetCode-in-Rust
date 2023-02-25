@@ -1,4 +1,5 @@
 pub mod p1006_clumsy_factorial;
+pub mod p1024_video_stitching;
 pub mod p1047_remove_all_adjacent_duplicates_in_string;
 pub mod p10_regular_expression_matching;
 pub mod p1124_longest_well_performing_interval;
@@ -22,6 +23,7 @@ pub mod p1260_shift_2d_grid;
 pub mod p12_integer_to_roman;
 pub mod p1318_minimum_flips_to_make_a_or_b_equal_to_c;
 pub mod p131_palindrome_partitioning;
+pub mod p1326_minimum_number_of_taps_to_open_to_water_a_garden;
 pub mod p132_palindrome_partitioning_ii;
 pub mod p1331_rank_transform_of_an_array;
 pub mod p1374_generate_a_string_with_characters_that_have_odd_counts;
