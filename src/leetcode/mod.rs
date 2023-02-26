@@ -7,6 +7,7 @@ pub mod p1129_shortest_path_with_alternating_colors;
 pub mod p1138_alphabet_board_path;
 pub mod p1139_largest_1_bordered_square;
 pub mod p1140_stone_game_ii;
+pub mod p1144_decrease_elements_to_make_array_zigzag;
 pub mod p1145_binary_tree_coloring_game;
 pub mod p1161_maximum_level_sum_of_a_binary_tree;
 pub mod p1184_distance_between_bus_stops;

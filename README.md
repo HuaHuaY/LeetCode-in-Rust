@@ -45,7 +45,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2347. Best Poker Hand](src/leetcode/p2347_best_poker_hand)
 - [2357. Make Array Zero by Subtracting Equal Amounts](src/leetcode/p2357_make_array_zero_by_subtracting_equal_amounts)
 
-### Medium(79)
+### Medium(80)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -109,6 +109,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1138. Alphabet Board Path](src/leetcode/p1138_alphabet_board_path)
 - [1139. Largest 1-Bordered Square](src/leetcode/p1139_largest_1_bordered_square)
 - [1140. Stone Game II](src/leetcode/p1140_stone_game_ii)
+- [1144. Decrease Elements To Make Array Zigzag](src/leetcode/p1144_decrease_elements_to_make_array_zigzag)
 - [1145. Binary Tree Coloring Game](src/leetcode/p1145_binary_tree_coloring_game)
 - [1161. Maximum Level Sum of a Binary Tree](src/leetcode/p1161_maximum_level_sum_of_a_binary_tree)
 - [1233. Remove Sub-Folders from the Filesystem](src/leetcode/p1233_remove_sub_folders_from_the_filesystem)
