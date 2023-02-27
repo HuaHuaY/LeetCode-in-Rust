@@ -20,6 +20,7 @@ pub mod p1237_find_positive_integer_solution_for_a_given_equation;
 pub mod p1238_circular_permutation_in_binary_representation;
 pub mod p1247_minimum_swaps_to_make_strings_equal;
 pub mod p1250_check_if_it_is_a_good_array;
+pub mod p1255_maximum_score_words_formed_by_letters;
 pub mod p1260_shift_2d_grid;
 pub mod p12_integer_to_roman;
 pub mod p1318_minimum_flips_to_make_a_or_b_equal_to_c;
