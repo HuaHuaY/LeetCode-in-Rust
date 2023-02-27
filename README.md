@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(33)
+### Easy(34)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -44,6 +44,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2341. Maximum Number of Pairs in Array](src/leetcode/p2341_maximum_number_of_pairs_in_array)
 - [2347. Best Poker Hand](src/leetcode/p2347_best_poker_hand)
 - [2357. Make Array Zero by Subtracting Equal Amounts](src/leetcode/p2357_make_array_zero_by_subtracting_equal_amounts)
+- [2363. Merge Similar Items](src/leetcode/p2363_merge_similar_items)
 
 ### Medium(80)
 
