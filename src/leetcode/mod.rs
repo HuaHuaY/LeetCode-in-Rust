@@ -120,6 +120,7 @@ pub mod p57_insert_interval;
 pub mod p58_length_of_last_word;
 pub mod p59_spiral_matrix_ii;
 pub mod p5_longest_palindromic_substring;
+pub mod p60_permutation_sequence;
 pub mod p61_rotate_list;
 pub mod p6_zigzag_conversion;
 pub mod p705_design_hashset;
