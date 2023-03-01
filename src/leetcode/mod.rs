@@ -130,6 +130,7 @@ pub mod p64_minimum_path_sum;
 pub mod p65_valid_number;
 pub mod p66_plus_one;
 pub mod p67_add_binary;
+pub mod p68_text_justification;
 pub mod p69_sqrt_x;
 pub mod p6_zigzag_conversion;
 pub mod p705_design_hashset;
