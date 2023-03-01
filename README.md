@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(35)
+### Easy(38)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -22,6 +22,10 @@ Call test by running `cargo test p[xxx]_`.
 - [35. Search Insert Position](src/leetcode/p35_search_insert_position)
 - [53. Maximum Subarray](src/leetcode/p53_maximum_subarray)
 - [58. Length of Last Word](src/leetcode/p58_length_of_last_word)
+- [66. Plus One](src/leetcode/p66_plus_one)
+- [67. Add Binary](src/leetcode/p67_add_binary)
+- [69. Sqrt(x)](src/leetcode/p69_sqrt_x)
+- [70. Climbing Stairs](src/leetcode/p70_climbing_stairs)
 - [83. Remove Duplicates from Sorted List](src/leetcode/p83_remove_duplicates_from_sorted_list)
 - [190. Reverse Bits](src/leetcode/p190_reverse_bits)
 - [191. Number of 1 Bits](src/leetcode/p191_number_of_1_bits)
