@@ -33,9 +33,8 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::common::ToVecVec;
-
     use super::*;
+    use crate::common::ToVecVec;
 
     #[test]
     fn test1() {
