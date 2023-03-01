@@ -127,6 +127,7 @@ pub mod p61_rotate_list;
 pub mod p62_unique_paths;
 pub mod p63_unique_paths_ii;
 pub mod p64_minimum_path_sum;
+pub mod p65_valid_number;
 pub mod p6_zigzag_conversion;
 pub mod p705_design_hashset;
 pub mod p706_design_hashmap;

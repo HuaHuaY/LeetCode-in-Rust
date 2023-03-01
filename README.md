@@ -133,7 +133,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 
-### Hard(25)
+### Hard(26)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -148,6 +148,7 @@ Call test by running `cargo test p[xxx]_`.
 - [51. N-Queens](src/leetcode/p51_n_queens)
 - [52. N-Queens II](src/leetcode/p52_n_queens_ii)
 - [60. Permutation Sequence](src/leetcode/p60_permutation_sequence)
+- [65. Valid Number](src/leetcode/p65_valid_number)
 - [132. Palindrome Partitioning II](src/leetcode/p132_palindrome_partitioning_ii)
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
