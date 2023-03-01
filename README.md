@@ -51,7 +51,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
 - [2363. Merge Similar Items](src/leetcode/p2363_merge_similar_items)
 
-### Medium(85)
+### Medium(87)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -97,6 +97,8 @@ Call test by running `cargo test p[xxx]_`.
 - [73. Set Matrix Zeroes](src/leetcode/p73_set_matrix_zeroes)
 - [74. Search a 2D Matrix](src/leetcode/p74_search_a_2d_matrix)
 - [75. Sort Colors](src/leetcode/p75_sort_colors)
+- [77. Combinations](src/leetcode/p77_combinations)
+- [78. Subsets](src/leetcode/p78_subsets)
 - [82. Remove Duplicates from Sorted List II](src/leetcode/p82_remove_duplicates_from_sorted_list_ii)
 - [89. Gray Code](src/leetcode/p89_gray_code)
 - [131. Palindrome Partitioning](src/leetcode/p131_palindrome_partitioning)
@@ -139,7 +141,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 
-### Hard(28)
+### Hard(29)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -157,6 +159,7 @@ Call test by running `cargo test p[xxx]_`.
 - [65. Valid Number](src/leetcode/p65_valid_number)
 - [68. Text Justification](src/leetcode/p68_text_justification)
 - [72. Edit Distance](src/leetcode/p72_edit_distance)
+- [76. Minimum Window Substring](src/leetcode/p76_minimum_window_substring)
 - [132. Palindrome Partitioning II](src/leetcode/p132_palindrome_partitioning_ii)
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
