@@ -35,6 +35,7 @@ pub mod p150_evaluate_reverse_polish_notation;
 pub mod p15_3sum;
 pub mod p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period;
 pub mod p1632_rank_transform_of_a_matrix;
+pub mod p1653_minimum_deletions_to_make_string_balanced;
 pub mod p16_3sum_closest;
 pub mod p173_binary_search_tree_iterator;
 pub mod p1792_maximum_average_pass_ratio;

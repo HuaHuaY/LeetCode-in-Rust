@@ -51,7 +51,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
 - [2363. Merge Similar Items](src/leetcode/p2363_merge_similar_items)
 
-### Medium(87)
+### Medium(88)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -132,6 +132,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1247. Minimum Swaps to Make Strings Equal](src/leetcode/p1247_minimum_swaps_to_make_strings_equal)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](src/leetcode/p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period)
+- [1653. Minimum Deletions to Make String Balanced](src/leetcode/p1653_minimum_deletions_to_make_string_balanced)
 - [1792. Maximum Average Pass Ratio](src/leetcode/p1792_maximum_average_pass_ratio)
 - [1797. Design Authentication Manager](src/leetcode/p1797_design_authentication_manager)
 - [1798. Maximum Number of Consecutive Values You Can Make](src/leetcode/p1798_maximum_number_of_consecutive_values_you_can_make)
