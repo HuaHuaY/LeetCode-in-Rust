@@ -141,7 +141,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 
-### Hard(29)
+### Hard(30)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -164,6 +164,7 @@ Call test by running `cargo test p[xxx]_`.
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
 - [420. Strong Password Checker](src/leetcode/p420_strong_password_checker)
+- [982. Triples with Bitwise AND Equal To Zero](src/leetcode/p982_triples_with_bitwise_and_equal_to_zero)
 - [1210. Minimum Moves to Reach Target with Rotations](src/leetcode/p1210_minimum_moves_to_reach_target_with_rotations)
 - [1223. Dice Roll Simulation](src/leetcode/p1223_dice_roll_simulation)
 - [1250. Check If It Is a Good Array](src/leetcode/p1250_check_if_it_is_a_good_array)

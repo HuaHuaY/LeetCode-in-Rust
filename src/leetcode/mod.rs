@@ -152,4 +152,5 @@ pub mod p877_stone_game;
 pub mod p896_monotonic_array;
 pub mod p89_gray_code;
 pub mod p8_string_to_integer_atoi;
+pub mod p982_triples_with_bitwise_and_equal_to_zero;
 pub mod p9_palindrome_number;
