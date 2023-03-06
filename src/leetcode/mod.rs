@@ -147,6 +147,7 @@ pub mod p75_sort_colors;
 pub mod p76_minimum_window_substring;
 pub mod p77_combinations;
 pub mod p78_subsets;
+pub mod p79_word_search;
 pub mod p7_reverse_integer;
 pub mod p80_remove_duplicates_from_sorted_array_ii;
 pub mod p814_binary_tree_pruning;
