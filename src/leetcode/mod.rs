@@ -148,6 +148,7 @@ pub mod p76_minimum_window_substring;
 pub mod p77_combinations;
 pub mod p78_subsets;
 pub mod p7_reverse_integer;
+pub mod p80_remove_duplicates_from_sorted_array_ii;
 pub mod p814_binary_tree_pruning;
 pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p83_remove_duplicates_from_sorted_list;

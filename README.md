@@ -51,7 +51,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
 - [2363. Merge Similar Items](src/leetcode/p2363_merge_similar_items)
 
-### Medium(90)
+### Medium(91)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -99,6 +99,7 @@ Call test by running `cargo test p[xxx]_`.
 - [75. Sort Colors](src/leetcode/p75_sort_colors)
 - [77. Combinations](src/leetcode/p77_combinations)
 - [78. Subsets](src/leetcode/p78_subsets)
+- [80. Remove Duplicates from Sorted Array II](src/leetcode/p80_remove_duplicates_from_sorted_array_ii)
 - [82. Remove Duplicates from Sorted List II](src/leetcode/p82_remove_duplicates_from_sorted_list_ii)
 - [89. Gray Code](src/leetcode/p89_gray_code)
 - [131. Palindrome Partitioning](src/leetcode/p131_palindrome_partitioning)
