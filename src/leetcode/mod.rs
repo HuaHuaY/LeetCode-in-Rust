@@ -30,6 +30,7 @@ pub mod p132_palindrome_partitioning_ii;
 pub mod p1331_rank_transform_of_an_array;
 pub mod p1374_generate_a_string_with_characters_that_have_odd_counts;
 pub mod p13_roman_to_integer;
+pub mod p1487_making_file_names_unique;
 pub mod p14_longest_common_prefix;
 pub mod p150_evaluate_reverse_polish_notation;
 pub mod p1599_maximum_profit_of_operating_a_centennial_wheel;
