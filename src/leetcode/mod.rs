@@ -151,6 +151,7 @@ pub mod p79_word_search;
 pub mod p7_reverse_integer;
 pub mod p80_remove_duplicates_from_sorted_array_ii;
 pub mod p814_binary_tree_pruning;
+pub mod p81_search_in_rotated_sorted_array_ii;
 pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p877_stone_game;

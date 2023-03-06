@@ -101,6 +101,7 @@ Call test by running `cargo test p[xxx]_`.
 - [78. Subsets](src/leetcode/p78_subsets)
 - [79. Word Search](src/leetcode/p79_word_search)
 - [80. Remove Duplicates from Sorted Array II](src/leetcode/p80_remove_duplicates_from_sorted_array_ii)
+- [81. Search in Rotated Sorted Array II](src/leetcode/p81_search_in_rotated_sorted_array_ii)
 - [82. Remove Duplicates from Sorted List II](src/leetcode/p82_remove_duplicates_from_sorted_list_ii)
 - [89. Gray Code](src/leetcode/p89_gray_code)
 - [131. Palindrome Partitioning](src/leetcode/p131_palindrome_partitioning)
