@@ -147,7 +147,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 
-### Hard(31)
+### Hard(32)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -167,6 +167,7 @@ Call test by running `cargo test p[xxx]_`.
 - [72. Edit Distance](src/leetcode/p72_edit_distance)
 - [76. Minimum Window Substring](src/leetcode/p76_minimum_window_substring)
 - [84. Largest Rectangle in Histogram](src/leetcode/p84_largest_rectangle_in_histogram)
+- [85. Maximal Rectangle](src/leetcode/p85_maximal_rectangle)
 - [132. Palindrome Partitioning II](src/leetcode/p132_palindrome_partitioning_ii)
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)

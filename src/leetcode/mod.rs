@@ -155,6 +155,7 @@ pub mod p81_search_in_rotated_sorted_array_ii;
 pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p84_largest_rectangle_in_histogram;
+pub mod p85_maximal_rectangle;
 pub mod p877_stone_game;
 pub mod p896_monotonic_array;
 pub mod p89_gray_code;
