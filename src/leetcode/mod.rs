@@ -32,6 +32,7 @@ pub mod p1374_generate_a_string_with_characters_that_have_odd_counts;
 pub mod p13_roman_to_integer;
 pub mod p14_longest_common_prefix;
 pub mod p150_evaluate_reverse_polish_notation;
+pub mod p1599_maximum_profit_of_operating_a_centennial_wheel;
 pub mod p15_3sum;
 pub mod p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period;
 pub mod p1632_rank_transform_of_a_matrix;
