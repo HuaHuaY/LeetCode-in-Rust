@@ -51,7 +51,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
 - [2363. Merge Similar Items](src/leetcode/p2363_merge_similar_items)
 
-### Medium(92)
+### Medium(93)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -103,6 +103,7 @@ Call test by running `cargo test p[xxx]_`.
 - [80. Remove Duplicates from Sorted Array II](src/leetcode/p80_remove_duplicates_from_sorted_array_ii)
 - [81. Search in Rotated Sorted Array II](src/leetcode/p81_search_in_rotated_sorted_array_ii)
 - [82. Remove Duplicates from Sorted List II](src/leetcode/p82_remove_duplicates_from_sorted_list_ii)
+- [86. Partition List](src/leetcode/p86_partition_list)
 - [89. Gray Code](src/leetcode/p89_gray_code)
 - [131. Palindrome Partitioning](src/leetcode/p131_palindrome_partitioning)
 - [150. Evaluate Reverse Polish Notation](src/leetcode/p150_evaluate_reverse_polish_notation)
@@ -147,7 +148,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 
-### Hard(32)
+### Hard(33)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -173,6 +174,7 @@ Call test by running `cargo test p[xxx]_`.
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
 - [420. Strong Password Checker](src/leetcode/p420_strong_password_checker)
 - [982. Triples with Bitwise AND Equal To Zero](src/leetcode/p982_triples_with_bitwise_and_equal_to_zero)
+- [1096. Brace Expansion II](src/leetcode/p1096_brace_expansion_ii)
 - [1210. Minimum Moves to Reach Target with Rotations](src/leetcode/p1210_minimum_moves_to_reach_target_with_rotations)
 - [1223. Dice Roll Simulation](src/leetcode/p1223_dice_roll_simulation)
 - [1250. Check If It Is a Good Array](src/leetcode/p1250_check_if_it_is_a_good_array)

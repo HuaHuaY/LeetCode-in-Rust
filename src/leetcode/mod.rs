@@ -1,6 +1,7 @@
 pub mod p1006_clumsy_factorial;
 pub mod p1024_video_stitching;
 pub mod p1047_remove_all_adjacent_duplicates_in_string;
+pub mod p1096_brace_expansion_ii;
 pub mod p10_regular_expression_matching;
 pub mod p1124_longest_well_performing_interval;
 pub mod p1129_shortest_path_with_alternating_colors;
@@ -156,6 +157,7 @@ pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p84_largest_rectangle_in_histogram;
 pub mod p85_maximal_rectangle;
+pub mod p86_partition_list;
 pub mod p877_stone_game;
 pub mod p896_monotonic_array;
 pub mod p89_gray_code;
