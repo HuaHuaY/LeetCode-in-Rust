@@ -171,5 +171,6 @@ pub mod p91_decode_ways;
 pub mod p92_reverse_linked_list_ii;
 pub mod p93_restore_ip_addresses;
 pub mod p94_binary_tree_inorder_traversal;
+pub mod p95_unique_binary_search_trees_ii;
 pub mod p982_triples_with_bitwise_and_equal_to_zero;
 pub mod p9_palindrome_number;
