@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(39)
+### Easy(41)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -27,6 +27,7 @@ Call test by running `cargo test p[xxx]_`.
 - [69. Sqrt(x)](src/leetcode/p69_sqrt_x)
 - [70. Climbing Stairs](src/leetcode/p70_climbing_stairs)
 - [83. Remove Duplicates from Sorted List](src/leetcode/p83_remove_duplicates_from_sorted_list)
+- [88. Merge Sorted Array](src/leetcode/p88_merge_sorted_array)
 - [190. Reverse Bits](src/leetcode/p190_reverse_bits)
 - [191. Number of 1 Bits](src/leetcode/p191_number_of_1_bits)
 - [263. Ugly Number](src/leetcode/p263_ugly_number)
@@ -48,8 +49,9 @@ Call test by running `cargo test p[xxx]_`.
 - [2341. Maximum Number of Pairs in Array](src/leetcode/p2341_maximum_number_of_pairs_in_array)
 - [2347. Best Poker Hand](src/leetcode/p2347_best_poker_hand)
 - [2357. Make Array Zero by Subtracting Equal Amounts](src/leetcode/p2357_make_array_zero_by_subtracting_equal_amounts)
-- [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
 - [2363. Merge Similar Items](src/leetcode/p2363_merge_similar_items)
+- [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
+- [2379. Minimum Recolors to Get K Consecutive Black Blocks](src/leetcode/p2379_minimum_recolors_to_get_k_consecutive_black_blocks)
 
 ### Medium(93)
 
@@ -148,7 +150,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 
-### Hard(33)
+### Hard(34)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -169,6 +171,7 @@ Call test by running `cargo test p[xxx]_`.
 - [76. Minimum Window Substring](src/leetcode/p76_minimum_window_substring)
 - [84. Largest Rectangle in Histogram](src/leetcode/p84_largest_rectangle_in_histogram)
 - [85. Maximal Rectangle](src/leetcode/p85_maximal_rectangle)
+- [87. Scramble String](src/leetcode/p87_scramble_string)
 - [132. Palindrome Partitioning II](src/leetcode/p132_palindrome_partitioning_ii)
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
