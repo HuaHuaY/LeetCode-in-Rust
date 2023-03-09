@@ -1,4 +1,5 @@
 pub mod p1006_clumsy_factorial;
+pub mod p100_same_tree;
 pub mod p1024_video_stitching;
 pub mod p1047_remove_all_adjacent_duplicates_in_string;
 pub mod p1096_brace_expansion_ii;
