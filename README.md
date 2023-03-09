@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(41)
+### Easy(42)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -28,6 +28,7 @@ Call test by running `cargo test p[xxx]_`.
 - [70. Climbing Stairs](src/leetcode/p70_climbing_stairs)
 - [83. Remove Duplicates from Sorted List](src/leetcode/p83_remove_duplicates_from_sorted_list)
 - [88. Merge Sorted Array](src/leetcode/p88_merge_sorted_array)
+- [94. Binary Tree Inorder Traversal](src/leetcode/p94_binary_tree_inorder_traversal)
 - [190. Reverse Bits](src/leetcode/p190_reverse_bits)
 - [191. Number of 1 Bits](src/leetcode/p191_number_of_1_bits)
 - [263. Ugly Number](src/leetcode/p263_ugly_number)
@@ -53,7 +54,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](src/leetcode/p2379_minimum_recolors_to_get_k_consecutive_black_blocks)
 
-### Medium(96)
+### Medium(97)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -110,6 +111,7 @@ Call test by running `cargo test p[xxx]_`.
 - [90. Subsets II](src/leetcode/p90_subsets_ii)
 - [91. Decode Ways](src/leetcode/p91_decode_ways)
 - [92. Reverse Linked List II](src/leetcode/p92_reverse_linked_list_ii)
+- [93. Restore IP Addresses](src/leetcode/p93_restore_ip_addresses)
 - [131. Palindrome Partitioning](src/leetcode/p131_palindrome_partitioning)
 - [150. Evaluate Reverse Polish Notation](src/leetcode/p150_evaluate_reverse_polish_notation)
 - [173. Binary Search Tree Iterator](src/leetcode/p173_binary_search_tree_iterator)
