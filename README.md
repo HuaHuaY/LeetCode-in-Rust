@@ -53,7 +53,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](src/leetcode/p2379_minimum_recolors_to_get_k_consecutive_black_blocks)
 
-### Medium(93)
+### Medium(95)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -107,6 +107,8 @@ Call test by running `cargo test p[xxx]_`.
 - [82. Remove Duplicates from Sorted List II](src/leetcode/p82_remove_duplicates_from_sorted_list_ii)
 - [86. Partition List](src/leetcode/p86_partition_list)
 - [89. Gray Code](src/leetcode/p89_gray_code)
+- [90. Subsets II](src/leetcode/p90_subsets_ii)
+- [91. Decode Ways](src/leetcode/p91_decode_ways)
 - [131. Palindrome Partitioning](src/leetcode/p131_palindrome_partitioning)
 - [150. Evaluate Reverse Polish Notation](src/leetcode/p150_evaluate_reverse_polish_notation)
 - [173. Binary Search Tree Iterator](src/leetcode/p173_binary_search_tree_iterator)
