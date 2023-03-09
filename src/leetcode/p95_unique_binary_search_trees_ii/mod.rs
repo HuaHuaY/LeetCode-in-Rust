@@ -24,9 +24,6 @@ use std::rc::Rc;
 impl Solution {
     pub fn generate_trees(n: i32) -> Vec<Option<Rc<RefCell<TreeNode>>>> {
         fn generate_trees_inner(left: i32, right: i32) -> Vec<Option<Rc<RefCell<TreeNode>>>> {
-            if left == right {
-                return vec![Some(Rc::new(RefCell::new(TreeNode::new(left))))];
-            }
             let mut result = Vec::new();
             for i in left..=right {
                 let left = if i > left {
