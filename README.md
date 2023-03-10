@@ -55,7 +55,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](src/leetcode/p2379_minimum_recolors_to_get_k_consecutive_black_blocks)
 
-### Medium(100)
+### Medium(101)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -147,6 +147,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1247. Minimum Swaps to Make Strings Equal](src/leetcode/p1247_minimum_swaps_to_make_strings_equal)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1487. Making File Names Unique](src/leetcode/p1487_making_file_names_unique)
+- [1590. Make Sum Divisible by P](src/leetcode/p1590_make_sum_divisible_by_p)
 - [1599. Maximum Profit of Operating a Centennial Wheel](src/leetcode/p1599_maximum_profit_of_operating_a_centennial_wheel)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](src/leetcode/p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period)
 - [1653. Minimum Deletions to Make String Balanced](src/leetcode/p1653_minimum_deletions_to_make_string_balanced)

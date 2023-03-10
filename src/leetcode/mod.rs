@@ -35,6 +35,7 @@ pub mod p13_roman_to_integer;
 pub mod p1487_making_file_names_unique;
 pub mod p14_longest_common_prefix;
 pub mod p150_evaluate_reverse_polish_notation;
+pub mod p1590_make_sum_divisible_by_p;
 pub mod p1599_maximum_profit_of_operating_a_centennial_wheel;
 pub mod p15_3sum;
 pub mod p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period;
