@@ -76,6 +76,7 @@ pub mod p2357_make_array_zero_by_subtracting_equal_amounts;
 pub mod p2363_merge_similar_items;
 pub mod p2373_largest_local_values_in_a_matrix;
 pub mod p2379_minimum_recolors_to_get_k_consecutive_black_blocks;
+pub mod p2383_minimum_hours_of_training_to_win_a_competition;
 pub mod p23_merge_k_sorted_lists;
 pub mod p24_swap_nodes_in_pairs;
 pub mod p25_reverse_nodes_in_k_group;

@@ -9,7 +9,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(43)
+### Easy(44)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -54,6 +54,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2363. Merge Similar Items](src/leetcode/p2363_merge_similar_items)
 - [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](src/leetcode/p2379_minimum_recolors_to_get_k_consecutive_black_blocks)
+- [2383. Minimum Hours of Training to Win a Competition](src/leetcode/p2383_minimum_hours_of_training_to_win_a_competition)
 
 ### Medium(103)
 
