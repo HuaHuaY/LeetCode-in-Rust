@@ -56,7 +56,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](src/leetcode/p2379_minimum_recolors_to_get_k_consecutive_black_blocks)
 - [2383. Minimum Hours of Training to Win a Competition](src/leetcode/p2383_minimum_hours_of_training_to_win_a_competition)
 
-### Medium(103)
+### Medium(104)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -153,6 +153,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1590. Make Sum Divisible by P](src/leetcode/p1590_make_sum_divisible_by_p)
 - [1599. Maximum Profit of Operating a Centennial Wheel](src/leetcode/p1599_maximum_profit_of_operating_a_centennial_wheel)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](src/leetcode/p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period)
+- [1605. Find Valid Matrix Given Row and Column Sums](src/leetcode/p1605_find_valid_matrix_given_row_and_column_sums)
 - [1653. Minimum Deletions to Make String Balanced](src/leetcode/p1653_minimum_deletions_to_make_string_balanced)
 - [1792. Maximum Average Pass Ratio](src/leetcode/p1792_maximum_average_pass_ratio)
 - [1797. Design Authentication Manager](src/leetcode/p1797_design_authentication_manager)
