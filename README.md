@@ -165,7 +165,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 
-### Hard(35)
+### Hard(36)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -202,3 +202,4 @@ Call test by running `cargo test p[xxx]_`.
 - [1632. Rank Transform of a Matrix](src/leetcode/p1632_rank_transform_of_a_matrix)
 - [1819. Number of Different Subsequences GCDs](src/leetcode/p1819_number_of_different_subsequences_gcds)
 - [1825. Finding MK Average](src/leetcode/p1825_finding_mk_average)
+- [2488. Count Subarrays With Median K](src/leetcode/p2488_count_subarrays_with_median_k)
