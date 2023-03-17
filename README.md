@@ -56,7 +56,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2383. Minimum Hours of Training to Win a Competition](src/leetcode/p2383_minimum_hours_of_training_to_win_a_competition)
 - [2389. Longest Subsequence With Limited Sum](src/leetcode/p2389_longest_subsequence_with_limited_sum)
 
-### Medium(108)
+### Medium(109)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -156,6 +156,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](src/leetcode/p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period)
 - [1605. Find Valid Matrix Given Row and Column Sums](src/leetcode/p1605_find_valid_matrix_given_row_and_column_sums)
 - [1615. Maximal Network Rank](src/leetcode/p1615_maximal_network_rank)
+- [1616. Split Two Strings to Make Palindrome](src/leetcode/p1616_split_two_strings_to_make_palindrome)
 - [1653. Minimum Deletions to Make String Balanced](src/leetcode/p1653_minimum_deletions_to_make_string_balanced)
 - [1792. Maximum Average Pass Ratio](src/leetcode/p1792_maximum_average_pass_ratio)
 - [1797. Design Authentication Manager](src/leetcode/p1797_design_authentication_manager)
