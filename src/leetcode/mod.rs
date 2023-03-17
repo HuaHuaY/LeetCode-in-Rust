@@ -83,6 +83,7 @@ pub mod p2380_time_needed_to_rearrange_a_binary_string;
 pub mod p2383_minimum_hours_of_training_to_win_a_competition;
 pub mod p2389_longest_subsequence_with_limited_sum;
 pub mod p23_merge_k_sorted_lists;
+pub mod p2428_maximum_sum_of_an_hourglass;
 pub mod p2488_count_subarrays_with_median_k;
 pub mod p24_swap_nodes_in_pairs;
 pub mod p25_reverse_nodes_in_k_group;

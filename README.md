@@ -57,7 +57,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2383. Minimum Hours of Training to Win a Competition](src/leetcode/p2383_minimum_hours_of_training_to_win_a_competition)
 - [2389. Longest Subsequence With Limited Sum](src/leetcode/p2389_longest_subsequence_with_limited_sum)
 
-### Medium(107)
+### Medium(108)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -167,6 +167,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 - [2380. Time Needed to Rearrange a Binary String](src/leetcode/p2380_time_needed_to_rearrange_a_binary_string)
+- [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 
 ### Hard(36)
 
