@@ -44,6 +44,7 @@ pub mod p1605_find_valid_matrix_given_row_and_column_sums;
 pub mod p1615_maximal_network_rank;
 pub mod p1616_split_two_strings_to_make_palindrome;
 pub mod p1617_count_subtrees_with_max_distance_between_cities;
+pub mod p1625_lexicographically_smallest_string_after_applying_operations;
 pub mod p1632_rank_transform_of_a_matrix;
 pub mod p1653_minimum_deletions_to_make_string_balanced;
 pub mod p16_3sum_closest;
