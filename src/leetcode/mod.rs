@@ -47,6 +47,7 @@ pub mod p1616_split_two_strings_to_make_palindrome;
 pub mod p1617_count_subtrees_with_max_distance_between_cities;
 pub mod p1625_lexicographically_smallest_string_after_applying_operations;
 pub mod p1626_best_team_with_no_conflicts;
+pub mod p1630_arithmetic_subarrays;
 pub mod p1632_rank_transform_of_a_matrix;
 pub mod p1653_minimum_deletions_to_make_string_balanced;
 pub mod p165_compare_version_numbers;

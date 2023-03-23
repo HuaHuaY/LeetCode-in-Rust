@@ -57,7 +57,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2389. Longest Subsequence With Limited Sum](src/leetcode/p2389_longest_subsequence_with_limited_sum)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
-### Medium(112)
+### Medium(113)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -161,6 +161,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1616. Split Two Strings to Make Palindrome](src/leetcode/p1616_split_two_strings_to_make_palindrome)
 - [1625. Lexicographically Smallest String After Applying Operations](src/leetcode/p1625_lexicographically_smallest_string_after_applying_operations)
 - [1626. Best Team With No Conflicts](src/leetcode/p1626_best_team_with_no_conflicts)
+- [1630. Arithmetic Subarrays](src/leetcode/p1630_arithmetic_subarrays)
 - [1653. Minimum Deletions to Make String Balanced](src/leetcode/p1653_minimum_deletions_to_make_string_balanced)
 - [1792. Maximum Average Pass Ratio](src/leetcode/p1792_maximum_average_pass_ratio)
 - [1797. Design Authentication Manager](src/leetcode/p1797_design_authentication_manager)
