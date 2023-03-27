@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(47)
+### Easy(48)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -55,9 +55,10 @@ Call test by running `cargo test p[xxx]_`.
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](src/leetcode/p2379_minimum_recolors_to_get_k_consecutive_black_blocks)
 - [2383. Minimum Hours of Training to Win a Competition](src/leetcode/p2383_minimum_hours_of_training_to_win_a_competition)
 - [2389. Longest Subsequence With Limited Sum](src/leetcode/p2389_longest_subsequence_with_limited_sum)
+- [2395. Find Subarrays With Equal Sum](src/leetcode/p2395_find_subarrays_with_equal_sum)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
-### Medium(113)
+### Medium(115)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -153,6 +154,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1247. Minimum Swaps to Make Strings Equal](src/leetcode/p1247_minimum_swaps_to_make_strings_equal)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1487. Making File Names Unique](src/leetcode/p1487_making_file_names_unique)
+- [1574. Shortest Subarray to be Removed to Make Array Sorted](src/leetcode/p1574_shortest_subarray_to_be_removed_to_make_array_sorted)
 - [1590. Make Sum Divisible by P](src/leetcode/p1590_make_sum_divisible_by_p)
 - [1599. Maximum Profit of Operating a Centennial Wheel](src/leetcode/p1599_maximum_profit_of_operating_a_centennial_wheel)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](src/leetcode/p1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period)
@@ -162,6 +164,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1625. Lexicographically Smallest String After Applying Operations](src/leetcode/p1625_lexicographically_smallest_string_after_applying_operations)
 - [1626. Best Team With No Conflicts](src/leetcode/p1626_best_team_with_no_conflicts)
 - [1630. Arithmetic Subarrays](src/leetcode/p1630_arithmetic_subarrays)
+- [1638. Count Substrings That Differ by One Character](src/leetcode/p1638_count_substrings_that_differ_by_one_character)
 - [1653. Minimum Deletions to Make String Balanced](src/leetcode/p1653_minimum_deletions_to_make_string_balanced)
 - [1792. Maximum Average Pass Ratio](src/leetcode/p1792_maximum_average_pass_ratio)
 - [1797. Design Authentication Manager](src/leetcode/p1797_design_authentication_manager)
