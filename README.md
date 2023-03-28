@@ -177,7 +177,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2380. Time Needed to Rearrange a Binary String](src/leetcode/p2380_time_needed_to_rearrange_a_binary_string)
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 
-### Hard(37)
+### Hard(38)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -205,6 +205,7 @@ Call test by running `cargo test p[xxx]_`.
 - [420. Strong Password Checker](src/leetcode/p420_strong_password_checker)
 - [982. Triples with Bitwise AND Equal To Zero](src/leetcode/p982_triples_with_bitwise_and_equal_to_zero)
 - [1012. Numbers With Repeated Digits](src/leetcode/p1012_numbers_with_repeated_digits)
+- [1092. Shortest Common Supersequence ](src/leetcode/p1092_shortest_common_supersequence)
 - [1096. Brace Expansion II](src/leetcode/p1096_brace_expansion_ii)
 - [1210. Minimum Moves to Reach Target with Rotations](src/leetcode/p1210_minimum_moves_to_reach_target_with_rotations)
 - [1223. Dice Roll Simulation](src/leetcode/p1223_dice_roll_simulation)

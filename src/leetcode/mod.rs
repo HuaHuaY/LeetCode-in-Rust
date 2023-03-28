@@ -3,6 +3,7 @@ pub mod p100_same_tree;
 pub mod p1012_numbers_with_repeated_digits;
 pub mod p1024_video_stitching;
 pub mod p1047_remove_all_adjacent_duplicates_in_string;
+pub mod p1092_shortest_common_supersequence;
 pub mod p1096_brace_expansion_ii;
 pub mod p10_regular_expression_matching;
 pub mod p1124_longest_well_performing_interval;
