@@ -53,6 +53,7 @@ pub mod p1626_best_team_with_no_conflicts;
 pub mod p1630_arithmetic_subarrays;
 pub mod p1632_rank_transform_of_a_matrix;
 pub mod p1638_count_substrings_that_differ_by_one_character;
+pub mod p1641_count_sorted_vowel_strings;
 pub mod p1653_minimum_deletions_to_make_string_balanced;
 pub mod p165_compare_version_numbers;
 pub mod p16_3sum_closest;
