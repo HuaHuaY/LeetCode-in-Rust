@@ -52,6 +52,7 @@ pub mod p1625_lexicographically_smallest_string_after_applying_operations;
 pub mod p1626_best_team_with_no_conflicts;
 pub mod p1630_arithmetic_subarrays;
 pub mod p1632_rank_transform_of_a_matrix;
+pub mod p1637_widest_vertical_area_between_two_points_containing_no_points;
 pub mod p1638_count_substrings_that_differ_by_one_character;
 pub mod p1641_count_sorted_vowel_strings;
 pub mod p1653_minimum_deletions_to_make_string_balanced;
