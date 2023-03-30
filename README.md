@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(48)
+### Easy(49)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -51,6 +51,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2347. Best Poker Hand](src/leetcode/p2347_best_poker_hand)
 - [2357. Make Array Zero by Subtracting Equal Amounts](src/leetcode/p2357_make_array_zero_by_subtracting_equal_amounts)
 - [2363. Merge Similar Items](src/leetcode/p2363_merge_similar_items)
+- [2367. Number of Arithmetic Triplets](src/leetcode/p2367_number_of_arithmetic_triplets)
 - [2373. Largest Local Values in a Matrix](src/leetcode/p2373_largest_local_values_in_a_matrix)
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](src/leetcode/p2379_minimum_recolors_to_get_k_consecutive_black_blocks)
 - [2383. Minimum Hours of Training to Win a Competition](src/leetcode/p2383_minimum_hours_of_training_to_win_a_competition)

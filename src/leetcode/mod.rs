@@ -90,6 +90,7 @@ pub mod p2341_maximum_number_of_pairs_in_array;
 pub mod p2347_best_poker_hand;
 pub mod p2357_make_array_zero_by_subtracting_equal_amounts;
 pub mod p2363_merge_similar_items;
+pub mod p2367_number_of_arithmetic_triplets;
 pub mod p2373_largest_local_values_in_a_matrix;
 pub mod p2379_minimum_recolors_to_get_k_consecutive_black_blocks;
 pub mod p2380_time_needed_to_rearrange_a_binary_string;
