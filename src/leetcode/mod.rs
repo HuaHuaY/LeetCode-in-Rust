@@ -182,6 +182,7 @@ pub mod p80_remove_duplicates_from_sorted_array_ii;
 pub mod p814_binary_tree_pruning;
 pub mod p81_search_in_rotated_sorted_array_ii;
 pub mod p82_remove_duplicates_from_sorted_list_ii;
+pub mod p831_masking_personal_information;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p84_largest_rectangle_in_histogram;
 pub mod p85_maximal_rectangle;

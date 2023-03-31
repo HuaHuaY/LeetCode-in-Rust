@@ -59,7 +59,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2395. Find Subarrays With Equal Sum](src/leetcode/p2395_find_subarrays_with_equal_sum)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
-### Medium(117)
+### Medium(118)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -137,6 +137,7 @@ Call test by running `cargo test p[xxx]_`.
 - [503. Next Greater Element II](src/leetcode/p503_next_greater_element_ii)
 - [556. Next Greater Element III](src/leetcode/p556_next_greater_element_iii)
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
+- [831. Masking Personal Information](src/leetcode/p831_masking_personal_information)
 - [877. Stone Game](src/leetcode/p877_stone_game)
 - [1006. Clumsy Factorial](src/leetcode/p1006_clumsy_factorial)
 - [1024. Video Stitching](src/leetcode/p1024_video_stitching)
