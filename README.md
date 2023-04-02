@@ -59,7 +59,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2395. Find Subarrays With Equal Sum](src/leetcode/p2395_find_subarrays_with_equal_sum)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
-### Medium(118)
+### Medium(120)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -141,6 +141,8 @@ Call test by running `cargo test p[xxx]_`.
 - [877. Stone Game](src/leetcode/p877_stone_game)
 - [1006. Clumsy Factorial](src/leetcode/p1006_clumsy_factorial)
 - [1024. Video Stitching](src/leetcode/p1024_video_stitching)
+- [1039. Minimum Score Triangulation of Polygon](src/leetcode/p1039_minimum_score_triangulation_of_polygon)
+- [1053. Previous Permutation With One Swap](src/leetcode/p1053_previous_permutation_with_one_swap)
 - [1124. Longest Well-Performing Interval](src/leetcode/p1124_longest_well_performing_interval)
 - [1129. Shortest Path with Alternating Colors](src/leetcode/p1129_shortest_path_with_alternating_colors)
 - [1138. Alphabet Board Path](src/leetcode/p1138_alphabet_board_path)
