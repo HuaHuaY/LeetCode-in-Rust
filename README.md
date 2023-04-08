@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(50)
+### Easy(51)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -57,6 +57,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2383. Minimum Hours of Training to Win a Competition](src/leetcode/p2383_minimum_hours_of_training_to_win_a_competition)
 - [2389. Longest Subsequence With Limited Sum](src/leetcode/p2389_longest_subsequence_with_limited_sum)
 - [2395. Find Subarrays With Equal Sum](src/leetcode/p2395_find_subarrays_with_equal_sum)
+- [2399. Check Distances Between Same Letters](src/leetcode/p2399_check_distances_between_same_letters)
 - [2427. Number of Common Factors](src/leetcode/p2427_number_of_common_factors)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
