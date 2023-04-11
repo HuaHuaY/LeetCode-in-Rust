@@ -13,3 +13,10 @@ where
         self.into_iter().map(|e| e.to_vec_string()).collect()
     }
 }
+
+#[macro_export]
+macro_rules! vec_vec_string {
+    [$([$($e:expr), *]), *] => {
+        vec![$(vec![$($e.into()), *]), *]
+    };
+}
