@@ -22,6 +22,7 @@ pub mod p1139_largest_1_bordered_square;
 pub mod p1140_stone_game_ii;
 pub mod p1144_decrease_elements_to_make_array_zigzag;
 pub mod p1145_binary_tree_coloring_game;
+pub mod p1147_longest_chunked_palindrome_decomposition;
 pub mod p1161_maximum_level_sum_of_a_binary_tree;
 pub mod p1184_distance_between_bus_stops;
 pub mod p11_container_with_most_water;
