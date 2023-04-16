@@ -10,6 +10,7 @@ pub mod p1032_stream_of_characters;
 pub mod p1039_minimum_score_triangulation_of_polygon;
 pub mod p1040_moving_stones_until_consecutive_ii;
 pub mod p1041_robot_bounded_in_circle;
+pub mod p1042_flower_planting_with_no_adjacent;
 pub mod p1047_remove_all_adjacent_duplicates_in_string;
 pub mod p1053_previous_permutation_with_one_swap;
 pub mod p1092_shortest_common_supersequence;

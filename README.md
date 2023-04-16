@@ -62,7 +62,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2427. Number of Common Factors](src/leetcode/p2427_number_of_common_factors)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
-### Medium(125)
+### Medium(126)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -150,6 +150,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1039. Minimum Score Triangulation of Polygon](src/leetcode/p1039_minimum_score_triangulation_of_polygon)
 - [1040. Moving Stones Until Consecutive II](src/leetcode/p1040_moving_stones_until_consecutive_ii)
 - [1041. Robot Bounded In Circle](src/leetcode/p1041_robot_bounded_in_circle)
+- [1042. Flower Planting With No Adjacent](src/leetcode/p1042_flower_planting_with_no_adjacent)
 - [1053. Previous Permutation With One Swap](src/leetcode/p1053_previous_permutation_with_one_swap)
 - [1124. Longest Well-Performing Interval](src/leetcode/p1124_longest_well_performing_interval)
 - [1125. Smallest Sufficient Team](src/leetcode/p1125_smallest_sufficient_team)
