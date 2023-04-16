@@ -13,12 +13,13 @@ impl Solution {
             for &j in &path[i] {
                 used[answer[j] as usize] = true;
             }
-            for j in 1..5 {
-                if !used[j] {
-                    answer[i] = j as i32;
-                    break;
-                }
-            }
+            answer[i] = used
+                .into_iter()
+                .enumerate()
+                .skip(1)
+                .find(|(_, b)| !*b)
+                .unwrap()
+                .0 as i32;
         }
         answer
     }

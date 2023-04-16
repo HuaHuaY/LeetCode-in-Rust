@@ -68,6 +68,7 @@ pub mod p1638_count_substrings_that_differ_by_one_character;
 pub mod p1641_count_sorted_vowel_strings;
 pub mod p1653_minimum_deletions_to_make_string_balanced;
 pub mod p165_compare_version_numbers;
+pub mod p169_majority_element;
 pub mod p16_3sum_closest;
 pub mod p173_binary_search_tree_iterator;
 pub mod p1792_maximum_average_pass_ratio;
