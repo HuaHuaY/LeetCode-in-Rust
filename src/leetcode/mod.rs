@@ -112,6 +112,7 @@ pub mod p2395_find_subarrays_with_equal_sum;
 pub mod p2399_check_distances_between_same_letters;
 pub mod p23_merge_k_sorted_lists;
 pub mod p2404_most_frequent_even_element;
+pub mod p2409_count_days_spent_together;
 pub mod p2427_number_of_common_factors;
 pub mod p2428_maximum_sum_of_an_hourglass;
 pub mod p2469_convert_the_temperature;
