@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(54)
+### Easy(56)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -61,6 +61,8 @@ Call test by running `cargo test p[xxx]_`.
 - [2399. Check Distances Between Same Letters](src/leetcode/p2399_check_distances_between_same_letters)
 - [2404. Most Frequent Even Element](src/leetcode/p2404_most_frequent_even_element)
 - [2409. Count Days Spent Together](src/leetcode/p2409_count_days_spent_together)
+- [2413. Smallest Even Multiple](src/leetcode/p2413_smallest_even_multiple)
+- [2418. Sort the People](src/leetcode/p2418_sort_the_people)
 - [2427. Number of Common Factors](src/leetcode/p2427_number_of_common_factors)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
