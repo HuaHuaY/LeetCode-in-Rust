@@ -221,6 +221,7 @@ pub mod p93_restore_ip_addresses;
 pub mod p94_binary_tree_inorder_traversal;
 pub mod p95_unique_binary_search_trees_ii;
 pub mod p96_unique_binary_search_trees;
+pub mod p970_powerful_integers;
 pub mod p97_interleaving_string;
 pub mod p982_triples_with_bitwise_and_equal_to_zero;
 pub mod p98_validate_binary_search_tree;
