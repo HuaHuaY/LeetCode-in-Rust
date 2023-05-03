@@ -1,4 +1,5 @@
 pub mod p1000_minimum_cost_to_merge_stones;
+pub mod p1003_check_if_word_is_valid_after_substitutions;
 pub mod p1006_clumsy_factorial;
 pub mod p100_same_tree;
 pub mod p1012_numbers_with_repeated_digits;

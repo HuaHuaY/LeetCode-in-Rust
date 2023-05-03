@@ -66,7 +66,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2427. Number of Common Factors](src/leetcode/p2427_number_of_common_factors)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
-### Medium(128)
+### Medium(129)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -147,6 +147,7 @@ Call test by running `cargo test p[xxx]_`.
 - [831. Masking Personal Information](src/leetcode/p831_masking_personal_information)
 - [877. Stone Game](src/leetcode/p877_stone_game)
 - [1006. Clumsy Factorial](src/leetcode/p1006_clumsy_factorial)
+- [1003. Check If Word Is Valid After Substitutions](src/leetcode/p1003_check_if_word_is_valid_after_substitutions)
 - [1017. Convert to Base -2](src/leetcode/p1017_convert_to_base_n2)
 - [1019. Next Greater Node In Linked List](src/leetcode/p1019_next_greater_node_in_linked_list)
 - [1023. Camelcase Matching](src/leetcode/p1023_camelcase_matching)
