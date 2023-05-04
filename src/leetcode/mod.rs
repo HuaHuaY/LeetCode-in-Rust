@@ -120,6 +120,7 @@ pub mod p2413_smallest_even_multiple;
 pub mod p2418_sort_the_people;
 pub mod p2427_number_of_common_factors;
 pub mod p2428_maximum_sum_of_an_hourglass;
+pub mod p2432_the_employee_that_worked_on_the_longest_task;
 pub mod p2469_convert_the_temperature;
 pub mod p2488_count_subarrays_with_median_k;
 pub mod p24_swap_nodes_in_pairs;
