@@ -67,7 +67,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2432. The Employee That Worked on the Longest Task](src/leetcode/p2432_the_employee_that_worked_on_the_longest_task)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
-### Medium(132)
+### Medium(133)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -177,6 +177,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1238. Circular Permutation in Binary Representation](src/leetcode/p1238_circular_permutation_in_binary_representation)
 - [1247. Minimum Swaps to Make Strings Equal](src/leetcode/p1247_minimum_swaps_to_make_strings_equal)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
+- [1376. Time Needed to Inform All Employees](src/leetcode/p1376_time_needed_to_inform_all_employees)
 - [1419. Minimum Number of Frogs Croaking](src/leetcode/p1419_minimum_number_of_frogs_croaking)
 - [1487. Making File Names Unique](src/leetcode/p1487_making_file_names_unique)
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](src/leetcode/p1574_shortest_subarray_to_be_removed_to_make_array_sorted)

@@ -49,6 +49,7 @@ pub mod p1326_minimum_number_of_taps_to_open_to_water_a_garden;
 pub mod p132_palindrome_partitioning_ii;
 pub mod p1331_rank_transform_of_an_array;
 pub mod p1374_generate_a_string_with_characters_that_have_odd_counts;
+pub mod p1376_time_needed_to_inform_all_employees;
 pub mod p13_roman_to_integer;
 pub mod p1419_minimum_number_of_frogs_croaking;
 pub mod p1450_number_of_students_doing_homework_at_a_given_time;
