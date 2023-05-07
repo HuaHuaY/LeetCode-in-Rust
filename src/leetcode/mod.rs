@@ -49,6 +49,7 @@ pub mod p132_palindrome_partitioning_ii;
 pub mod p1331_rank_transform_of_an_array;
 pub mod p1374_generate_a_string_with_characters_that_have_odd_counts;
 pub mod p13_roman_to_integer;
+pub mod p1419_minimum_number_of_frogs_croaking;
 pub mod p1450_number_of_students_doing_homework_at_a_given_time;
 pub mod p1487_making_file_names_unique;
 pub mod p14_longest_common_prefix;
