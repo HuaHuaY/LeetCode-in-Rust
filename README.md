@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(57)
+### Easy(58)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -65,6 +65,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2418. Sort the People](src/leetcode/p2418_sort_the_people)
 - [2427. Number of Common Factors](src/leetcode/p2427_number_of_common_factors)
 - [2432. The Employee That Worked on the Longest Task](src/leetcode/p2432_the_employee_that_worked_on_the_longest_task)
+- [2437. Number of Valid Clock Times](src/leetcode/p2437_number_of_valid_clock_times)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
 ### Medium(133)
