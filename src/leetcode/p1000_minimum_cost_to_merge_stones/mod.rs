@@ -59,14 +59,7 @@ impl Solution {
             pre_sum[i] = sum;
             cache[i][i][1] = 0;
         }
-        dfs(
-            &mut cache,
-            0,
-            stones.len() - 1,
-            &pre_sum,
-            k as usize,
-            1,
-        )
+        dfs(&mut cache, 0, stones.len() - 1, &pre_sum, k as usize, 1)
     }
 }
 

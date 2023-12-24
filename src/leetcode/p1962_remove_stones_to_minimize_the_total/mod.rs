@@ -24,11 +24,11 @@ mod tests {
 
     #[test]
     fn test1() {
-        assert_eq!(Solution::min_stone_sum([5,4,9].to_vec(), 2), 12);
+        assert_eq!(Solution::min_stone_sum([5, 4, 9].to_vec(), 2), 12);
     }
 
     #[test]
     fn test2() {
-        assert_eq!(Solution::min_stone_sum([4,3,6,7].to_vec(), 3), 12);
+        assert_eq!(Solution::min_stone_sum([4, 3, 6, 7].to_vec(), 3), 12);
     }
 }
