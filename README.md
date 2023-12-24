@@ -71,7 +71,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2460. Apply Operations to an Array](src/leetcode/p2460_apply_operations_to_an_array)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
 
-### Medium(133)
+### Medium(134)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -206,6 +206,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1814. Count Nice Pairs in an Array](src/leetcode/p1814_count_nice_pairs_in_an_array)
 - [1817. Finding the Users Active Minutes](src/leetcode/p1817_finding_the_users_active_minutes)
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
+- [1962. Remove Stones to Minimize the Total](src/leetcode/p1962_remove_stones_to_minimize_the_total)
 - [2380. Time Needed to Rearrange a Binary String](src/leetcode/p2380_time_needed_to_rearrange_a_binary_string)
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 

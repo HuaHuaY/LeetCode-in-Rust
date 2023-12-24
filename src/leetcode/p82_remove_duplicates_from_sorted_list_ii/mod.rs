@@ -18,7 +18,7 @@ impl Solution {
     pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut head = ListNode { val: 0, next: head };
         let mut p = &mut head;
-        while let Some(mut p_next) = p.next.as_mut() {
+        while let Some(p_next) = p.next.as_mut() {
             if p_next.next.as_mut().is_some() {
                 if p_next.val == p_next.next.as_ref().unwrap().val {
                     while let Some(p_next_next) = p_next.next.as_mut() {
