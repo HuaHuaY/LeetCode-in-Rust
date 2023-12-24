@@ -91,6 +91,7 @@ pub mod p1828_queries_on_number_of_points_inside_a_circle;
 pub mod p18_4sum;
 pub mod p190_reverse_bits;
 pub mod p191_number_of_1_bits;
+pub mod p1954_minimum_garden_perimeter_to_collect_enough_apples;
 pub mod p1962_remove_stones_to_minimize_the_total;
 pub mod p19_remove_nth_node_from_end_of_list;
 pub mod p1_two_sum;
