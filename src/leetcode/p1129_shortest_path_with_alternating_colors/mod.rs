@@ -48,7 +48,7 @@ impl Solution {
         let red = bfs(&nodes, true);
         let blue = bfs(&nodes, false);
         red.into_iter()
-            .zip(blue.into_iter())
+            .zip(blue)
             .map(|(r, b)| {
                 let min = r.min(b);
                 if min == nodes.len() * 2 {

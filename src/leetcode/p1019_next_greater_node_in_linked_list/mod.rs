@@ -23,7 +23,7 @@ impl Solution {
             head = node.next.take();
             result.push(0);
             while let Some(last) = stack.last() {
-                if (*last).1 < node.val {
+                if last.1 < node.val {
                     result[last.0] = node.val;
                     stack.pop();
                 } else {

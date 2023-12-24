@@ -7,7 +7,7 @@ impl Solution {
         let len = items1.len() + items2.len();
         let mut vec = items1
             .into_iter()
-            .chain(items2.into_iter())
+            .chain(items2)
             .fold(HashMap::with_capacity(len), |mut map, item| {
                 map.entry(item[0])
                     .and_modify(|e| *e += item[1])

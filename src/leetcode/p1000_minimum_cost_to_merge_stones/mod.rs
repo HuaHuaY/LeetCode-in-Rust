@@ -6,7 +6,6 @@ impl Solution {
             cache: &mut [Vec<Vec<i32>>],
             i: usize,
             j: usize,
-            stones: &[i32],
             pre_sum: &[i32],
             k: usize,
             t: usize,
@@ -21,7 +20,7 @@ impl Solution {
             }
 
             if t == 1 {
-                let remain = dfs(cache, i, j, stones, pre_sum, k, k);
+                let remain = dfs(cache, i, j, pre_sum, k, k);
                 if remain != i32::MAX {
                     cache[i][j][1] = remain
                         + if i == 0 {
@@ -38,8 +37,8 @@ impl Solution {
 
             let mut result = i32::MAX;
             for p in (i..j).step_by(k - 1) {
-                let left = dfs(cache, i, p, stones, pre_sum, k, 1);
-                let right = dfs(cache, p + 1, j, stones, pre_sum, k, t - 1);
+                let left = dfs(cache, i, p, pre_sum, k, 1);
+                let right = dfs(cache, p + 1, j, pre_sum, k, t - 1);
                 if left != i32::MAX && right != i32::MAX {
                     result = result.min(left + right);
                 }
@@ -64,7 +63,6 @@ impl Solution {
             &mut cache,
             0,
             stones.len() - 1,
-            &stones,
             &pre_sum,
             k as usize,
             1,

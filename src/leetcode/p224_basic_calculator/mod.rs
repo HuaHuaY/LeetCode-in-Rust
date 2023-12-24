@@ -14,7 +14,7 @@ impl Solution {
             }
 
             if !n.is_ascii_digit() || i == s.len() - 1 {
-                result += opt * num as i32;
+                result += opt * num;
                 num = 0;
                 match n {
                     b'+' => opt = *brackets_stack.last_mut().unwrap(),

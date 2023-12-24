@@ -11,7 +11,7 @@ impl Solution {
                 has_lower = true;
             } else if c.is_uppercase() {
                 has_upper = true;
-            } else if c.is_digit(10) {
+            } else if c.is_ascii_digit() {
                 has_digit = true;
             }
         }

@@ -12,7 +12,7 @@ impl Solution {
                 return false;
             }
             for c in s[i..].iter() {
-                if !c.is_digit(10) {
+                if !c.is_ascii_digit() {
                     return false;
                 }
             }
@@ -31,12 +31,12 @@ impl Solution {
                 return false;
             }
             for c in dot_split[0] {
-                if !c.is_digit(10) {
+                if !c.is_ascii_digit() {
                     return false;
                 }
             }
             for c in dot_split[1] {
-                if !c.is_digit(10) {
+                if !c.is_ascii_digit() {
                     return false;
                 }
             }

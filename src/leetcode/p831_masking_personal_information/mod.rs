@@ -6,7 +6,7 @@ impl Solution {
             let s = s
                 .chars()
                 .map(|c| {
-                    if ('A'..='Z').contains(&c) {
+                    if c.is_ascii_uppercase() {
                         (c as u8 - b'A' + b'a') as char
                     } else {
                         c
@@ -22,7 +22,7 @@ impl Solution {
                 split[1]
             )
         } else {
-            let s = s.chars().filter(|c| c.is_digit(10)).collect::<String>();
+            let s = s.chars().filter(|c| c.is_ascii_digit()).collect::<String>();
             let len = s.len();
             let pre = match len {
                 10 => "",

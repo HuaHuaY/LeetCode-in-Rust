@@ -54,7 +54,8 @@ impl Solution {
             .flat_map(|(i, row)| {
                 row.iter()
                     .enumerate()
-                    .filter_map(|(j, c)| (*c == chars[0]).then(|| (i, j)))
+                    .filter(|&(_, c)| (*c == chars[0]))
+                    .map(|(j, _)| (i, j))
                     .collect::<Vec<_>>()
             })
             .any(|(i, j)| dfs(&board, &mut visited, i, j, 0, &chars))

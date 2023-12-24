@@ -9,7 +9,7 @@ impl Solution {
             if cache[i] != -1 {
                 continue;
             }
-            stack.push(i as usize);
+            stack.push(i);
             let mut mentor = manager[i] as usize;
             while cache[mentor] == -1 {
                 stack.push(mentor);

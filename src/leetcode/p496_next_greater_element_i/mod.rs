@@ -13,8 +13,8 @@ impl Solution {
             }
             monotonic_stack.push(i);
         }
-        while !monotonic_stack.is_empty() {
-            results_map.insert(monotonic_stack.pop().unwrap(), -1);
+        while let Some(e) = monotonic_stack.pop() {
+            results_map.insert(e, -1);
         }
 
         let mut result = Vec::with_capacity(nums1.len());

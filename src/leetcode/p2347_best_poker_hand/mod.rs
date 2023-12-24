@@ -9,7 +9,7 @@ impl Solution {
         let mut count = [0; 13];
         ranks.into_iter().for_each(|e| count[e as usize - 1] += 1);
         match count.iter().max().unwrap() {
-            5 | 4 | 3 => "Three of a Kind".to_string(),
+            3..=5 => "Three of a Kind".to_string(),
             2 => "Pair".to_string(),
             1 => "High Card".to_string(),
             _ => unreachable!(),

@@ -12,7 +12,7 @@ impl Solution {
         }
         left_b
             .into_iter()
-            .zip(right_a.into_iter())
+            .zip(right_a)
             .map(|(b, a)| b + a)
             .min()
             .unwrap()

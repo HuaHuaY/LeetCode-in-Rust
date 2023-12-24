@@ -10,14 +10,13 @@ impl Solution {
 
         Solution::generate_parenthesis(n - 1)
             .into_iter()
-            .map(|str| {
+            .flat_map(|str| {
                 let mut result = vec![];
                 for i in 0..str.len() {
                     result.push(format!("{}(){}", &str[0..i], &str[i..]));
                 }
                 result
             })
-            .flatten()
             .collect::<HashSet<_>>()
             .into_iter()
             .collect()

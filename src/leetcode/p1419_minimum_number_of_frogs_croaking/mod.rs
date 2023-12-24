@@ -2,7 +2,7 @@ pub struct Solution;
 
 impl Solution {
     pub fn min_number_of_frogs(croak_of_frogs: String) -> i32 {
-        let mut slots = vec![0; 4];
+        let mut slots = [0; 4];
         let mut count = 0;
         let mut max = 0;
         for c in croak_of_frogs.chars() {

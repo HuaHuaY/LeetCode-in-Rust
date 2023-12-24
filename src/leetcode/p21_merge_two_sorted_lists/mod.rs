@@ -23,7 +23,7 @@ impl Solution {
         let mut l2 = l2;
         let mut head = Some(Box::new(ListNode::new(0)));
         let mut p = &mut head;
-        while l1 != None && l2 != None {
+        while l1.is_some() && l2.is_some() {
             if l1.as_ref().unwrap().val < l2.as_ref().unwrap().val {
                 let tmp = l1.as_mut().unwrap().next.take();
                 p.as_mut().unwrap().next = l1;

@@ -10,7 +10,7 @@ impl Solution {
 
         let distance = vec![0]
             .into_iter()
-            .chain(distance.into_iter())
+            .chain(distance)
             .scan(0, |state, x| {
                 *state += x;
                 Some(*state)

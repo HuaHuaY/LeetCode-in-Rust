@@ -2,7 +2,7 @@ pub struct Solution;
 
 impl Solution {
     pub fn die_simulator(n: i32, roll_max: Vec<i32>) -> i32 {
-        let calculate = |n: i32| (n % 1_000_000_007 + 1_000_000_007) % 1_000_000_007;
+        let calculate = |n: i32| n.rem_euclid(1_000_000_007);
         let mut dp = vec![vec![0; 6]; n as usize];
         let mut result = vec![0; n as usize];
         dp[0] = vec![1; 6];

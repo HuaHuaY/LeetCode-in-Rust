@@ -2,7 +2,7 @@ pub struct Solution;
 
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
-        let mut alpha = vec![false; 128];
+        let mut alpha = [false; 128];
         let mut queue = Vec::with_capacity(s.len());
         let mut result = 0;
 

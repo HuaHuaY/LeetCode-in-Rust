@@ -15,7 +15,7 @@ impl Solution {
         let mut direction = Direction::Right;
 
         for k in 1..=n * n {
-            answer[i as usize][j as usize] = k as i32;
+            answer[i as usize][j as usize] = k;
             match direction {
                 Direction::Up => {
                     if i - 1 < 0 || answer[i as usize - 1][j as usize] != 0 {
@@ -26,7 +26,7 @@ impl Solution {
                     }
                 }
                 Direction::Down => {
-                    if i + 1 >= n as i32 || answer[i as usize + 1][j as usize] != 0 {
+                    if i + 1 >= n || answer[i as usize + 1][j as usize] != 0 {
                         direction = Direction::Left;
                         j -= 1;
                     } else {
@@ -42,7 +42,7 @@ impl Solution {
                     }
                 }
                 Direction::Right => {
-                    if j + 1 >= n as i32 || answer[i as usize][j as usize + 1] != 0 {
+                    if j + 1 >= n || answer[i as usize][j as usize + 1] != 0 {
                         direction = Direction::Down;
                         i += 1;
                     } else {

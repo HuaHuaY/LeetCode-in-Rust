@@ -51,7 +51,7 @@ impl BSTIterator {
     }
 
     fn has_next(&self) -> bool {
-        !(self.cur == None && self.stack.is_empty())
+        !(self.cur.is_none() && self.stack.is_empty())
     }
 }
 

@@ -22,7 +22,7 @@ impl Solution {
         }
         heights
             .into_iter()
-            .zip(left.into_iter().zip(right.into_iter()))
+            .zip(left.into_iter().zip(right))
             .map(|(height, (left, right))| height * (right - left + 1) as i32)
             .max()
             .unwrap()
