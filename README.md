@@ -212,7 +212,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2380. Time Needed to Rearrange a Binary String](src/leetcode/p2380_time_needed_to_rearrange_a_binary_string)
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 
-### Hard(41)
+### Hard(42)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -250,6 +250,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1250. Check If It Is a Good Array](src/leetcode/p1250_check_if_it_is_a_good_array)
 - [1255. Maximum Score Words Formed by Letters](src/leetcode/p1255_maximum_score_words_formed_by_letters)
 - [1326. Minimum Number of Taps to Open to Water a Garden](src/leetcode/p1326_minimum_number_of_taps_to_open_to_water_a_garden)
+- [1349. Maximum Students Taking Exam](src/leetcode/p1349_maximum_students_taking_exam)
 - [1617. Count Subtrees With Max Distance Between Cities](src/leetcode/p1617_count_subtrees_with_max_distance_between_cities)
 - [1632. Rank Transform of a Matrix](src/leetcode/p1632_rank_transform_of_a_matrix)
 - [1819. Number of Different Subsequences GCDs](src/leetcode/p1819_number_of_different_subsequences_gcds)
