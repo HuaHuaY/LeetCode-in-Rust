@@ -138,6 +138,7 @@ pub mod p24_swap_nodes_in_pairs;
 pub mod p25_reverse_nodes_in_k_group;
 pub mod p263_ugly_number;
 pub mod p264_ugly_number_ii;
+pub mod p2660_determine_the_winner_of_a_bowling_game;
 pub mod p26_remove_duplicates_from_sorted_array;
 pub mod p27_remove_element;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;

@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(61)
+### Easy(62)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -70,6 +70,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2446. Determine if Two Events Have Conflict](src/leetcode/p2446_determine_if_two_events_have_conflict)
 - [2460. Apply Operations to an Array](src/leetcode/p2460_apply_operations_to_an_array)
 - [2469. Convert the Temperature](src/leetcode/p2469_convert_the_temperature)
+- [2660. Determine the Winner of a Bowling Game](src/leetcode/p2660_determine_the_winner_of_a_bowling_game)
 
 ### Medium(136)
 
