@@ -170,6 +170,7 @@ pub mod p43_multiply_strings;
 pub mod p44_wildcard_matching;
 pub mod p456_132_pattern;
 pub mod p45_jump_game_ii;
+pub mod p463_island_perimeter;
 pub mod p46_permutations;
 pub mod p478_generate_random_point_in_a_circle;
 pub mod p47_permutations_ii;
