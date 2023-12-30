@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(64)
+### Easy(66)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -38,7 +38,9 @@ Call test by running `cargo test p[xxx]_`.
 - [706. Design HashMap](src/leetcode/p706_design_hashmap)
 - [896. Monotonic Array](src/leetcode/p896_monotonic_array)
 - [1047. Remove All Adjacent Duplicates In String](src/leetcode/p1047_remove_all_adjacent_duplicates_in_string)
+- [1154. Day of the Year](src/leetcode/p1154_day_of_the_year)
 - [1184. Distance Between Bus Stops](src/leetcode/p1184_distance_between_bus_stops)
+- [1185. Day of the Week](src/leetcode/p1185_day_of_the_week)
 - [1260. Shift 2D Grid](src/leetcode/leetcode/p1260_shift_2d_grid)
 - [1331. Rank Transform of an Array](src/leetcode/p1331_rank_transform_of_an_array)
 - [1374. Generate a String With Characters That Have Odd Counts](src/leetcode/p1374_generate_a_string_with_characters_that_have_odd_counts)
