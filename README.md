@@ -218,7 +218,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
 
-### Hard(42)
+### Hard(43)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -244,6 +244,7 @@ Call test by running `cargo test p[xxx]_`.
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
 - [420. Strong Password Checker](src/leetcode/p420_strong_password_checker)
+- [466. Count The Repetitions](src/leetcode/p466_count_the_repetitions)
 - [982. Triples with Bitwise AND Equal To Zero](src/leetcode/p982_triples_with_bitwise_and_equal_to_zero)
 - [1000. Minimum Cost to Merge Stones](src/leetcode/p1000_minimum_cost_to_merge_stones)
 - [1012. Numbers With Repeated Digits](src/leetcode/p1012_numbers_with_repeated_digits)
