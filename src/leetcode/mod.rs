@@ -135,6 +135,7 @@ pub mod p2441_largest_positive_integer_that_exists_with_its_negative;
 pub mod p2446_determine_if_two_events_have_conflict;
 pub mod p2460_apply_operations_to_an_array;
 pub mod p2469_convert_the_temperature;
+pub mod p2487_remove_nodes_from_linked_list;
 pub mod p2488_count_subarrays_with_median_k;
 pub mod p24_swap_nodes_in_pairs;
 pub mod p25_reverse_nodes_in_k_group;
