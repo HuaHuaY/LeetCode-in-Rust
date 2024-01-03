@@ -121,6 +121,7 @@ pub mod p2380_time_needed_to_rearrange_a_binary_string;
 pub mod p2383_minimum_hours_of_training_to_win_a_competition;
 pub mod p2389_longest_subsequence_with_limited_sum;
 pub mod p2395_find_subarrays_with_equal_sum;
+pub mod p2397_maximum_rows_covered_by_columns;
 pub mod p2399_check_distances_between_same_letters;
 pub mod p23_merge_k_sorted_lists;
 pub mod p2404_most_frequent_even_element;

@@ -76,7 +76,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2660. Determine the Winner of a Bowling Game](src/leetcode/p2660_determine_the_winner_of_a_bowling_game)
 - [2706. Buy Two Chocolates](src/leetcode/p2706_buy_two_chocolates)
 
-### Medium(138)
+### Medium(139)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -215,6 +215,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1954. Minimum Garden Perimeter to Collect Enough Apples](src/leetcode/p1954_minimum_garden_perimeter_to_collect_enough_apples)
 - [1962. Remove Stones to Minimize the Total](src/leetcode/p1962_remove_stones_to_minimize_the_total)
 - [2380. Time Needed to Rearrange a Binary String](src/leetcode/p2380_time_needed_to_rearrange_a_binary_string)
+- [2397. Maximum Rows Covered by Columns](src/leetcode/p2397_maximum_rows_covered_by_columns)
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 - [2487. Remove Nodes From Linked List](src/leetcode/p2487_remove_nodes_from_linked_list)
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
