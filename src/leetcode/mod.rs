@@ -148,6 +148,7 @@ pub mod p26_remove_duplicates_from_sorted_array;
 pub mod p2706_buy_two_chocolates;
 pub mod p2735_collecting_chocolates;
 pub mod p27_remove_element;
+pub mod p2807_insert_greatest_common_divisors_in_linked_list;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;
