@@ -164,6 +164,7 @@ pub mod p354_russian_doll_envelopes;
 pub mod p35_search_insert_position;
 pub mod p36_valid_sudoku;
 pub mod p37_sudoku_solver;
+pub mod p383_ransom_note;
 pub mod p38_count_and_say;
 pub mod p39_combination_sum;
 pub mod p3_longest_substring_without_repeating_characters;
