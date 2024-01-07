@@ -77,7 +77,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2660. Determine the Winner of a Bowling Game](src/leetcode/p2660_determine_the_winner_of_a_bowling_game)
 - [2706. Buy Two Chocolates](src/leetcode/p2706_buy_two_chocolates)
 
-### Medium(140)
+### Medium(141)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -150,6 +150,7 @@ Call test by running `cargo test p[xxx]_`.
 - [331. Verify Preorder Serialization of a Binary Tree](src/leetcode/p331_verify_preorder_serialization_of_a_binary_tree)
 - [338. Counting Bits](src/leetcode/p338_counting_bits)
 - [438. Find All Anagrams in a String](src/leetcode/p438_find_all_anagrams_in_a_string)
+- [447. Number of Boomerangs](src/leetcode/p447_number_of_boomerangs)
 - [456. 132 Pattern](src/leetcode/p456_132_pattern)
 - [478. Generate Random Point in a Circle](src/leetcode/p478_generate_random_point_in_a_circle)
 - [503. Next Greater Element II](src/leetcode/p503_next_greater_element_ii)

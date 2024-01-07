@@ -174,6 +174,7 @@ pub mod p420_strong_password_checker;
 pub mod p42_trapping_rain_water;
 pub mod p438_find_all_anagrams_in_a_string;
 pub mod p43_multiply_strings;
+pub mod p447_number_of_boomerangs;
 pub mod p44_wildcard_matching;
 pub mod p456_132_pattern;
 pub mod p45_jump_game_ii;
