@@ -77,7 +77,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2660. Determine the Winner of a Bowling Game](src/leetcode/p2660_determine_the_winner_of_a_bowling_game)
 - [2706. Buy Two Chocolates](src/leetcode/p2706_buy_two_chocolates)
 
-### Medium(141)
+### Medium(142)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -220,6 +220,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2397. Maximum Rows Covered by Columns](src/leetcode/p2397_maximum_rows_covered_by_columns)
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 - [2487. Remove Nodes From Linked List](src/leetcode/p2487_remove_nodes_from_linked_list)
+- [2707. Extra Characters in a String](src/leetcode/p2707_extra_characters_in_a_string)
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
 - [2807. Insert Greatest Common Divisors in Linked List](src/leetcode/p2807_insert_greatest_common_divisors_in_linked_list)
 
