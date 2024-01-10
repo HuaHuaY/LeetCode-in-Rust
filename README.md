@@ -78,7 +78,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2696. Minimum String Length After Removing Substrings](src/leetcode/p2696_minimum_string_length_after_removing_substrings)
 - [2706. Buy Two Chocolates](src/leetcode/p2706_buy_two_chocolates)
 
-### Medium(142)
+### Medium(143)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -221,6 +221,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2397. Maximum Rows Covered by Columns](src/leetcode/p2397_maximum_rows_covered_by_columns)
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 - [2487. Remove Nodes From Linked List](src/leetcode/p2487_remove_nodes_from_linked_list)
+- [2645. Minimum Additions to Make Valid String](src/leetcode/p2645_minimum_additions_to_make_valid_string)
 - [2707. Extra Characters in a String](src/leetcode/p2707_extra_characters_in_a_string)
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
 - [2807. Insert Greatest Common Divisors in Linked List](src/leetcode/p2807_insert_greatest_common_divisors_in_linked_list)
