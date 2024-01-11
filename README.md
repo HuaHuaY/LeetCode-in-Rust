@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(68)
+### Easy(69)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -47,6 +47,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1374. Generate a String With Characters That Have Odd Counts](src/leetcode/p1374_generate_a_string_with_characters_that_have_odd_counts)
 - [1450. Number of Students Doing Homework at a Given Time](src/leetcode/p1450_number_of_students_doing_homework_at_a_given_time)
 - [2042. Check if Numbers Are Ascending in a Sentence](src/leetcode/p2042_check_if_numbers_are_ascending_in_a_sentence/)
+- [2085. Count Common Words With One Occurrence](src/leetcode/p2085_count_common_words_with_one_occurrence)
 - [2293. Min Max Game](src/leetcode/p2293_min_max_game)
 - [2299. Strong Password Checker II](src/leetcode/p2299_strong_password_checker_ii)
 - [2325. Decode the Message](src/leetcode/p2325_decode_the_message)

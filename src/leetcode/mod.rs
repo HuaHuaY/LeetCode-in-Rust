@@ -101,6 +101,7 @@ pub mod p1962_remove_stones_to_minimize_the_total;
 pub mod p19_remove_nth_node_from_end_of_list;
 pub mod p1_two_sum;
 pub mod p2042_check_if_numbers_are_ascending_in_a_sentence;
+pub mod p2085_count_common_words_with_one_occurrence;
 pub mod p20_valid_parentheses;
 pub mod p21_merge_two_sorted_lists;
 pub mod p224_basic_calculator;
