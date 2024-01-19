@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(70)
+### Easy(71)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -79,6 +79,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2696. Minimum String Length After Removing Substrings](src/leetcode/p2696_minimum_string_length_after_removing_substrings)
 - [2706. Buy Two Chocolates](src/leetcode/p2706_buy_two_chocolates)
 - [2744. Find Maximum Number of String Pairs](src/leetcode/p2744_find_maximum_number_of_string_pairs)
+- [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 
 ### Medium(145)
 
