@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(69)
+### Easy(70)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -78,8 +78,9 @@ Call test by running `cargo test p[xxx]_`.
 - [2660. Determine the Winner of a Bowling Game](src/leetcode/p2660_determine_the_winner_of_a_bowling_game)
 - [2696. Minimum String Length After Removing Substrings](src/leetcode/p2696_minimum_string_length_after_removing_substrings)
 - [2706. Buy Two Chocolates](src/leetcode/p2706_buy_two_chocolates)
+- [2744. Find Maximum Number of String Pairs](src/leetcode/p2744_find_maximum_number_of_string_pairs)
 
-### Medium(144)
+### Medium(145)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -218,6 +219,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 - [1954. Minimum Garden Perimeter to Collect Enough Apples](src/leetcode/p1954_minimum_garden_perimeter_to_collect_enough_apples)
 - [1962. Remove Stones to Minimize the Total](src/leetcode/p1962_remove_stones_to_minimize_the_total)
+- [2171. Removing Minimum Number of Magic Beans](src/leetcode/p2171_removing_minimum_number_of_magic_beans)
 - [2182. Construct String With Repeat Limit](src/leetcode/p2182_construct_string_with_repeat_limit)
 - [2380. Time Needed to Rearrange a Binary String](src/leetcode/p2380_time_needed_to_rearrange_a_binary_string)
 - [2397. Maximum Rows Covered by Columns](src/leetcode/p2397_maximum_rows_covered_by_columns)
@@ -228,7 +230,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
 - [2807. Insert Greatest Common Divisors in Linked List](src/leetcode/p2807_insert_greatest_common_divisors_in_linked_list)
 
-### Hard(44)
+### Hard(51)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -252,9 +254,12 @@ Call test by running `cargo test p[xxx]_`.
 - [87. Scramble String](src/leetcode/p87_scramble_string)
 - [132. Palindrome Partitioning II](src/leetcode/p132_palindrome_partitioning_ii)
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
+- [233. Number of Digit One](src/leetcode/p233_number_of_digit_one)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
 - [420. Strong Password Checker](src/leetcode/p420_strong_password_checker)
 - [466. Count The Repetitions](src/leetcode/p466_count_the_repetitions)
+- [600. Non-negative Integers without Consecutive Ones](src/leetcode/p600_non_negative_integers_without_consecutive_ones)
+- [902. Numbers At Most N Given Digit Set](src/leetcode/p902_numbers_at_most_n_given_digit_set)
 - [982. Triples with Bitwise AND Equal To Zero](src/leetcode/p982_triples_with_bitwise_and_equal_to_zero)
 - [1000. Minimum Cost to Merge Stones](src/leetcode/p1000_minimum_cost_to_merge_stones)
 - [1012. Numbers With Repeated Digits](src/leetcode/p1012_numbers_with_repeated_digits)
@@ -268,9 +273,13 @@ Call test by running `cargo test p[xxx]_`.
 - [1255. Maximum Score Words Formed by Letters](src/leetcode/p1255_maximum_score_words_formed_by_letters)
 - [1326. Minimum Number of Taps to Open to Water a Garden](src/leetcode/p1326_minimum_number_of_taps_to_open_to_water_a_garden)
 - [1349. Maximum Students Taking Exam](src/leetcode/p1349_maximum_students_taking_exam)
+- [1397. Find All Good Strings](src/leetcode/p1397_find_all_good_strings)
 - [1617. Count Subtrees With Max Distance Between Cities](src/leetcode/p1617_count_subtrees_with_max_distance_between_cities)
 - [1632. Rank Transform of a Matrix](src/leetcode/p1632_rank_transform_of_a_matrix)
 - [1819. Number of Different Subsequences GCDs](src/leetcode/p1819_number_of_different_subsequences_gcds)
 - [1825. Finding MK Average](src/leetcode/p1825_finding_mk_average)
 - [1944. Number of Visible People in a Queue](src/leetcode/p1944_number_of_visible_people_in_a_queue)
+- [2376. Count Special Integers](src/leetcode/p2376_count_special_integers)
 - [2488. Count Subarrays With Median K](src/leetcode/p2488_count_subarrays_with_median_k)
+- [2719. Count of Integers](src/leetcode/p2719_count_of_integers)
+- [2809. Minimum Time to Make Array Sum At Most x](src/leetcode/p2809_minimum_time_to_make_array_sum_at_most_x)
