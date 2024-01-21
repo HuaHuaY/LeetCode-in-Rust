@@ -231,7 +231,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
 - [2807. Insert Greatest Common Divisors in Linked List](src/leetcode/p2807_insert_greatest_common_divisors_in_linked_list)
 
-### Hard(51)
+### Hard(52)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -257,6 +257,7 @@ Call test by running `cargo test p[xxx]_`.
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [233. Number of Digit One](src/leetcode/p233_number_of_digit_one)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
+- [410. Split Array Largest Sum](src/leetcode/p410_split_array_largest_sum)
 - [420. Strong Password Checker](src/leetcode/p420_strong_password_checker)
 - [466. Count The Repetitions](src/leetcode/p466_count_the_repetitions)
 - [600. Non-negative Integers without Consecutive Ones](src/leetcode/p600_non_negative_integers_without_consecutive_ones)

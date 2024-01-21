@@ -182,6 +182,7 @@ pub mod p38_count_and_say;
 pub mod p39_combination_sum;
 pub mod p3_longest_substring_without_repeating_characters;
 pub mod p40_combination_sum_ii;
+pub mod p410_split_array_largest_sum;
 pub mod p41_first_missing_positive;
 pub mod p420_strong_password_checker;
 pub mod p42_trapping_rain_water;
