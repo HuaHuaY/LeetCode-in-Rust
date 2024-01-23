@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(71)
+### Easy(72)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -79,9 +79,10 @@ Call test by running `cargo test p[xxx]_`.
 - [2696. Minimum String Length After Removing Substrings](src/leetcode/p2696_minimum_string_length_after_removing_substrings)
 - [2706. Buy Two Chocolates](src/leetcode/p2706_buy_two_chocolates)
 - [2744. Find Maximum Number of String Pairs](src/leetcode/p2744_find_maximum_number_of_string_pairs)
+- [2765. Longest Alternating Subarray](src/leetcode/p2765_longest_alternating_subarray)
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 
-### Medium(145)
+### Medium(146)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -159,6 +160,7 @@ Call test by running `cargo test p[xxx]_`.
 - [478. Generate Random Point in a Circle](src/leetcode/p478_generate_random_point_in_a_circle)
 - [503. Next Greater Element II](src/leetcode/p503_next_greater_element_ii)
 - [556. Next Greater Element III](src/leetcode/p556_next_greater_element_iii)
+- [670. Maximum Swap](src/leetcode/p670_maximum_swap)
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
 - [831. Masking Personal Information](src/leetcode/p831_masking_personal_information)
 - [877. Stone Game](src/leetcode/p877_stone_game)
