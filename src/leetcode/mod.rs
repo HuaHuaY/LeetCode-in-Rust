@@ -163,6 +163,8 @@ pub mod p2788_split_strings_by_separator;
 pub mod p27_remove_element;
 pub mod p2807_insert_greatest_common_divisors_in_linked_list;
 pub mod p2809_minimum_time_to_make_array_sum_at_most_x;
+pub mod p2859_sum_of_values_at_indices_with_k_set_bits;
+pub mod p2865_beautiful_towers_i;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;

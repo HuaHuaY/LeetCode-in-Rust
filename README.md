@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(72)
+### Easy(73)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -81,8 +81,9 @@ Call test by running `cargo test p[xxx]_`.
 - [2744. Find Maximum Number of String Pairs](src/leetcode/p2744_find_maximum_number_of_string_pairs)
 - [2765. Longest Alternating Subarray](src/leetcode/p2765_longest_alternating_subarray)
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
+- [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 
-### Medium(146)
+### Medium(147)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -232,6 +233,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2707. Extra Characters in a String](src/leetcode/p2707_extra_characters_in_a_string)
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
 - [2807. Insert Greatest Common Divisors in Linked List](src/leetcode/p2807_insert_greatest_common_divisors_in_linked_list)
+- [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 
 ### Hard(52)
 
