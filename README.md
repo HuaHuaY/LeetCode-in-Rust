@@ -235,7 +235,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2807. Insert Greatest Common Divisors in Linked List](src/leetcode/p2807_insert_greatest_common_divisors_in_linked_list)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 
-### Hard(52)
+### Hard(54)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -280,6 +280,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1326. Minimum Number of Taps to Open to Water a Garden](src/leetcode/p1326_minimum_number_of_taps_to_open_to_water_a_garden)
 - [1349. Maximum Students Taking Exam](src/leetcode/p1349_maximum_students_taking_exam)
 - [1397. Find All Good Strings](src/leetcode/p1397_find_all_good_strings)
+- [1483. Kth Ancestor of a Tree Node](src/leetcode/p1483_kth_ancestor_of_a_tree_node)
 - [1617. Count Subtrees With Max Distance Between Cities](src/leetcode/p1617_count_subtrees_with_max_distance_between_cities)
 - [1632. Rank Transform of a Matrix](src/leetcode/p1632_rank_transform_of_a_matrix)
 - [1819. Number of Different Subsequences GCDs](src/leetcode/p1819_number_of_different_subsequences_gcds)
@@ -289,3 +290,4 @@ Call test by running `cargo test p[xxx]_`.
 - [2488. Count Subarrays With Median K](src/leetcode/p2488_count_subarrays_with_median_k)
 - [2719. Count of Integers](src/leetcode/p2719_count_of_integers)
 - [2809. Minimum Time to Make Array Sum At Most x](src/leetcode/p2809_minimum_time_to_make_array_sum_at_most_x)
+- [2846. Minimum Edge Weight Equilibrium Queries in a Tree](src/leetcode/p2846_minimum_edge_weight_equilibrium_queries_in_a_tree)
