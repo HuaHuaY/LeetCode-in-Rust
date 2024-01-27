@@ -83,7 +83,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 
-### Medium(148)
+### Medium(149)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -155,6 +155,7 @@ Call test by running `cargo test p[xxx]_`.
 - [300. Longest Increasing Subsequence](src/leetcode/p300_longest_increasing_subsequence)
 - [331. Verify Preorder Serialization of a Binary Tree](src/leetcode/p331_verify_preorder_serialization_of_a_binary_tree)
 - [338. Counting Bits](src/leetcode/p338_counting_bits)
+- [365. Water and Jug Problem](src/leetcode/p365_water_and_jug_problem)
 - [438. Find All Anagrams in a String](src/leetcode/p438_find_all_anagrams_in_a_string)
 - [447. Number of Boomerangs](src/leetcode/p447_number_of_boomerangs)
 - [456. 132 Pattern](src/leetcode/p456_132_pattern)

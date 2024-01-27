@@ -181,6 +181,7 @@ pub mod p33_search_in_rotated_sorted_array;
 pub mod p34_find_first_and_last_position_of_element_in_sorted_array;
 pub mod p354_russian_doll_envelopes;
 pub mod p35_search_insert_position;
+pub mod p365_water_and_jug_problem;
 pub mod p36_valid_sudoku;
 pub mod p37_sudoku_solver;
 pub mod p383_ransom_note;
