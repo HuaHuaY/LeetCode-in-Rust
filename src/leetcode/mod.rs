@@ -163,6 +163,7 @@ pub mod p2765_longest_alternating_subarray;
 pub mod p2788_split_strings_by_separator;
 pub mod p27_remove_element;
 pub mod p2807_insert_greatest_common_divisors_in_linked_list;
+pub mod p2808_minimum_seconds_to_equalize_a_circular_array;
 pub mod p2809_minimum_time_to_make_array_sum_at_most_x;
 pub mod p2846_minimum_edge_weight_equilibrium_queries_in_a_tree;
 pub mod p2859_sum_of_values_at_indices_with_k_set_bits;
