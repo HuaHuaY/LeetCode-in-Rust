@@ -210,6 +210,7 @@ pub mod p49_group_anagrams;
 pub mod p4_median_of_two_sorted_arrays;
 pub mod p503_next_greater_element_ii;
 pub mod p50_pow_x_n;
+pub mod p514_freedom_trail;
 pub mod p51_n_queens;
 pub mod p52_n_queens_ii;
 pub mod p53_maximum_subarray;
