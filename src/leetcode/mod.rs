@@ -152,6 +152,7 @@ pub mod p263_ugly_number;
 pub mod p2645_minimum_additions_to_make_valid_string;
 pub mod p264_ugly_number_ii;
 pub mod p2660_determine_the_winner_of_a_bowling_game;
+pub mod p2670_find_the_distinct_difference_array;
 pub mod p2696_minimum_string_length_after_removing_substrings;
 pub mod p26_remove_duplicates_from_sorted_array;
 pub mod p2706_buy_two_chocolates;
