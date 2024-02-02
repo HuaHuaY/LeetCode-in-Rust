@@ -81,6 +81,7 @@ pub mod p1641_count_sorted_vowel_strings;
 pub mod p1653_minimum_deletions_to_make_string_balanced;
 pub mod p165_compare_version_numbers;
 pub mod p1686_stone_game_vi;
+pub mod p1690_stone_game_vii;
 pub mod p169_majority_element;
 pub mod p16_3sum_closest;
 pub mod p173_binary_search_tree_iterator;
