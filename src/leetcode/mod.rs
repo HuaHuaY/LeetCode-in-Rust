@@ -173,6 +173,7 @@ pub mod p2859_sum_of_values_at_indices_with_k_set_bits;
 pub mod p2861_maximum_number_of_alloys;
 pub mod p2865_beautiful_towers_i;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
+pub mod p292_nim_game;
 pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;
 pub mod p300_longest_increasing_subsequence;
