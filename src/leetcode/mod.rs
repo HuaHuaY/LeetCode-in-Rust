@@ -152,6 +152,7 @@ pub mod p2488_count_subarrays_with_median_k;
 pub mod p24_swap_nodes_in_pairs;
 pub mod p25_reverse_nodes_in_k_group;
 pub mod p263_ugly_number;
+pub mod p2641_cousins_in_binary_tree_ii;
 pub mod p2645_minimum_additions_to_make_valid_string;
 pub mod p264_ugly_number_ii;
 pub mod p2660_determine_the_winner_of_a_bowling_game;

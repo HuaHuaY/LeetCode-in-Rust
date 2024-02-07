@@ -85,7 +85,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 
-### Medium(153)
+### Medium(154)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -235,6 +235,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2397. Maximum Rows Covered by Columns](src/leetcode/p2397_maximum_rows_covered_by_columns)
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 - [2487. Remove Nodes From Linked List](src/leetcode/p2487_remove_nodes_from_linked_list)
+- [2641. Cousins in Binary Tree II](src/leetcode/p2641_cousins_in_binary_tree_ii)
 - [2645. Minimum Additions to Make Valid String](src/leetcode/p2645_minimum_additions_to_make_valid_string)
 - [2707. Extra Characters in a String](src/leetcode/p2707_extra_characters_in_a_string)
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
