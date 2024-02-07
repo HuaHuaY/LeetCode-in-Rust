@@ -282,5 +282,6 @@ pub mod p970_powerful_integers;
 pub mod p97_interleaving_string;
 pub mod p982_triples_with_bitwise_and_equal_to_zero;
 pub mod p98_validate_binary_search_tree;
+pub mod p993_cousins_in_binary_tree;
 pub mod p99_recover_binary_search_tree;
 pub mod p9_palindrome_number;
