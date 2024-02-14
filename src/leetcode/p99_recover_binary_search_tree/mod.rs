@@ -28,6 +28,7 @@ impl Solution {
         let mut x: Option<Rc<RefCell<TreeNode>>> = None;
         let mut y: Option<Rc<RefCell<TreeNode>>> = None;
         let mut pred: Option<Rc<RefCell<TreeNode>>> = None;
+        // Morris Traversal
         while let Some(root_inner) = root {
             let r = root_inner.borrow();
             if let Some(mut predecessor) = r.left.clone() {

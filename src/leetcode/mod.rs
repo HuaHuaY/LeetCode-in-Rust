@@ -58,6 +58,7 @@ pub mod p1376_time_needed_to_inform_all_employees;
 pub mod p1397_find_all_good_strings;
 pub mod p13_roman_to_integer;
 pub mod p1419_minimum_number_of_frogs_croaking;
+pub mod p144_binary_tree_preorder_traversal;
 pub mod p1450_number_of_students_doing_homework_at_a_given_time;
 pub mod p1483_kth_ancestor_of_a_tree_node;
 pub mod p1487_making_file_names_unique;
