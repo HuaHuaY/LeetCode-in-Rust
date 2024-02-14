@@ -285,6 +285,7 @@ pub mod p96_unique_binary_search_trees;
 pub mod p970_powerful_integers;
 pub mod p97_interleaving_string;
 pub mod p982_triples_with_bitwise_and_equal_to_zero;
+pub mod p987_vertical_order_traversal_of_a_binary_tree;
 pub mod p98_validate_binary_search_tree;
 pub mod p993_cousins_in_binary_tree;
 pub mod p99_recover_binary_search_tree;

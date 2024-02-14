@@ -249,7 +249,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 
-### Hard(55)
+### Hard(56)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -282,6 +282,7 @@ Call test by running `cargo test p[xxx]_`.
 - [600. Non-negative Integers without Consecutive Ones](src/leetcode/p600_non_negative_integers_without_consecutive_ones)
 - [902. Numbers At Most N Given Digit Set](src/leetcode/p902_numbers_at_most_n_given_digit_set)
 - [982. Triples with Bitwise AND Equal To Zero](src/leetcode/p982_triples_with_bitwise_and_equal_to_zero)
+- [987. Vertical Order Traversal of a Binary Tree](src/leetcode/p987_vertical_order_traversal_of_a_binary_tree)
 - [1000. Minimum Cost to Merge Stones](src/leetcode/p1000_minimum_cost_to_merge_stones)
 - [1012. Numbers With Repeated Digits](src/leetcode/p1012_numbers_with_repeated_digits)
 - [1032. Stream of Characters](src/leetcode/p1032_stream_of_characters)
