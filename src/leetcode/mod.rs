@@ -60,6 +60,7 @@ pub mod p13_roman_to_integer;
 pub mod p1419_minimum_number_of_frogs_croaking;
 pub mod p144_binary_tree_preorder_traversal;
 pub mod p1450_number_of_students_doing_homework_at_a_given_time;
+pub mod p145_binary_tree_postorder_traversal;
 pub mod p1483_kth_ancestor_of_a_tree_node;
 pub mod p1487_making_file_names_unique;
 pub mod p14_longest_common_prefix;
