@@ -13,6 +13,7 @@ pub mod p102_binary_tree_level_order_traversal;
 pub mod p1031_maximum_sum_of_two_non_overlapping_subarrays;
 pub mod p1032_stream_of_characters;
 pub mod p1039_minimum_score_triangulation_of_polygon;
+pub mod p103_binary_tree_zigzag_level_order_traversal;
 pub mod p1040_moving_stones_until_consecutive_ii;
 pub mod p1041_robot_bounded_in_circle;
 pub mod p1042_flower_planting_with_no_adjacent;

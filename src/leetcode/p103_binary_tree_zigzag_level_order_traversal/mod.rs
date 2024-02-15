@@ -25,30 +25,32 @@ use std::rc::Rc;
 use std::collections::VecDeque;
 
 impl Solution {
-    pub fn level_order(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
-        if root.is_none() {
-            return vec![];
-        }
-
+    pub fn zigzag_level_order(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
+        let mut result = Vec::new();
         let mut queue1 = VecDeque::new();
         let mut queue2 = VecDeque::new();
-        queue1.push_back(root);
-        let mut result = vec![];
+        queue1.push_front(root);
+        let mut rev = true;
         while !queue1.is_empty() {
-            let mut r = vec![];
+            let mut level = Vec::new();
             while let Some(node) = queue1.pop_front() {
-                let node = node.unwrap();
-                let mut node = node.borrow_mut();
-                r.push(node.val);
-                if node.left.is_some() {
-                    queue2.push_back(node.left.take());
-                }
-                if node.right.is_some() {
-                    queue2.push_back(node.right.take());
+                if let Some(node) = node {
+                    let node = node.borrow();
+                    level.push(node.val);
+                    if rev {
+                        queue2.push_front(node.left.clone());
+                        queue2.push_front(node.right.clone());
+                    } else {
+                        queue2.push_front(node.right.clone());
+                        queue2.push_front(node.left.clone());
+                    }
                 }
             }
-            result.push(r);
+            if !level.is_empty() {
+                result.push(level);
+            }
             std::mem::swap(&mut queue1, &mut queue2);
+            rev = !rev;
         }
         result
     }
@@ -77,17 +79,20 @@ mod tests {
         let t3 = Some(Rc::new(RefCell::new(TreeNode::new(7))));
         let t4 = TreeNode::new_with(20, t2, t3);
         let root = TreeNode::new_with(3, t1, t4);
-        assert_eq!(Solution::level_order(root), vec_vec![[3], [9, 20], [15, 7]]);
+        assert_eq!(
+            Solution::zigzag_level_order(root),
+            vec_vec![[3], [20, 9], [15, 7]]
+        );
     }
 
     #[test]
     fn test2() {
         let root = Some(Rc::new(RefCell::new(TreeNode::new(1))));
-        assert_eq!(Solution::level_order(root), vec_vec![[1]]);
+        assert_eq!(Solution::zigzag_level_order(root), vec_vec![[1]]);
     }
 
     #[test]
     fn test3() {
-        assert_eq!(Solution::level_order(None), [] as [Vec<i32>; 0]);
+        assert_eq!(Solution::zigzag_level_order(None), [] as [Vec<i32>; 0]);
     }
 }
