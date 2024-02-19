@@ -88,7 +88,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 
-### Medium(158)
+### Medium(159)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -153,6 +153,7 @@ Call test by running `cargo test p[xxx]_`.
 - [99. Recover Binary Search Tree](src/leetcode/p99_recover_binary_search_tree)
 - [102. Binary Tree Level Order Traversal](src/leetcode/p102_binary_tree_level_order_traversal)
 - [103. Binary Tree Zigzag Level Order Traversal](src/leetcode/p103_binary_tree_zigzag_level_order_traversal)
+- [105. Construct Binary Tree from Preorder and Inorder Traversal](src/leetcode/p105_construct_binary_tree_from_preorder_and_inorder_traversal)
 - [107. Binary Tree Level Order Traversal II](src/leetcode/p107_binary_tree_level_order_traversal_ii)
 - [131. Palindrome Partitioning](src/leetcode/p131_palindrome_partitioning)
 - [150. Evaluate Reverse Polish Notation](src/leetcode/p150_evaluate_reverse_polish_notation)
