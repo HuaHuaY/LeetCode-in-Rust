@@ -20,6 +20,7 @@ pub mod p1042_flower_planting_with_no_adjacent;
 pub mod p1047_remove_all_adjacent_duplicates_in_string;
 pub mod p1053_previous_permutation_with_one_swap;
 pub mod p105_construct_binary_tree_from_preorder_and_inorder_traversal;
+pub mod p106_construct_binary_tree_from_inorder_and_postorder_traversal;
 pub mod p107_binary_tree_level_order_traversal_ii;
 pub mod p1092_shortest_common_supersequence;
 pub mod p1096_brace_expansion_ii;
