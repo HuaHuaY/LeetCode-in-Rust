@@ -274,6 +274,7 @@ pub mod p85_maximal_rectangle;
 pub mod p86_partition_list;
 pub mod p877_stone_game;
 pub mod p87_scramble_string;
+pub mod p889_construct_binary_tree_from_preorder_and_postorder_traversal;
 pub mod p88_merge_sorted_array;
 pub mod p896_monotonic_array;
 pub mod p89_gray_code;

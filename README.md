@@ -88,7 +88,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 
-### Medium(160)
+### Medium(161)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -177,6 +177,7 @@ Call test by running `cargo test p[xxx]_`.
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
 - [831. Masking Personal Information](src/leetcode/p831_masking_personal_information)
 - [877. Stone Game](src/leetcode/p877_stone_game)
+- [889. Construct Binary Tree from Preorder and Postorder Traversal](src/leetcode/p889_construct_binary_tree_from_preorder_and_postorder_traversal)
 - [970. Powerful Integers](src/leetcode/p970_powerful_integers)
 - [1006. Clumsy Factorial](src/leetcode/p1006_clumsy_factorial)
 - [1003. Check If Word Is Valid After Substitutions](src/leetcode/p1003_check_if_word_is_valid_after_substitutions)
