@@ -158,6 +158,7 @@ pub mod p2469_convert_the_temperature;
 pub mod p2487_remove_nodes_from_linked_list;
 pub mod p2488_count_subarrays_with_median_k;
 pub mod p24_swap_nodes_in_pairs;
+pub mod p2583_kth_largest_sum_in_a_binary_tree;
 pub mod p25_reverse_nodes_in_k_group;
 pub mod p263_ugly_number;
 pub mod p2641_cousins_in_binary_tree_ii;
