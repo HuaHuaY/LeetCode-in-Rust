@@ -88,7 +88,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 
-### Medium(162)
+### Medium(163)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -244,6 +244,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2380. Time Needed to Rearrange a Binary String](src/leetcode/p2380_time_needed_to_rearrange_a_binary_string)
 - [2397. Maximum Rows Covered by Columns](src/leetcode/p2397_maximum_rows_covered_by_columns)
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
+- [2476. Closest Nodes Queries in a Binary Search Tree](src/leetcode/p2476_closest_nodes_queries_in_a_binary_search_tree)
 - [2487. Remove Nodes From Linked List](src/leetcode/p2487_remove_nodes_from_linked_list)
 - [2583. Kth Largest Sum in a Binary Tree](src/leetcode/p2583_kth_largest_sum_in_a_binary_tree)
 - [2641. Cousins in Binary Tree II](src/leetcode/p2641_cousins_in_binary_tree_ii)
