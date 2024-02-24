@@ -88,7 +88,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 
-### Medium(163)
+### Medium(164)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -161,6 +161,7 @@ Call test by running `cargo test p[xxx]_`.
 - [165. Compare Version Numbers](src/leetcode/p165_compare_version_numbers)
 - [173. Binary Search Tree Iterator](src/leetcode/p173_binary_search_tree_iterator)
 - [227. Basic Calculator II](src/leetcode/p227_basic_calculator_ii)
+- [235. Lowest Common Ancestor of a Binary Search Tree](src/leetcode/p235_lowest_common_ancestor_of_a_binary_search_tree)
 - [236. Lowest Common Ancestor of a Binary Tree](src/leetcode/p236_lowest_common_ancestor_of_a_binary_tree)
 - [264. Ugly Number II](src/leetcode/p264_ugly_number_ii)
 - [300. Longest Increasing Subsequence](src/leetcode/p300_longest_increasing_subsequence)
