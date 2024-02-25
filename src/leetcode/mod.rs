@@ -286,6 +286,7 @@ pub mod p902_numbers_at_most_n_given_digit_set;
 pub mod p90_subsets_ii;
 pub mod p91_decode_ways;
 pub mod p92_reverse_linked_list_ii;
+pub mod p938_range_sum_of_bst;
 pub mod p93_restore_ip_addresses;
 pub mod p94_binary_tree_inorder_traversal;
 pub mod p95_unique_binary_search_trees_ii;
