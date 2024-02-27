@@ -258,7 +258,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 
-### Hard(56)
+### Hard(57)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -316,3 +316,4 @@ Call test by running `cargo test p[xxx]_`.
 - [2719. Count of Integers](src/leetcode/p2719_count_of_integers)
 - [2809. Minimum Time to Make Array Sum At Most x](src/leetcode/p2809_minimum_time_to_make_array_sum_at_most_x)
 - [2846. Minimum Edge Weight Equilibrium Queries in a Tree](src/leetcode/p2846_minimum_edge_weight_equilibrium_queries_in_a_tree)
+- [2867. Count Valid Paths in a Tree](src/leetcode/p2867_count_valid_paths_in_a_tree)
