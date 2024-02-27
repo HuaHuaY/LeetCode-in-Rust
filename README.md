@@ -89,7 +89,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 
-### Medium(164)
+### Medium(165)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -251,6 +251,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2583. Kth Largest Sum in a Binary Tree](src/leetcode/p2583_kth_largest_sum_in_a_binary_tree)
 - [2641. Cousins in Binary Tree II](src/leetcode/p2641_cousins_in_binary_tree_ii)
 - [2645. Minimum Additions to Make Valid String](src/leetcode/p2645_minimum_additions_to_make_valid_string)
+- [2673. Make Costs of Paths Equal in a Binary Tree](src/leetcode/p2673_make_costs_of_paths_equal_in_a_binary_tree)
 - [2707. Extra Characters in a String](src/leetcode/p2707_extra_characters_in_a_string)
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
 - [2807. Insert Greatest Common Divisors in Linked List](src/leetcode/p2807_insert_greatest_common_divisors_in_linked_list)
