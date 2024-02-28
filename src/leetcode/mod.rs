@@ -160,6 +160,7 @@ pub mod p2476_closest_nodes_queries_in_a_binary_search_tree;
 pub mod p2487_remove_nodes_from_linked_list;
 pub mod p2488_count_subarrays_with_median_k;
 pub mod p24_swap_nodes_in_pairs;
+pub mod p2581_count_number_of_possible_root_nodes;
 pub mod p2583_kth_largest_sum_in_a_binary_tree;
 pub mod p25_reverse_nodes_in_k_group;
 pub mod p263_ugly_number;
