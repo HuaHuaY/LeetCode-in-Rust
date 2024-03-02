@@ -119,6 +119,7 @@ pub mod p2171_removing_minimum_number_of_magic_beans;
 pub mod p2182_construct_string_with_repeat_limit;
 pub mod p21_merge_two_sorted_lists;
 pub mod p224_basic_calculator;
+pub mod p225_implement_stack_using_queues;
 pub mod p227_basic_calculator_ii;
 pub mod p2293_min_max_game;
 pub mod p2299_strong_password_checker_ii;
