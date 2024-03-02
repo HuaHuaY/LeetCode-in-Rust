@@ -133,6 +133,8 @@ pub mod p2357_make_array_zero_by_subtracting_equal_amounts;
 pub mod p235_lowest_common_ancestor_of_a_binary_search_tree;
 pub mod p2363_merge_similar_items;
 pub mod p2367_number_of_arithmetic_triplets;
+pub mod p2368_reachable_nodes_with_restrictions;
+pub mod p2369_check_if_there_is_a_valid_partition_for_the_array;
 pub mod p236_lowest_common_ancestor_of_a_binary_tree;
 pub mod p2373_largest_local_values_in_a_matrix;
 pub mod p2376_count_special_integers;

@@ -89,7 +89,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 
-### Medium(165)
+### Medium(167)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -243,6 +243,8 @@ Call test by running `cargo test p[xxx]_`.
 - [1962. Remove Stones to Minimize the Total](src/leetcode/p1962_remove_stones_to_minimize_the_total)
 - [2171. Removing Minimum Number of Magic Beans](src/leetcode/p2171_removing_minimum_number_of_magic_beans)
 - [2182. Construct String With Repeat Limit](src/leetcode/p2182_construct_string_with_repeat_limit)
+- [2368. Reachable Nodes With Restrictions](src/leetcode/p2368_reachable_nodes_with_restrictions)
+- [2369. Check if There is a Valid Partition For The Array](src/leetcode/p2369_check_if_there_is_a_valid_partition_for_the_array)
 - [2380. Time Needed to Rearrange a Binary String](src/leetcode/p2380_time_needed_to_rearrange_a_binary_string)
 - [2397. Maximum Rows Covered by Columns](src/leetcode/p2397_maximum_rows_covered_by_columns)
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
