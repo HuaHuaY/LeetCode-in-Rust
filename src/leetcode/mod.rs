@@ -125,6 +125,7 @@ pub mod p2293_min_max_game;
 pub mod p2299_strong_password_checker_ii;
 pub mod p22_generate_parentheses;
 pub mod p2325_decode_the_message;
+pub mod p232_implement_queue_using_stacks;
 pub mod p2331_evaluate_boolean_binary_tree;
 pub mod p2335_minimum_amount_of_time_to_fill_cups;
 pub mod p233_number_of_digit_one;
