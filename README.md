@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(81)
+### Easy(82)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -90,8 +90,9 @@ Call test by running `cargo test p[xxx]_`.
 - [2765. Longest Alternating Subarray](src/leetcode/p2765_longest_alternating_subarray)
 - [2788. Split Strings by Separator](src/leetcode/p2788_split_strings_by_separator)
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
+- [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(167)
+### Medium(168)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -243,6 +244,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 - [1954. Minimum Garden Perimeter to Collect Enough Apples](src/leetcode/p1954_minimum_garden_perimeter_to_collect_enough_apples)
 - [1962. Remove Stones to Minimize the Total](src/leetcode/p1962_remove_stones_to_minimize_the_total)
+- [1976. Number of Ways to Arrive at Destination](src/leetcode/p1976_number_of_ways_to_arrive_at_destination)
 - [2171. Removing Minimum Number of Magic Beans](src/leetcode/p2171_removing_minimum_number_of_magic_beans)
 - [2182. Construct String With Repeat Limit](src/leetcode/p2182_construct_string_with_repeat_limit)
 - [2368. Reachable Nodes With Restrictions](src/leetcode/p2368_reachable_nodes_with_restrictions)
