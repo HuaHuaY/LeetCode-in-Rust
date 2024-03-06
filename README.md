@@ -92,7 +92,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(168)
+### Medium(169)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -254,6 +254,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 - [2476. Closest Nodes Queries in a Binary Search Tree](src/leetcode/p2476_closest_nodes_queries_in_a_binary_search_tree)
 - [2487. Remove Nodes From Linked List](src/leetcode/p2487_remove_nodes_from_linked_list)
+- [2575. Find the Divisibility Array of a String](src/leetcode/p2575_find_the_divisibility_array_of_a_string)
 - [2583. Kth Largest Sum in a Binary Tree](src/leetcode/p2583_kth_largest_sum_in_a_binary_tree)
 - [2641. Cousins in Binary Tree II](src/leetcode/p2641_cousins_in_binary_tree_ii)
 - [2645. Minimum Additions to Make Valid String](src/leetcode/p2645_minimum_additions_to_make_valid_string)
