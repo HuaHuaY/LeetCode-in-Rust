@@ -92,7 +92,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(169)
+### Medium(170)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -263,6 +263,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
 - [2807. Insert Greatest Common Divisors in Linked List](src/leetcode/p2807_insert_greatest_common_divisors_in_linked_list)
 - [2808. Minimum Seconds to Equalize a Circular Array](src/leetcode/p2808_minimum_seconds_to_equalize_a_circular_array)
+- [2834. Find the Minimum Possible Sum of a Beautiful Array](src/leetcode/p2834_find_the_minimum_possible_sum_of_a_beautiful_array)
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 
