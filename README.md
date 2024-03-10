@@ -92,7 +92,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(170)
+### Medium(171)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -168,6 +168,7 @@ Call test by running `cargo test p[xxx]_`.
 - [235. Lowest Common Ancestor of a Binary Search Tree](src/leetcode/p235_lowest_common_ancestor_of_a_binary_search_tree)
 - [236. Lowest Common Ancestor of a Binary Tree](src/leetcode/p236_lowest_common_ancestor_of_a_binary_tree)
 - [264. Ugly Number II](src/leetcode/p264_ugly_number_ii)
+- [299. Bulls and Cows](src/leetcode/p299_bulls_and_cows)
 - [300. Longest Increasing Subsequence](src/leetcode/p300_longest_increasing_subsequence)
 - [331. Verify Preorder Serialization of a Binary Tree](src/leetcode/p331_verify_preorder_serialization_of_a_binary_tree)
 - [338. Counting Bits](src/leetcode/p338_counting_bits)
@@ -267,7 +268,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 
-### Hard(58)
+### Hard(59)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -321,6 +322,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1825. Finding MK Average](src/leetcode/p1825_finding_mk_average)
 - [1944. Number of Visible People in a Queue](src/leetcode/p1944_number_of_visible_people_in_a_queue)
 - [2376. Count Special Integers](src/leetcode/p2376_count_special_integers)
+- [2386. Find the K-Sum of an Array](src/leetcode/p2386_find_the_k_sum_of_an_array)
 - [2488. Count Subarrays With Median K](src/leetcode/p2488_count_subarrays_with_median_k)
 - [2581. Count Number of Possible Root Nodes](src/leetcode/p2581_count_number_of_possible_root_nodes)
 - [2719. Count of Integers](src/leetcode/p2719_count_of_integers)
