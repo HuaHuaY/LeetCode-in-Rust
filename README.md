@@ -93,7 +93,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(171)
+### Medium(172)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -214,6 +214,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1237. Find Positive Integer Solution for a Given Equation](src/leetcode/p1237_find_positive_integer_solution_for_a_given_equation)
 - [1238. Circular Permutation in Binary Representation](src/leetcode/p1238_circular_permutation_in_binary_representation)
 - [1247. Minimum Swaps to Make Strings Equal](src/leetcode/p1247_minimum_swaps_to_make_strings_equal)
+- [1261. Find Elements in a Contaminated Binary Tree](src/leetcode/p1261_find_elements_in_a_contaminated_binary_tree)
 - [1276. Number of Burgers with No Waste of Ingredients](src/leetcode/p1276_number_of_burgers_with_no_waste_of_ingredients)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1376. Time Needed to Inform All Employees](src/leetcode/p1376_time_needed_to_inform_all_employees)
