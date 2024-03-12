@@ -196,6 +196,7 @@ pub mod p2834_find_the_minimum_possible_sum_of_a_beautiful_array;
 pub mod p2846_minimum_edge_weight_equilibrium_queries_in_a_tree;
 pub mod p2859_sum_of_values_at_indices_with_k_set_bits;
 pub mod p2861_maximum_number_of_alloys;
+pub mod p2864_maximum_odd_binary_number;
 pub mod p2865_beautiful_towers_i;
 pub mod p2867_count_valid_paths_in_a_tree;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
