@@ -94,7 +94,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2864. Maximum Odd Binary Number](src/leetcode/p2864_maximum_odd_binary_number)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(172)
+### Medium(173)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -265,6 +265,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2673. Make Costs of Paths Equal in a Binary Tree](src/leetcode/p2673_make_costs_of_paths_equal_in_a_binary_tree)
 - [2707. Extra Characters in a String](src/leetcode/p2707_extra_characters_in_a_string)
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
+- [2789. Largest Element in an Array after Merge Operations](src/leetcode/p2789_largest_element_in_an_array_after_merge_operations)
 - [2807. Insert Greatest Common Divisors in Linked List](src/leetcode/p2807_insert_greatest_common_divisors_in_linked_list)
 - [2808. Minimum Seconds to Equalize a Circular Array](src/leetcode/p2808_minimum_seconds_to_equalize_a_circular_array)
 - [2834. Find the Minimum Possible Sum of a Beautiful Array](src/leetcode/p2834_find_the_minimum_possible_sum_of_a_beautiful_array)

@@ -188,6 +188,7 @@ pub mod p2735_collecting_chocolates;
 pub mod p2744_find_maximum_number_of_string_pairs;
 pub mod p2765_longest_alternating_subarray;
 pub mod p2788_split_strings_by_separator;
+pub mod p2789_largest_element_in_an_array_after_merge_operations;
 pub mod p27_remove_element;
 pub mod p2807_insert_greatest_common_divisors_in_linked_list;
 pub mod p2808_minimum_seconds_to_equalize_a_circular_array;
