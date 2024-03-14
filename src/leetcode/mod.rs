@@ -127,6 +127,7 @@ pub mod p227_basic_calculator_ii;
 pub mod p2293_min_max_game;
 pub mod p2299_strong_password_checker_ii;
 pub mod p22_generate_parentheses;
+pub mod p2312_selling_pieces_of_wood;
 pub mod p2325_decode_the_message;
 pub mod p232_implement_queue_using_stacks;
 pub mod p2331_evaluate_boolean_binary_tree;
