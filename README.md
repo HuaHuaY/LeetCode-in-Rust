@@ -94,7 +94,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2864. Maximum Odd Binary Number](src/leetcode/p2864_maximum_odd_binary_number)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(173)
+### Medium(174)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -263,6 +263,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2641. Cousins in Binary Tree II](src/leetcode/p2641_cousins_in_binary_tree_ii)
 - [2645. Minimum Additions to Make Valid String](src/leetcode/p2645_minimum_additions_to_make_valid_string)
 - [2673. Make Costs of Paths Equal in a Binary Tree](src/leetcode/p2673_make_costs_of_paths_equal_in_a_binary_tree)
+- [2684. Maximum Number of Moves in a Grid](src/leetcode/p2684_maximum_number_of_moves_in_a_grid)
 - [2707. Extra Characters in a String](src/leetcode/p2707_extra_characters_in_a_string)
 - [2735. Collecting Chocolates](src/leetcode/p2735_collecting_chocolates)
 - [2789. Largest Element in an Array after Merge Operations](src/leetcode/p2789_largest_element_in_an_array_after_merge_operations)
