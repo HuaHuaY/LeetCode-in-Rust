@@ -94,7 +94,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2864. Maximum Odd Binary Number](src/leetcode/p2864_maximum_odd_binary_number)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(174)
+### Medium(175)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -172,6 +172,7 @@ Call test by running `cargo test p[xxx]_`.
 - [264. Ugly Number II](src/leetcode/p264_ugly_number_ii)
 - [299. Bulls and Cows](src/leetcode/p299_bulls_and_cows)
 - [300. Longest Increasing Subsequence](src/leetcode/p300_longest_increasing_subsequence)
+- [310. Minimum Height Trees](src/leetcode/p310_minimum_height_trees)
 - [331. Verify Preorder Serialization of a Binary Tree](src/leetcode/p331_verify_preorder_serialization_of_a_binary_tree)
 - [338. Counting Bits](src/leetcode/p338_counting_bits)
 - [365. Water and Jug Problem](src/leetcode/p365_water_and_jug_problem)
