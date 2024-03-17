@@ -209,6 +209,7 @@ pub mod p299_bulls_and_cows;
 pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;
 pub mod p300_longest_increasing_subsequence;
+pub mod p303_range_sum_query_immutable;
 pub mod p30_substring_with_concatenation_of_all_words;
 pub mod p310_minimum_height_trees;
 pub mod p31_next_permutation;
