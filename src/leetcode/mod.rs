@@ -95,6 +95,7 @@ pub mod p169_majority_element;
 pub mod p16_3sum_closest;
 pub mod p173_binary_search_tree_iterator;
 pub mod p1792_maximum_average_pass_ratio;
+pub mod p1793_maximum_score_of_a_good_subarray;
 pub mod p1797_design_authentication_manager;
 pub mod p1798_maximum_number_of_consecutive_values_you_can_make;
 pub mod p17_letter_combinations_of_a_phone_number;

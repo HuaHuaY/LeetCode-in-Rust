@@ -275,7 +275,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 
-### Hard(60)
+### Hard(61)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -325,6 +325,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1483. Kth Ancestor of a Tree Node](src/leetcode/p1483_kth_ancestor_of_a_tree_node)
 - [1617. Count Subtrees With Max Distance Between Cities](src/leetcode/p1617_count_subtrees_with_max_distance_between_cities)
 - [1632. Rank Transform of a Matrix](src/leetcode/p1632_rank_transform_of_a_matrix)
+- [1793. Maximum Score of a Good Subarray](src/leetcode/p1793_maximum_score_of_a_good_subarray)
 - [1819. Number of Different Subsequences GCDs](src/leetcode/p1819_number_of_different_subsequences_gcds)
 - [1825. Finding MK Average](src/leetcode/p1825_finding_mk_average)
 - [1944. Number of Visible People in a Queue](src/leetcode/p1944_number_of_visible_people_in_a_queue)
