@@ -95,7 +95,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2864. Maximum Odd Binary Number](src/leetcode/p2864_maximum_odd_binary_number)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(175)
+### Medium(176)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -250,6 +250,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1828. Queries on Number of Points Inside a Circle](src/leetcode/p1828_queries_on_number_of_points_inside_a_circle)
 - [1954. Minimum Garden Perimeter to Collect Enough Apples](src/leetcode/p1954_minimum_garden_perimeter_to_collect_enough_apples)
 - [1962. Remove Stones to Minimize the Total](src/leetcode/p1962_remove_stones_to_minimize_the_total)
+- [1969. Minimum Non-Zero Product of the Array Elements](src/leetcode/p1969_minimum_non_zero_product_of_the_array_elements)
 - [1976. Number of Ways to Arrive at Destination](src/leetcode/p1976_number_of_ways_to_arrive_at_destination)
 - [2171. Removing Minimum Number of Magic Beans](src/leetcode/p2171_removing_minimum_number_of_magic_beans)
 - [2182. Construct String With Repeat Limit](src/leetcode/p2182_construct_string_with_repeat_limit)

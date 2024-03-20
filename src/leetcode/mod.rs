@@ -112,6 +112,7 @@ pub mod p191_number_of_1_bits;
 pub mod p1944_number_of_visible_people_in_a_queue;
 pub mod p1954_minimum_garden_perimeter_to_collect_enough_apples;
 pub mod p1962_remove_stones_to_minimize_the_total;
+pub mod p1969_minimum_non_zero_product_of_the_array_elements;
 pub mod p1976_number_of_ways_to_arrive_at_destination;
 pub mod p19_remove_nth_node_from_end_of_list;
 pub mod p1_two_sum;
