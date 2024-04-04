@@ -96,7 +96,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2864. Maximum Odd Binary Number](src/leetcode/p2864_maximum_odd_binary_number)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(178)
+### Medium(179)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -256,6 +256,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1976. Number of Ways to Arrive at Destination](src/leetcode/p1976_number_of_ways_to_arrive_at_destination)
 - [2171. Removing Minimum Number of Magic Beans](src/leetcode/p2171_removing_minimum_number_of_magic_beans)
 - [2182. Construct String With Repeat Limit](src/leetcode/p2182_construct_string_with_repeat_limit)
+- [2192. All Ancestors of a Node in a Directed Acyclic Graph](src/leetcode/p2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph)
 - [2368. Reachable Nodes With Restrictions](src/leetcode/p2368_reachable_nodes_with_restrictions)
 - [2369. Check if There is a Valid Partition For The Array](src/leetcode/p2369_check_if_there_is_a_valid_partition_for_the_array)
 - [2380. Time Needed to Rearrange a Binary String](src/leetcode/p2380_time_needed_to_rearrange_a_binary_string)

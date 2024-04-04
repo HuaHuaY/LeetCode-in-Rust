@@ -122,6 +122,7 @@ pub mod p20_valid_parentheses;
 pub mod p2129_capitalize_the_title;
 pub mod p2171_removing_minimum_number_of_magic_beans;
 pub mod p2182_construct_string_with_repeat_limit;
+pub mod p2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph;
 pub mod p21_merge_two_sorted_lists;
 pub mod p224_basic_calculator;
 pub mod p225_implement_stack_using_queues;
