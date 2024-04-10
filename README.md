@@ -96,7 +96,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2864. Maximum Odd Binary Number](src/leetcode/p2864_maximum_odd_binary_number)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(179)
+### Medium(180)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -242,6 +242,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1686. Stone Game VI](src/leetcode/p1686_stone_game_vi)
 - [1690. Stone Game VII](src/leetcode/p1690_stone_game_vii)
 - [1696. Jump Game VI](src/leetcode/p1696_jump_game_vi)
+- [1702. Maximum Binary String After Change](src/leetcode/p1702_maximum_binary_string_after_change)
 - [1792. Maximum Average Pass Ratio](src/leetcode/p1792_maximum_average_pass_ratio)
 - [1797. Design Authentication Manager](src/leetcode/p1797_design_authentication_manager)
 - [1798. Maximum Number of Consecutive Values You Can Make](src/leetcode/p1798_maximum_number_of_consecutive_values_you_can_make)

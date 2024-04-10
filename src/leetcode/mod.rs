@@ -93,6 +93,7 @@ pub mod p1690_stone_game_vii;
 pub mod p1696_jump_game_vi;
 pub mod p169_majority_element;
 pub mod p16_3sum_closest;
+pub mod p1702_maximum_binary_string_after_change;
 pub mod p173_binary_search_tree_iterator;
 pub mod p1792_maximum_average_pass_ratio;
 pub mod p1793_maximum_score_of_a_good_subarray;
