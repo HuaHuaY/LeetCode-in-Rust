@@ -28,6 +28,7 @@ pub mod p10_regular_expression_matching;
 pub mod p1124_longest_well_performing_interval;
 pub mod p1125_smallest_sufficient_team;
 pub mod p1129_shortest_path_with_alternating_colors;
+pub mod p1137_n_th_tribonacci_number;
 pub mod p1138_alphabet_board_path;
 pub mod p1139_largest_1_bordered_square;
 pub mod p1140_stone_game_ii;
