@@ -290,7 +290,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 
-### Hard(61)
+### Hard(62)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -312,6 +312,7 @@ Call test by running `cargo test p[xxx]_`.
 - [84. Largest Rectangle in Histogram](src/leetcode/p84_largest_rectangle_in_histogram)
 - [85. Maximal Rectangle](src/leetcode/p85_maximal_rectangle)
 - [87. Scramble String](src/leetcode/p87_scramble_string)
+- [115. Distinct Subsequences](src/leetcode/p115_distinct_subsequences)
 - [132. Palindrome Partitioning II](src/leetcode/p132_palindrome_partitioning_ii)
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [233. Number of Digit One](src/leetcode/p233_number_of_digit_one)
