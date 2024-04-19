@@ -99,7 +99,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2864. Maximum Odd Binary Number](src/leetcode/p2864_maximum_odd_binary_number)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(180)
+### Medium(181)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -188,6 +188,7 @@ Call test by running `cargo test p[xxx]_`.
 - [503. Next Greater Element II](src/leetcode/p503_next_greater_element_ii)
 - [556. Next Greater Element III](src/leetcode/p556_next_greater_element_iii)
 - [670. Maximum Swap](src/leetcode/p670_maximum_swap)
+- [740. Delete and Earn](src/leetcode/p740_delete_and_earn)
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
 - [831. Masking Personal Information](src/leetcode/p831_masking_personal_information)
 - [877. Stone Game](src/leetcode/p877_stone_game)
