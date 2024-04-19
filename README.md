@@ -99,7 +99,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2864. Maximum Odd Binary Number](src/leetcode/p2864_maximum_odd_binary_number)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(184)
+### Medium(185)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -188,6 +188,7 @@ Call test by running `cargo test p[xxx]_`.
 - [456. 132 Pattern](src/leetcode/p456_132_pattern)
 - [478. Generate Random Point in a Circle](src/leetcode/p478_generate_random_point_in_a_circle)
 - [503. Next Greater Element II](src/leetcode/p503_next_greater_element_ii)
+- [516. Longest Palindromic Subsequence](src/leetcode/p516_longest_palindromic_subsequence)
 - [556. Next Greater Element III](src/leetcode/p556_next_greater_element_iii)
 - [670. Maximum Swap](src/leetcode/p670_maximum_swap)
 - [740. Delete and Earn](src/leetcode/p740_delete_and_earn)
