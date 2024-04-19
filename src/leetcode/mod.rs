@@ -288,6 +288,7 @@ pub mod p6_zigzag_conversion;
 pub mod p705_design_hashset;
 pub mod p706_design_hashmap;
 pub mod p70_climbing_stairs;
+pub mod p712_minimum_ascii_delete_sum_for_two_strings;
 pub mod p71_simplify_path;
 pub mod p72_edit_distance;
 pub mod p73_set_matrix_zeroes;
