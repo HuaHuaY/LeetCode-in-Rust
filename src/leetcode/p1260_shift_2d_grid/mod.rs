@@ -2,7 +2,7 @@ pub struct Solution;
 
 impl Solution {
     pub fn shift_grid(grid: Vec<Vec<i32>>, k: i32) -> Vec<Vec<i32>> {
-        let inner_len = grid.get(0).unwrap_or(&vec![]).len();
+        let inner_len = grid.first().unwrap_or(&vec![]).len();
         let mut result: Vec<i32> = IntoIterator::into_iter(grid).flatten().collect();
         let size = result.len();
         result.rotate_right(k as usize % size);

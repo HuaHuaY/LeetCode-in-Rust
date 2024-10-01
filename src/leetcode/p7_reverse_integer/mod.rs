@@ -4,7 +4,7 @@ impl Solution {
     pub fn reverse(mut x: i32) -> i32 {
         let mut result = 0;
         while x != 0 {
-            if result > i32::max_value() / 10 || result < i32::min_value() / 10 {
+            if !(i32::MIN / 10..=i32::MAX / 10).contains(&result) {
                 return 0;
             }
 

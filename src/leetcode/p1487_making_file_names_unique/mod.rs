@@ -13,7 +13,7 @@ impl Solution {
         for name in names {
             if let Some(next) = map.get(&name) {
                 let mut i = *next;
-                while map.get(&create_name_index(name.clone(), i)).is_some() {
+                while map.contains_key(&create_name_index(name.clone(), i)) {
                     i += 1;
                 }
                 let new_name = create_name_index(name.clone(), i);

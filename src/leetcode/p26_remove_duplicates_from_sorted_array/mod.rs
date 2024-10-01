@@ -6,7 +6,7 @@ impl Solution {
         Solution::foo2(nums)
     }
 
-    fn foo1(nums: &mut Vec<i32>) -> i32 {
+    fn foo1(nums: &mut [i32]) -> i32 {
         if nums.is_empty() {
             0
         } else {

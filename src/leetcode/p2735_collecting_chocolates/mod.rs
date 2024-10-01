@@ -1,9 +1,10 @@
 pub struct Solution;
 
 impl Solution {
+    #[allow(clippy::ptr_arg)]
     pub fn min_cost(nums: Vec<i32>, x: i32) -> i64 {
         let mut min = nums.clone();
-        let mut result = i64::max_value();
+        let mut result = i64::MAX;
         for i in 0..nums.len() {
             for (j, e) in min.iter_mut().enumerate() {
                 *e = (*e).min(nums[(i + j) % nums.len()]);

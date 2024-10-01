@@ -46,7 +46,8 @@ impl Solution {
                 let mut predecessor_ref_mut = predecessor.borrow_mut();
                 if predecessor_ref_mut.right.is_none() {
                     predecessor_ref_mut.right = Some(root_inner.clone());
-                    root = r.left.clone();
+                    let left = r.left.clone();
+                    root = left;
                 } else {
                     if predecessor_ref_mut.val > r.val {
                         y = Some(root_inner.clone());
@@ -56,7 +57,8 @@ impl Solution {
                     }
                     pred = Some(root_inner.clone());
                     predecessor_ref_mut.right = None;
-                    root = r.right.clone();
+                    let right = r.right.clone();
+                    root = right;
                 }
             } else {
                 if let Some(p) = pred {
@@ -68,7 +70,8 @@ impl Solution {
                     }
                 }
                 pred = Some(root_inner.clone());
-                root = r.right.clone();
+                let right = r.right.clone();
+                root = right;
             }
         }
         let x = x.unwrap();

@@ -1,6 +1,7 @@
 pub struct Solution;
 
 impl Solution {
+    #[allow(clippy::ptr_arg)]
     pub fn next_permutation(nums: &mut Vec<i32>) {
         let mut i = nums.len() - 1;
         while i > 0 && nums[i - 1] >= nums[i] {

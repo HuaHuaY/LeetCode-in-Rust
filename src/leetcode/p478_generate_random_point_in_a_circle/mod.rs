@@ -21,11 +21,11 @@ impl Solution {
 
     pub fn rand_point(&self) -> Vec<f64> {
         let mut rng = rand::thread_rng();
-        let mut dx = rng.gen_range(-self.radius, self.radius);
-        let mut dy = rng.gen_range(-self.radius, self.radius);
+        let mut dx = rng.gen_range(-self.radius..self.radius);
+        let mut dy = rng.gen_range(-self.radius..self.radius);
         while dx * dx + dy * dy > self.radius * self.radius {
-            dx = rng.gen_range(-self.radius, self.radius);
-            dy = rng.gen_range(-self.radius, self.radius);
+            dx = rng.gen_range(-self.radius..self.radius);
+            dy = rng.gen_range(-self.radius..self.radius);
         }
         vec![self.x_center + dx, self.y_center + dy]
     }

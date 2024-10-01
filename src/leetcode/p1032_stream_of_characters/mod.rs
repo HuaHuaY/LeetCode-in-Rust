@@ -64,8 +64,9 @@ impl StreamChecker {
             for i in 0..26 {
                 if node_mut.sons[i].is_some() {
                     let son = node_mut.sons[i].as_ref().unwrap();
-                    son.borrow_mut().fail =
-                        node_mut.fail.as_ref().unwrap().borrow().sons[i].clone();
+                    son.borrow_mut()
+                        .fail
+                        .clone_from(&node_mut.fail.as_ref().unwrap().borrow().sons[i]);
                     queue.push_back(son.clone());
                 } else {
                     let t = node_mut.fail.as_ref().unwrap().borrow().sons[i].clone();

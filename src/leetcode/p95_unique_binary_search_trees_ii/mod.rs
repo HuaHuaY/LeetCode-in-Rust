@@ -41,8 +41,8 @@ impl Solution {
                 for l in &left {
                     for r in &right {
                         let mut root = TreeNode::new(i);
-                        root.left = l.clone();
-                        root.right = r.clone();
+                        root.left.clone_from(l);
+                        root.right.clone_from(r);
                         result.push(Some(Rc::new(RefCell::new(root))));
                     }
                 }

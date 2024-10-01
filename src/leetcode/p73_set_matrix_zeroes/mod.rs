@@ -1,6 +1,7 @@
 pub struct Solution;
 
 impl Solution {
+    #[allow(clippy::ptr_arg)]
     pub fn set_zeroes(matrix: &mut Vec<Vec<i32>>) {
         let mut one_line_zero = false;
         let m = matrix.len();

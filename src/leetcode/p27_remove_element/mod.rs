@@ -6,7 +6,7 @@ impl Solution {
         Solution::foo2(nums, val)
     }
 
-    fn foo1(nums: &mut Vec<i32>, val: i32) -> i32 {
+    fn foo1(nums: &mut [i32], val: i32) -> i32 {
         let mut j = 0;
 
         for i in 0..nums.len() {

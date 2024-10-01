@@ -51,18 +51,10 @@ impl Solution {
             let i = (right - left) / 2 + left;
             let j = (total_size + 1) / 2 - i;
 
-            let nums1_i_1 = if i == 0 { std::i32::MIN } else { nums1[i - 1] };
-            let nums1_i = if i == nums1.len() {
-                std::i32::MAX
-            } else {
-                nums1[i]
-            };
-            let nums2_j_1 = if j == 0 { std::i32::MIN } else { nums2[j - 1] };
-            let nums2_j = if j == nums2.len() {
-                std::i32::MAX
-            } else {
-                nums2[j]
-            };
+            let nums1_i_1 = if i == 0 { i32::MIN } else { nums1[i - 1] };
+            let nums1_i = if i == nums1.len() { i32::MAX } else { nums1[i] };
+            let nums2_j_1 = if j == 0 { i32::MIN } else { nums2[j - 1] };
+            let nums2_j = if j == nums2.len() { i32::MAX } else { nums2[j] };
 
             if nums1_i_1 <= nums2_j {
                 left_max = nums1_i_1.max(nums2_j_1);
