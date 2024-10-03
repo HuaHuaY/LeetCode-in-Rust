@@ -43,6 +43,7 @@ pub mod p1185_day_of_the_week;
 pub mod p11_container_with_most_water;
 pub mod p1210_minimum_moves_to_reach_target_with_rotations;
 pub mod p1223_dice_roll_simulation;
+pub mod p1227_airplane_seat_assignment_probability;
 pub mod p1233_remove_sub_folders_from_the_filesystem;
 pub mod p1234_replace_the_substring_for_balanced_string;
 pub mod p1237_find_positive_integer_solution_for_a_given_equation;

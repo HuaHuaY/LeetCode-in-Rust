@@ -99,7 +99,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2864. Maximum Odd Binary Number](src/leetcode/p2864_maximum_odd_binary_number)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 
-### Medium(189)
+### Medium(190)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -225,6 +225,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1144. Decrease Elements To Make Array Zigzag](src/leetcode/p1144_decrease_elements_to_make_array_zigzag)
 - [1145. Binary Tree Coloring Game](src/leetcode/p1145_binary_tree_coloring_game)
 - [1161. Maximum Level Sum of a Binary Tree](src/leetcode/p1161_maximum_level_sum_of_a_binary_tree)
+- [1227. Airplane Seat Assignment Probability](src/leetcode/p1227_airplane_seat_assignment_probability)
 - [1233. Remove Sub-Folders from the Filesystem](src/leetcode/p1233_remove_sub_folders_from_the_filesystem)
 - [1234. Replace the Substring for Balanced String](src/leetcode/p1234_replace_the_substring_for_balanced_string)
 - [1237. Find Positive Integer Solution for a Given Equation](src/leetcode/p1237_find_positive_integer_solution_for_a_given_equation)
