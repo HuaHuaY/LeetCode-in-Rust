@@ -114,6 +114,7 @@ pub mod p1870_minimum_speed_to_arrive_on_time;
 pub mod p18_4sum;
 pub mod p190_reverse_bits;
 pub mod p191_number_of_1_bits;
+pub mod p1928_minimum_cost_to_reach_destination_in_time;
 pub mod p1944_number_of_visible_people_in_a_queue;
 pub mod p1954_minimum_garden_perimeter_to_collect_enough_apples;
 pub mod p1962_remove_stones_to_minimize_the_total;
