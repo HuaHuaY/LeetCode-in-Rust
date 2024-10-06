@@ -129,6 +129,7 @@ pub mod p20_valid_parentheses;
 pub mod p2129_capitalize_the_title;
 pub mod p2171_removing_minimum_number_of_magic_beans;
 pub mod p2182_construct_string_with_repeat_limit;
+pub mod p2187_minimum_time_to_complete_trips;
 pub mod p2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph;
 pub mod p21_merge_two_sorted_lists;
 pub mod p221_maximal_square;
