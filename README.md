@@ -296,7 +296,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 
-### Hard(63)
+### Hard(64)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -328,6 +328,7 @@ Call test by running `cargo test p[xxx]_`.
 - [466. Count The Repetitions](src/leetcode/p466_count_the_repetitions)
 - [514. Freedom Trail](src/leetcode/p514_freedom_trail)
 - [600. Non-negative Integers without Consecutive Ones](src/leetcode/p600_non_negative_integers_without_consecutive_ones)
+- [871. Minimum Number of Refueling Stops](src/leetcode/p871_minimum_number_of_refueling_stops)
 - [902. Numbers At Most N Given Digit Set](src/leetcode/p902_numbers_at_most_n_given_digit_set)
 - [982. Triples with Bitwise AND Equal To Zero](src/leetcode/p982_triples_with_bitwise_and_equal_to_zero)
 - [987. Vertical Order Traversal of a Binary Tree](src/leetcode/p987_vertical_order_traversal_of_a_binary_tree)

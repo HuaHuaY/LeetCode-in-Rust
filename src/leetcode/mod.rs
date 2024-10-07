@@ -317,6 +317,7 @@ pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p84_largest_rectangle_in_histogram;
 pub mod p85_maximal_rectangle;
 pub mod p86_partition_list;
+pub mod p871_minimum_number_of_refueling_stops;
 pub mod p877_stone_game;
 pub mod p87_scramble_string;
 pub mod p889_construct_binary_tree_from_preorder_and_postorder_traversal;
