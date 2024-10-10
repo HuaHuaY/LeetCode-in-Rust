@@ -227,6 +227,7 @@ pub mod p300_longest_increasing_subsequence;
 pub mod p303_range_sum_query_immutable;
 pub mod p30_substring_with_concatenation_of_all_words;
 pub mod p310_minimum_height_trees;
+pub mod p3162_find_the_number_of_good_pairs_i;
 pub mod p31_next_permutation;
 pub mod p32_longest_valid_parentheses;
 pub mod p331_verify_preorder_serialization_of_a_binary_tree;
