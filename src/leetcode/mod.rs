@@ -54,6 +54,7 @@ pub mod p1255_maximum_score_words_formed_by_letters;
 pub mod p1260_shift_2d_grid;
 pub mod p1261_find_elements_in_a_contaminated_binary_tree;
 pub mod p1276_number_of_burgers_with_no_waste_of_ingredients;
+pub mod p128_longest_consecutive_sequence;
 pub mod p12_integer_to_roman;
 pub mod p1318_minimum_flips_to_make_a_or_b_equal_to_c;
 pub mod p131_palindrome_partitioning;
