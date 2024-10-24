@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(90)
+### Easy(91)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -36,6 +36,7 @@ Call test by running `cargo test p[xxx]_`.
 - [225. Implement Stack using Queues](src/leetcode/p225_implement_stack_using_queues)
 - [232. Implement Queue using Stacks](src/leetcode/p232_implement_queue_using_stacks)
 - [263. Ugly Number](src/leetcode/p263_ugly_number)
+- [283. Move Zeroes](src/leetcode/p283_move_zeroes)
 - [292. Nim Game](src/leetcode/p292_nim_game)
 - [303. Range Sum Query - Immutable](src/leetcode/p303_range_sum_query_immutable)
 - [383. Ransom Note](src/leetcode/p383_ransom_note)
@@ -100,7 +101,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 
-### Medium(193)
+### Medium(194)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -193,6 +194,7 @@ Call test by running `cargo test p[xxx]_`.
 - [503. Next Greater Element II](src/leetcode/p503_next_greater_element_ii)
 - [516. Longest Palindromic Subsequence](src/leetcode/p516_longest_palindromic_subsequence)
 - [556. Next Greater Element III](src/leetcode/p556_next_greater_element_iii)
+- [560. Subarray Sum Equals K](src/leetcode/p560_subarray_sum_equals_k)
 - [670. Maximum Swap](src/leetcode/p670_maximum_swap)
 - [673. Number of Longest Increasing Subsequence](src/leetcode/p673_number_of_longest_increasing_subsequence)
 - [712. Minimum ASCII Delete Sum for Two Strings](src/leetcode/p712_minimum_ascii_delete_sum_for_two_strings)
@@ -298,7 +300,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 
-### Hard(64)
+### Hard(65)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -324,6 +326,7 @@ Call test by running `cargo test p[xxx]_`.
 - [132. Palindrome Partitioning II](src/leetcode/p132_palindrome_partitioning_ii)
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [233. Number of Digit One](src/leetcode/p233_number_of_digit_one)
+- [239. Sliding Window Maximum](src/leetcode/p239_sliding_window_maximum)
 - [354. Russian Doll Envelopes](src/leetcode/p354_russian_doll_envelopes)
 - [410. Split Array Largest Sum](src/leetcode/p410_split_array_largest_sum)
 - [420. Strong Password Checker](src/leetcode/p420_strong_password_checker)
