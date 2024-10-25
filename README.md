@@ -101,7 +101,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 
-### Medium(194)
+### Medium(196)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -176,10 +176,12 @@ Call test by running `cargo test p[xxx]_`.
 - [150. Evaluate Reverse Polish Notation](src/leetcode/p150_evaluate_reverse_polish_notation)
 - [165. Compare Version Numbers](src/leetcode/p165_compare_version_numbers)
 - [173. Binary Search Tree Iterator](src/leetcode/p173_binary_search_tree_iterator)
+- [189. Rotate Array](src/leetcode/p189_rotate_array)
 - [221. Maximal Square](src/leetcode/p221_maximal_square)
 - [227. Basic Calculator II](src/leetcode/p227_basic_calculator_ii)
 - [235. Lowest Common Ancestor of a Binary Search Tree](src/leetcode/p235_lowest_common_ancestor_of_a_binary_search_tree)
 - [236. Lowest Common Ancestor of a Binary Tree](src/leetcode/p236_lowest_common_ancestor_of_a_binary_tree)
+- [238. Product of Array Except Self](src/leetcode/p238_product_of_array_except_self)
 - [264. Ugly Number II](src/leetcode/p264_ugly_number_ii)
 - [299. Bulls and Cows](src/leetcode/p299_bulls_and_cows)
 - [300. Longest Increasing Subsequence](src/leetcode/p300_longest_increasing_subsequence)
