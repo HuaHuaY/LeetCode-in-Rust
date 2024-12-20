@@ -101,7 +101,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 
-### Medium(196)
+### Medium(198)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -286,6 +286,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2428. Maximum Sum of an Hourglass](src/leetcode/p2428_maximum_sum_of_an_hourglass)
 - [2476. Closest Nodes Queries in a Binary Search Tree](src/leetcode/p2476_closest_nodes_queries_in_a_binary_search_tree)
 - [2487. Remove Nodes From Linked List](src/leetcode/p2487_remove_nodes_from_linked_list)
+- [2545. Sort the Students by Their Kth Score](src/leetcode/p2545_sort_the_students_by_their_kth_score)
 - [2575. Find the Divisibility Array of a String](src/leetcode/p2575_find_the_divisibility_array_of_a_string)
 - [2583. Kth Largest Sum in a Binary Tree](src/leetcode/p2583_kth_largest_sum_in_a_binary_tree)
 - [2641. Cousins in Binary Tree II](src/leetcode/p2641_cousins_in_binary_tree_ii)
@@ -301,6 +302,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2834. Find the Minimum Possible Sum of a Beautiful Array](src/leetcode/p2834_find_the_minimum_possible_sum_of_a_beautiful_array)
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
+- [3138. Minimum Length of Anagram Concatenation](src/leetcode/p3138_minimum_length_of_anagram_concatenation)
 
 ### Hard(65)
 
