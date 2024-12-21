@@ -101,7 +101,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 
-### Medium(198)
+### Medium(199)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -242,6 +242,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1276. Number of Burgers with No Waste of Ingredients](src/leetcode/p1276_number_of_burgers_with_no_waste_of_ingredients)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
 - [1376. Time Needed to Inform All Employees](src/leetcode/p1376_time_needed_to_inform_all_employees)
+- [1387. Sort Integers by The Power Value](src/leetcode/p1387_sort_integers_by_the_power_value)
 - [1419. Minimum Number of Frogs Croaking](src/leetcode/p1419_minimum_number_of_frogs_croaking)
 - [1487. Making File Names Unique](src/leetcode/p1487_making_file_names_unique)
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](src/leetcode/p1574_shortest_subarray_to_be_removed_to_make_array_sorted)

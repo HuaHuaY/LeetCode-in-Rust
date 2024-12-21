@@ -65,6 +65,7 @@ pub mod p1349_maximum_students_taking_exam;
 pub mod p134_gas_station;
 pub mod p1374_generate_a_string_with_characters_that_have_odd_counts;
 pub mod p1376_time_needed_to_inform_all_employees;
+pub mod p1387_sort_integers_by_the_power_value;
 pub mod p1397_find_all_good_strings;
 pub mod p139_word_break;
 pub mod p13_roman_to_integer;
