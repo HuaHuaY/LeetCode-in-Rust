@@ -101,7 +101,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 
-### Medium(199)
+### Medium(200)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -203,6 +203,7 @@ Call test by running `cargo test p[xxx]_`.
 - [740. Delete and Earn](src/leetcode/p740_delete_and_earn)
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
 - [831. Masking Personal Information](src/leetcode/p831_masking_personal_information)
+- [855. Exam Room](src/leetcode/p855_exam_room)
 - [877. Stone Game](src/leetcode/p877_stone_game)
 - [889. Construct Binary Tree from Preorder and Postorder Traversal](src/leetcode/p889_construct_binary_tree_from_preorder_and_postorder_traversal)
 - [894. All Possible Full Binary Trees](src/leetcode/p894_all_possible_full_binary_trees)
