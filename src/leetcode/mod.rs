@@ -238,6 +238,8 @@ pub mod p310_minimum_height_trees;
 pub mod p3138_minimum_length_of_anagram_concatenation;
 pub mod p3162_find_the_number_of_good_pairs_i;
 pub mod p31_next_permutation;
+pub mod p3218_minimum_cost_for_cutting_cake_i;
+pub mod p3219_minimum_cost_for_cutting_cake_ii;
 pub mod p32_longest_valid_parentheses;
 pub mod p331_verify_preorder_serialization_of_a_binary_tree;
 pub mod p338_counting_bits;

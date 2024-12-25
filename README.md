@@ -101,7 +101,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 
-### Medium(201)
+### Medium(202)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -306,8 +306,9 @@ Call test by running `cargo test p[xxx]_`.
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 - [3138. Minimum Length of Anagram Concatenation](src/leetcode/p3138_minimum_length_of_anagram_concatenation)
+- [3218. Minimum Cost for Cutting Cake I](src/leetcode/p3218_minimum_cost_for_cutting_cake_i)
 
-### Hard(65)
+### Hard(66)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -374,3 +375,4 @@ Call test by running `cargo test p[xxx]_`.
 - [2809. Minimum Time to Make Array Sum At Most x](src/leetcode/p2809_minimum_time_to_make_array_sum_at_most_x)
 - [2846. Minimum Edge Weight Equilibrium Queries in a Tree](src/leetcode/p2846_minimum_edge_weight_equilibrium_queries_in_a_tree)
 - [2867. Count Valid Paths in a Tree](src/leetcode/p2867_count_valid_paths_in_a_tree)
+- [3219. Minimum Cost for Cutting Cake II](src/leetcode/p3219_minimum_cost_for_cutting_cake_ii)
