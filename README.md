@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(91)
+### Easy(92)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -99,6 +99,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2859. Sum of Values at Indices With K Set Bits](src/leetcode/p2859_sum_of_values_at_indices_with_k_set_bits)
 - [2864. Maximum Odd Binary Number](src/leetcode/p2864_maximum_odd_binary_number)
 - [2917. Find the K-or of an Array](src/leetcode/p2917_find_the_k_or_of_an_array)
+- [3083. Existence of a Substring in a String and Its Reverse](src/leetcode/p3083_existence_of_a_substring_in_a_string_and_its_reverse)
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 
 ### Medium(202)
