@@ -102,7 +102,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3083. Existence of a Substring in a String and Its Reverse](src/leetcode/p3083_existence_of_a_substring_in_a_string_and_its_reverse)
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 
-### Medium(202)
+### Medium(203)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -307,6 +307,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
 - [3138. Minimum Length of Anagram Concatenation](src/leetcode/p3138_minimum_length_of_anagram_concatenation)
+- [3159. Find Occurrences of an Element in an Array](src/leetcode/p3159_find_occurrences_of_an_element_in_an_array)
 - [3218. Minimum Cost for Cutting Cake I](src/leetcode/p3218_minimum_cost_for_cutting_cake_i)
 
 ### Hard(66)
