@@ -233,6 +233,7 @@ pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;
 pub mod p300_longest_increasing_subsequence;
 pub mod p303_range_sum_query_immutable;
+pub mod p3046_split_the_array;
 pub mod p3083_existence_of_a_substring_in_a_string_and_its_reverse;
 pub mod p30_substring_with_concatenation_of_all_words;
 pub mod p310_minimum_height_trees;
