@@ -103,7 +103,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3083. Existence of a Substring in a String and Its Reverse](src/leetcode/p3083_existence_of_a_substring_in_a_string_and_its_reverse)
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 
-### Medium(203)
+### Medium(204)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -244,6 +244,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1261. Find Elements in a Contaminated Binary Tree](src/leetcode/p1261_find_elements_in_a_contaminated_binary_tree)
 - [1276. Number of Burgers with No Waste of Ingredients](src/leetcode/p1276_number_of_burgers_with_no_waste_of_ingredients)
 - [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/p1318_minimum_flips_to_make_a_or_b_equal_to_c)
+- [1366. Rank Teams by Votes](src/leetcode/p1366_rank_teams_by_votes)
 - [1376. Time Needed to Inform All Employees](src/leetcode/p1376_time_needed_to_inform_all_employees)
 - [1387. Sort Integers by The Power Value](src/leetcode/p1387_sort_integers_by_the_power_value)
 - [1419. Minimum Number of Frogs Croaking](src/leetcode/p1419_minimum_number_of_frogs_croaking)
