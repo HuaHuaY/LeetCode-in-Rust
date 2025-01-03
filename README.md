@@ -104,7 +104,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(205)
+### Medium(206)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -204,6 +204,7 @@ Call test by running `cargo test p[xxx]_`.
 - [673. Number of Longest Increasing Subsequence](src/leetcode/p673_number_of_longest_increasing_subsequence)
 - [712. Minimum ASCII Delete Sum for Two Strings](src/leetcode/p712_minimum_ascii_delete_sum_for_two_strings)
 - [729. My Calendar I](src/leetcode/p729_my_calendar_i)
+- [731. My Calendar II](src/leetcode/p731_my_calendar_ii)
 - [740. Delete and Earn](src/leetcode/p740_delete_and_earn)
 - [814. Binary Tree Pruning](src/leetcode/p814_binary_tree_pruning)
 - [831. Masking Personal Information](src/leetcode/p831_masking_personal_information)

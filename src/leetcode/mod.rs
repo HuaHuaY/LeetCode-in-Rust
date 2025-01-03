@@ -317,6 +317,7 @@ pub mod p712_minimum_ascii_delete_sum_for_two_strings;
 pub mod p71_simplify_path;
 pub mod p729_my_calendar_i;
 pub mod p72_edit_distance;
+pub mod p731_my_calendar_ii;
 pub mod p73_set_matrix_zeroes;
 pub mod p740_delete_and_earn;
 pub mod p746_min_cost_climbing;
