@@ -315,7 +315,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3159. Find Occurrences of an Element in an Array](src/leetcode/p3159_find_occurrences_of_an_element_in_an_array)
 - [3218. Minimum Cost for Cutting Cake I](src/leetcode/p3218_minimum_cost_for_cutting_cake_i)
 
-### Hard(66)
+### Hard(67)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -348,6 +348,7 @@ Call test by running `cargo test p[xxx]_`.
 - [466. Count The Repetitions](src/leetcode/p466_count_the_repetitions)
 - [514. Freedom Trail](src/leetcode/p514_freedom_trail)
 - [600. Non-negative Integers without Consecutive Ones](src/leetcode/p600_non_negative_integers_without_consecutive_ones)
+- [732. My Calendar III](src/leetcode/p732_my_calendar_iii)
 - [871. Minimum Number of Refueling Stops](src/leetcode/p871_minimum_number_of_refueling_stops)
 - [902. Numbers At Most N Given Digit Set](src/leetcode/p902_numbers_at_most_n_given_digit_set)
 - [982. Triples with Bitwise AND Equal To Zero](src/leetcode/p982_triples_with_bitwise_and_equal_to_zero)
