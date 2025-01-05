@@ -104,7 +104,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(207)
+### Medium(208)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -289,6 +289,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2187. Minimum Time to Complete Trips](src/leetcode/p2187_minimum_time_to_complete_trips)
 - [2192. All Ancestors of a Node in a Directed Acyclic Graph](src/leetcode/p2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph)
 - [2241. Design an ATM Machine](src/leetcode/p2241_design_an_atm_machine)
+- [2274. Maximum Consecutive Floors Without Special Floors](src/leetcode/p2274_maximum_consecutive_floors_without_special_floors)
 - [2368. Reachable Nodes With Restrictions](src/leetcode/p2368_reachable_nodes_with_restrictions)
 - [2369. Check if There is a Valid Partition For The Array](src/leetcode/p2369_check_if_there_is_a_valid_partition_for_the_array)
 - [2380. Time Needed to Rearrange a Binary String](src/leetcode/p2380_time_needed_to_rearrange_a_binary_string)

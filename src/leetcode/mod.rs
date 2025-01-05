@@ -142,6 +142,7 @@ pub mod p221_maximal_square;
 pub mod p2241_design_an_atm_machine;
 pub mod p224_basic_calculator;
 pub mod p225_implement_stack_using_queues;
+pub mod p2274_maximum_consecutive_floors_without_special_floors;
 pub mod p227_basic_calculator_ii;
 pub mod p2293_min_max_game;
 pub mod p2299_strong_password_checker_ii;
