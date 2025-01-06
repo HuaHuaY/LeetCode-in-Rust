@@ -235,6 +235,7 @@ pub mod p299_bulls_and_cows;
 pub mod p29_divide_two_integers;
 pub mod p2_add_two_numbers;
 pub mod p300_longest_increasing_subsequence;
+pub mod p3019_number_of_changing_keys;
 pub mod p303_range_sum_query_immutable;
 pub mod p3046_split_the_array;
 pub mod p3083_existence_of_a_substring_in_a_string_and_its_reverse;
