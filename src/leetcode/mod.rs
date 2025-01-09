@@ -249,6 +249,8 @@ pub mod p31_next_permutation;
 pub mod p3218_minimum_cost_for_cutting_cake_i;
 pub mod p3219_minimum_cost_for_cutting_cake_ii;
 pub mod p3280_convert_date_to_binary;
+pub mod p3297_count_substrings_that_can_be_rearranged_to_contain_a_string_i;
+pub mod p3298_count_substrings_that_can_be_rearranged_to_contain_a_string_ii;
 pub mod p32_longest_valid_parentheses;
 pub mod p331_verify_preorder_serialization_of_a_binary_tree;
 pub mod p338_counting_bits;
