@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(96)
+### Easy(97)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -104,6 +104,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3046. Split the Array](src/leetcode/p3046_split_the_array)
 - [3083. Existence of a Substring in a String and Its Reverse](src/leetcode/p3083_existence_of_a_substring_in_a_string_and_its_reverse)
 - [3162. Find the Number of Good Pairs I](src/leetcode/p3162_find_the_number_of_good_pairs_i)
+- [3270. Find the Key of the Numbers](src/leetcode/p3270_find_the_key_of_the_numbers)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
 ### Medium(209)

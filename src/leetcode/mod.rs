@@ -248,6 +248,7 @@ pub mod p3162_find_the_number_of_good_pairs_i;
 pub mod p31_next_permutation;
 pub mod p3218_minimum_cost_for_cutting_cake_i;
 pub mod p3219_minimum_cost_for_cutting_cake_ii;
+pub mod p3270_find_the_key_of_the_numbers;
 pub mod p3280_convert_date_to_binary;
 pub mod p3297_count_substrings_that_can_be_rearranged_to_contain_a_string_i;
 pub mod p3298_count_substrings_that_can_be_rearranged_to_contain_a_string_ii;
