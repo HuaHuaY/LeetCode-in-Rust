@@ -107,7 +107,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3270. Find the Key of the Numbers](src/leetcode/p3270_find_the_key_of_the_numbers)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(210)
+### Medium(211)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -292,6 +292,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2187. Minimum Time to Complete Trips](src/leetcode/p2187_minimum_time_to_complete_trips)
 - [2192. All Ancestors of a Node in a Directed Acyclic Graph](src/leetcode/p2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph)
 - [2241. Design an ATM Machine](src/leetcode/p2241_design_an_atm_machine)
+- [2270. Number of Ways to Split Array](src/leetcode/p2270_number_of_ways_to_split_array)
 - [2274. Maximum Consecutive Floors Without Special Floors](src/leetcode/p2274_maximum_consecutive_floors_without_special_floors)
 - [2275. Largest Combination With Bitwise AND Greater Than Zero](src/leetcode/p2275_largest_combination_with_bitwise_and_greater_than_zero)
 - [2368. Reachable Nodes With Restrictions](src/leetcode/p2368_reachable_nodes_with_restrictions)
