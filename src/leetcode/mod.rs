@@ -242,6 +242,7 @@ pub mod p3019_number_of_changing_keys;
 pub mod p303_range_sum_query_immutable;
 pub mod p3046_split_the_array;
 pub mod p3065_minimum_operations_to_exceed_threshold_value_i;
+pub mod p3066_minimum_operations_to_exceed_threshold_value_ii;
 pub mod p3083_existence_of_a_substring_in_a_string_and_its_reverse;
 pub mod p30_substring_with_concatenation_of_all_words;
 pub mod p310_minimum_height_trees;

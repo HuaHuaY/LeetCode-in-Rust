@@ -108,7 +108,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3270. Find the Key of the Numbers](src/leetcode/p3270_find_the_key_of_the_numbers)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(211)
+### Medium(212)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -319,6 +319,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2834. Find the Minimum Possible Sum of a Beautiful Array](src/leetcode/p2834_find_the_minimum_possible_sum_of_a_beautiful_array)
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
+- [3066. Minimum Operations to Exceed Threshold Value II](src/leetcode/p3066_minimum_operations_to_exceed_threshold_value_ii)
 - [3138. Minimum Length of Anagram Concatenation](src/leetcode/p3138_minimum_length_of_anagram_concatenation)
 - [3159. Find Occurrences of an Element in an Array](src/leetcode/p3159_find_occurrences_of_an_element_in_an_array)
 - [3218. Minimum Cost for Cutting Cake I](src/leetcode/p3218_minimum_cost_for_cutting_cake_i)
