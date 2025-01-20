@@ -139,6 +139,7 @@ pub mod p2187_minimum_time_to_complete_trips;
 pub mod p2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph;
 pub mod p21_merge_two_sorted_lists;
 pub mod p221_maximal_square;
+pub mod p2239_find_closest_number_to_zero;
 pub mod p2241_design_an_atm_machine;
 pub mod p224_basic_calculator;
 pub mod p225_implement_stack_using_queues;
