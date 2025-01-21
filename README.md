@@ -328,7 +328,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3218. Minimum Cost for Cutting Cake I](src/leetcode/p3218_minimum_cost_for_cutting_cake_i)
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](src/leetcode/p3297_count_substrings_that_can_be_rearranged_to_contain_a_string_i)
 
-### Hard(68)
+### Hard(69)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -387,6 +387,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1825. Finding MK Average](src/leetcode/p1825_finding_mk_average)
 - [1928. Minimum Cost to Reach Destination in Time](src/leetcode/p1928_minimum_cost_to_reach_destination_in_time)
 - [1944. Number of Visible People in a Queue](src/leetcode/p1944_number_of_visible_people_in_a_queue)
+- [2218. Maximum Value of K Coins From Piles](src/leetcode/p2218_maximum_value_of_k_coins_from_piles)
 - [2312. Selling Pieces of Wood](src/leetcode/p2312_selling_pieces_of_wood)
 - [2376. Count Special Integers](src/leetcode/p2376_count_special_integers)
 - [2386. Find the K-Sum of an Array](src/leetcode/p2386_find_the_k_sum_of_an_array)

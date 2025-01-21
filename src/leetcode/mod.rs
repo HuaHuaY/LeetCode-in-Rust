@@ -138,6 +138,7 @@ pub mod p2182_construct_string_with_repeat_limit;
 pub mod p2187_minimum_time_to_complete_trips;
 pub mod p2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph;
 pub mod p21_merge_two_sorted_lists;
+pub mod p2218_maximum_value_of_k_coins_from_piles;
 pub mod p221_maximal_square;
 pub mod p2239_find_closest_number_to_zero;
 pub mod p2241_design_an_atm_machine;
