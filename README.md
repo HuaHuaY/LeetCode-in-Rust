@@ -110,7 +110,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3270. Find the Key of the Numbers](src/leetcode/p3270_find_the_key_of_the_numbers)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(214)
+### Medium(215)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -258,6 +258,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1387. Sort Integers by The Power Value](src/leetcode/p1387_sort_integers_by_the_power_value)
 - [1419. Minimum Number of Frogs Croaking](src/leetcode/p1419_minimum_number_of_frogs_croaking)
 - [1487. Making File Names Unique](src/leetcode/p1487_making_file_names_unique)
+- [1561. Maximum Number of Coins You Can Get](src/leetcode/p1561_maximum_number_of_coins_you_can_get)
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](src/leetcode/p1574_shortest_subarray_to_be_removed_to_make_array_sorted)
 - [1590. Make Sum Divisible by P](src/leetcode/p1590_make_sum_divisible_by_p)
 - [1599. Maximum Profit of Operating a Centennial Wheel](src/leetcode/p1599_maximum_profit_of_operating_a_centennial_wheel)
