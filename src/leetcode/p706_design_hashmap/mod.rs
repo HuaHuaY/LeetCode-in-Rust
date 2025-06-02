@@ -55,7 +55,6 @@ impl Default for MyHashMap {
  * let ret_2: i32 = obj.get(key);
  * obj.remove(key);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

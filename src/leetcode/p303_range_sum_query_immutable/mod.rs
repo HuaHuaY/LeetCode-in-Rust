@@ -29,7 +29,6 @@ impl NumArray {
  * let obj = NumArray::new(nums);
  * let ret_1: i32 = obj.sum_range(left, right);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

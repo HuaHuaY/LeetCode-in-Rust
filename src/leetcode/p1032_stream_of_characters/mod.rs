@@ -93,7 +93,6 @@ impl StreamChecker {
  * let obj = StreamChecker::new(words);
  * let ret_1: bool = obj.query(letter);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

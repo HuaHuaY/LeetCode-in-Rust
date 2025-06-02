@@ -20,12 +20,12 @@ impl Solution {
     }
 
     pub fn rand_point(&self) -> Vec<f64> {
-        let mut rng = rand::thread_rng();
-        let mut dx = rng.gen_range(-self.radius..self.radius);
-        let mut dy = rng.gen_range(-self.radius..self.radius);
+        let mut rng = rand::rng();
+        let mut dx = rng.random_range(-self.radius..self.radius);
+        let mut dy = rng.random_range(-self.radius..self.radius);
         while dx * dx + dy * dy > self.radius * self.radius {
-            dx = rng.gen_range(-self.radius..self.radius);
-            dy = rng.gen_range(-self.radius..self.radius);
+            dx = rng.random_range(-self.radius..self.radius);
+            dy = rng.random_range(-self.radius..self.radius);
         }
         vec![self.x_center + dx, self.y_center + dy]
     }
@@ -36,7 +36,6 @@ impl Solution {
  * let obj = Solution::new(radius, x_center, y_center);
  * let ret_1: Vec<f64> = obj.rand_point();
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

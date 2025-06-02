@@ -64,7 +64,6 @@ impl AuthenticationManager {
  * obj.renew(tokenId, currentTime);
  * let ret_3: i32 = obj.count_unexpired_tokens(currentTime);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

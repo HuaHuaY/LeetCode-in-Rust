@@ -50,7 +50,6 @@ impl ATM {
  * obj.deposit(banknotesCount);
  * let ret_2: Vec<i32> = obj.withdraw(amount);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

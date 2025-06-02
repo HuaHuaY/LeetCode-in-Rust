@@ -53,7 +53,6 @@ impl MyQueue {
  * let ret_3: i32 = obj.peek();
  * let ret_4: bool = obj.empty();
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

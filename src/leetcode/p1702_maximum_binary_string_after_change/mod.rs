@@ -3,7 +3,7 @@ pub struct Solution;
 impl Solution {
     pub fn maximum_binary_string(binary: String) -> String {
         let n = binary.len();
-        let Some(i) = binary.find(|b| b == '0') else {
+        let Some(i) = binary.find('0') else {
             return binary;
         };
         let count = binary.chars().filter(|&b| b == '0').count();

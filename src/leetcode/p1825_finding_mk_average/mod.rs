@@ -71,7 +71,6 @@ impl MKAverage {
  * obj.add_element(num);
  * let ret_2: i32 = obj.calculate_mk_average();
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

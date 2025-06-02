@@ -91,7 +91,6 @@ impl ExamRoom {
  * let ret_1: i32 = obj.seat();
  * obj.leave(p);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

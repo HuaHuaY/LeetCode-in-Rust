@@ -4,7 +4,7 @@ impl Solution {
     pub fn count_key_changes(s: String) -> i32 {
         s.as_bytes()
             .windows(2)
-            .filter(|w| (w[0] as char).to_ascii_lowercase() != (w[1] as char).to_ascii_lowercase())
+            .filter(|w| !(w[0] as char).eq_ignore_ascii_case(&(w[1] as char)))
             .count() as i32
     }
 }

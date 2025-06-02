@@ -42,7 +42,6 @@ impl Default for MyHashSet {
  * obj.remove(key);
  * let ret_3: bool = obj.contains(key);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

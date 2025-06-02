@@ -50,7 +50,6 @@ impl FrequencyTracker {
  * obj.delete_one(number);
  * let ret_3: bool = obj.has_frequency(frequency);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

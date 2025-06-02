@@ -39,7 +39,6 @@ impl TreeAncestor {
  * let obj = TreeAncestor::new(n, parent);
  * let ret_1: i32 = obj.get_kth_ancestor(node, k);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;

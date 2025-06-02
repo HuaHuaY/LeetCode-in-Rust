@@ -59,7 +59,6 @@ impl FindElements {
  * let obj = FindElements::new(root);
  * let ret_1: bool = obj.find(target);
  */
-
 #[cfg(test)]
 mod tests {
 

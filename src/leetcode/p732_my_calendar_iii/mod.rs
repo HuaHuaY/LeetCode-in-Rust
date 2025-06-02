@@ -48,7 +48,6 @@ impl MyCalendarThree {
  * let obj = MyCalendarTwo::new();
  * let ret_1: bool = obj.book(startTime, endTime);
  */
-
 #[cfg(test)]
 mod tests {
     use super::*;
