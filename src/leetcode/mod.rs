@@ -135,6 +135,7 @@ pub mod p2042_check_if_numbers_are_ascending_in_a_sentence;
 pub mod p2085_count_common_words_with_one_occurrence;
 pub mod p20_valid_parentheses;
 pub mod p2129_capitalize_the_title;
+pub mod p215_kth_largest_element_in_an_array;
 pub mod p2171_removing_minimum_number_of_magic_beans;
 pub mod p2182_construct_string_with_repeat_limit;
 pub mod p2187_minimum_time_to_complete_trips;
