@@ -110,7 +110,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3270. Find the Key of the Numbers](src/leetcode/p3270_find_the_key_of_the_numbers)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(215)
+### Medium(216)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -323,6 +323,7 @@ Call test by running `cargo test p[xxx]_`.
 - [2834. Find the Minimum Possible Sum of a Beautiful Array](src/leetcode/p2834_find_the_minimum_possible_sum_of_a_beautiful_array)
 - [2861. Maximum Number of Alloys](src/leetcode/p2861_maximum_number_of_alloys)
 - [2865. Beautiful Towers I](src/leetcode/p2865_beautiful_towers_i)
+- [2929. Distribute Candies Among Children II](src/leetcode/p2929_distribute_candies_among_children_ii)
 - [3066. Minimum Operations to Exceed Threshold Value II](src/leetcode/p3066_minimum_operations_to_exceed_threshold_value_ii)
 - [3097. Shortest Subarray With OR at Least K II](src/leetcode/p3097_shortest_subarray_with_or_at_least_k_ii)
 - [3138. Minimum Length of Anagram Concatenation](src/leetcode/p3138_minimum_length_of_anagram_concatenation)
@@ -330,7 +331,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3218. Minimum Cost for Cutting Cake I](src/leetcode/p3218_minimum_cost_for_cutting_cake_i)
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](src/leetcode/p3297_count_substrings_that_can_be_rearranged_to_contain_a_string_i)
 
-### Hard(69)
+### Hard(70)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -354,6 +355,7 @@ Call test by running `cargo test p[xxx]_`.
 - [87. Scramble String](src/leetcode/p87_scramble_string)
 - [115. Distinct Subsequences](src/leetcode/p115_distinct_subsequences)
 - [132. Palindrome Partitioning II](src/leetcode/p132_palindrome_partitioning_ii)
+- [135. Candy](src/leetcode/p135_candy)
 - [224. Basic Calculator](src/leetcode/p224_basic_calculator)
 - [233. Number of Digit One](src/leetcode/p233_number_of_digit_one)
 - [239. Sliding Window Maximum](src/leetcode/p239_sliding_window_maximum)
