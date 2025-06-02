@@ -110,7 +110,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3270. Find the Key of the Numbers](src/leetcode/p3270_find_the_key_of_the_numbers)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(217)
+### Medium(218)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -186,6 +186,7 @@ Call test by running `cargo test p[xxx]_`.
 - [165. Compare Version Numbers](src/leetcode/p165_compare_version_numbers)
 - [173. Binary Search Tree Iterator](src/leetcode/p173_binary_search_tree_iterator)
 - [189. Rotate Array](src/leetcode/p189_rotate_array)
+- [198. House Robber](src/leetcode/p198_house_robber)
 - [215. Kth Largest Element in an Array](src/leetcode/p215_kth_largest_element_in_an_array)
 - [221. Maximal Square](src/leetcode/p221_maximal_square)
 - [227. Basic Calculator II](src/leetcode/p227_basic_calculator_ii)

@@ -129,6 +129,7 @@ pub mod p1954_minimum_garden_perimeter_to_collect_enough_apples;
 pub mod p1962_remove_stones_to_minimize_the_total;
 pub mod p1969_minimum_non_zero_product_of_the_array_elements;
 pub mod p1976_number_of_ways_to_arrive_at_destination;
+pub mod p198_house_robber;
 pub mod p19_remove_nth_node_from_end_of_list;
 pub mod p1_two_sum;
 pub mod p2042_check_if_numbers_are_ascending_in_a_sentence;
