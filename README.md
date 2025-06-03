@@ -111,7 +111,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3270. Find the Key of the Numbers](src/leetcode/p3270_find_the_key_of_the_numbers)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(219)
+### Medium(220)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -196,6 +196,7 @@ Call test by running `cargo test p[xxx]_`.
 - [238. Product of Array Except Self](src/leetcode/p238_product_of_array_except_self)
 - [240. Search a 2D Matrix II](src/leetcode/p240_search_a_2d_matrix_ii)
 - [264. Ugly Number II](src/leetcode/p264_ugly_number_ii)
+- [287. Find the Duplicate Number](src/leetcode/p287_find_the_duplicate_number)
 - [299. Bulls and Cows](src/leetcode/p299_bulls_and_cows)
 - [300. Longest Increasing Subsequence](src/leetcode/p300_longest_increasing_subsequence)
 - [310. Minimum Height Trees](src/leetcode/p310_minimum_height_trees)

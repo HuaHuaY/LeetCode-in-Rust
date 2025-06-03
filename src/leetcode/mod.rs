@@ -241,6 +241,7 @@ pub mod p2861_maximum_number_of_alloys;
 pub mod p2864_maximum_odd_binary_number;
 pub mod p2865_beautiful_towers_i;
 pub mod p2867_count_valid_paths_in_a_tree;
+pub mod p287_find_the_duplicate_number;
 pub mod p28_find_the_index_of_the_first_occurrence_in_a_string;
 pub mod p2917_find_the_k_or_of_an_array;
 pub mod p2929_distribute_candies_among_children_ii;
