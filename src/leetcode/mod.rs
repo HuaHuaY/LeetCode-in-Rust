@@ -189,6 +189,7 @@ pub mod p239_sliding_window_maximum;
 pub mod p23_merge_k_sorted_lists;
 pub mod p2404_most_frequent_even_element;
 pub mod p2409_count_days_spent_together;
+pub mod p240_search_a_2d_matrix_ii;
 pub mod p2413_smallest_even_multiple;
 pub mod p2418_sort_the_people;
 pub mod p2427_number_of_common_factors;
