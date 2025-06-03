@@ -334,7 +334,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3218. Minimum Cost for Cutting Cake I](src/leetcode/p3218_minimum_cost_for_cutting_cake_i)
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](src/leetcode/p3297_count_substrings_that_can_be_rearranged_to_contain_a_string_i)
 
-### Hard(70)
+### Hard(71)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -383,6 +383,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1223. Dice Roll Simulation](src/leetcode/p1223_dice_roll_simulation)
 - [1250. Check If It Is a Good Array](src/leetcode/p1250_check_if_it_is_a_good_array)
 - [1255. Maximum Score Words Formed by Letters](src/leetcode/p1255_maximum_score_words_formed_by_letters)
+- [1298. Maximum Candies You Can Get from Boxes](src/leetcode/p1298_maximum_candies_you_can_get_from_boxes)
 - [1326. Minimum Number of Taps to Open to Water a Garden](src/leetcode/p1326_minimum_number_of_taps_to_open_to_water_a_garden)
 - [1349. Maximum Students Taking Exam](src/leetcode/p1349_maximum_students_taking_exam)
 - [1397. Find All Good Strings](src/leetcode/p1397_find_all_good_strings)
