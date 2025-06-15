@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(101)
+### Easy(102)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -34,6 +34,7 @@ Call test by running `cargo test p[xxx]_`.
 - [169. Majority Element](src/leetcode/p169_majority_element)
 - [190. Reverse Bits](src/leetcode/p190_reverse_bits)
 - [191. Number of 1 Bits](src/leetcode/p191_number_of_1_bits)
+- [206. Reverse Linked List](src/leetcode/p206_reverse_linked_list)
 - [225. Implement Stack using Queues](src/leetcode/p225_implement_stack_using_queues)
 - [232. Implement Queue using Stacks](src/leetcode/p232_implement_queue_using_stacks)
 - [263. Ugly Number](src/leetcode/p263_ugly_number)
