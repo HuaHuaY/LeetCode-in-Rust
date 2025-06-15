@@ -168,6 +168,7 @@ pub mod p2335_minimum_amount_of_time_to_fill_cups;
 pub mod p233_number_of_digit_one;
 pub mod p2341_maximum_number_of_pairs_in_array;
 pub mod p2347_best_poker_hand;
+pub mod p234_palindrome_linked_list;
 pub mod p2357_make_array_zero_by_subtracting_equal_amounts;
 pub mod p235_lowest_common_ancestor_of_a_binary_search_tree;
 pub mod p2363_merge_similar_items;
