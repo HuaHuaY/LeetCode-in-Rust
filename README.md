@@ -113,7 +113,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3270. Find the Key of the Numbers](src/leetcode/p3270_find_the_key_of_the_numbers)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(220)
+### Medium(221)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -185,6 +185,7 @@ Call test by running `cargo test p[xxx]_`.
 - [131. Palindrome Partitioning](src/leetcode/p131_palindrome_partitioning)
 - [134. Gas Station](src/leetcode/p134_gas_station)
 - [139. Word Break](src/leetcode/p139_word_break)
+- [148. Sort List](src/leetcode/p148_sort_list)
 - [150. Evaluate Reverse Polish Notation](src/leetcode/p150_evaluate_reverse_polish_notation)
 - [165. Compare Version Numbers](src/leetcode/p165_compare_version_numbers)
 - [173. Binary Search Tree Iterator](src/leetcode/p173_binary_search_tree_iterator)
