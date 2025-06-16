@@ -18,6 +18,7 @@ pub mod p1040_moving_stones_until_consecutive_ii;
 pub mod p1041_robot_bounded_in_circle;
 pub mod p1042_flower_planting_with_no_adjacent;
 pub mod p1047_remove_all_adjacent_duplicates_in_string;
+pub mod p104_maximum_depth_of_binary_tree;
 pub mod p1053_previous_permutation_with_one_swap;
 pub mod p105_construct_binary_tree_from_preorder_and_inorder_traversal;
 pub mod p106_construct_binary_tree_from_inorder_and_postorder_traversal;
