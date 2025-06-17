@@ -155,6 +155,7 @@ pub mod p224_basic_calculator;
 pub mod p225_implement_stack_using_queues;
 pub mod p2264_largest_3_same_digit_number_in_string;
 pub mod p2266_count_number_of_texts;
+pub mod p226_invert_binary_tree;
 pub mod p2270_number_of_ways_to_split_array;
 pub mod p2274_maximum_consecutive_floors_without_special_floors;
 pub mod p2275_largest_combination_with_bitwise_and_greater_than_zero;
