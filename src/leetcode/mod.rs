@@ -84,6 +84,7 @@ pub mod p1487_making_file_names_unique;
 pub mod p148_sort_list;
 pub mod p14_longest_common_prefix;
 pub mod p150_evaluate_reverse_polish_notation;
+pub mod p153_find_minimum_in_rotated_sorted_array;
 pub mod p1561_maximum_number_of_coins_you_can_get;
 pub mod p1574_shortest_subarray_to_be_removed_to_make_array_sorted;
 pub mod p1590_make_sum_divisible_by_p;
