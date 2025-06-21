@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(105)
+### Easy(106)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -28,6 +28,7 @@ Call test by running `cargo test p[xxx]_`.
 - [88. Merge Sorted Array](src/leetcode/p88_merge_sorted_array)
 - [94. Binary Tree Inorder Traversal](src/leetcode/p94_binary_tree_inorder_traversal)
 - [100. Same Tree](src/leetcode/p100_same_tree)
+- [101. Symmetric Tree](src/leetcode/p101_symmetric_tree)
 - [104. Maximum Depth of Binary Tree](src/leetcode/p104_maximum_depth_of_binary_tree)
 - [136. Single Number](src/leetcode/p136_single_number)
 - [144. Binary Tree Preorder Traversal](src/leetcode/p144_binary_tree_preorder_traversal)

@@ -6,6 +6,7 @@ pub mod p1010_pairs_of_songs_with_total_durations_divisible_by_60;
 pub mod p1012_numbers_with_repeated_digits;
 pub mod p1017_convert_to_base_n2;
 pub mod p1019_next_greater_node_in_linked_list;
+pub mod p101_symmetric_tree;
 pub mod p1023_camelcase_matching;
 pub mod p1024_video_stitching;
 pub mod p1026_maximum_difference_between_node_and_ancestor;
