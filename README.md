@@ -7,7 +7,7 @@ Call test by running `cargo test p[xxx]_`.
 
 ## 现在可以公开的情报(Problems Solved)
 
-### Easy(106)
+### Easy(107)
 
 - [1. Two Sum](src/leetcode/p1_two_sum)
 - [9. Palindrome Number](src/leetcode/p9_palindrome_number)
@@ -49,6 +49,7 @@ Call test by running `cargo test p[xxx]_`.
 - [463. Island Perimeter](src/leetcode/p463_island_perimeter)
 - [496. Next Greater Element I](src/leetcode/p496_next_greater_element_i)
 - [509. Fibonacci Number](src/leetcode/p509_fibonacci_number)
+- [645. Set Mismatch](src/leetcode/p645_set_mismatch)
 - [705. Design HashSet](src/leetcode/p705_design_hashset)
 - [706. Design HashMap](src/leetcode/p706_design_hashmap)
 - [746. Min Cost Climbing Stairs](src/leetcode/p746_min_cost_climbing)
