@@ -141,6 +141,7 @@ pub mod p19_remove_nth_node_from_end_of_list;
 pub mod p1_two_sum;
 pub mod p2042_check_if_numbers_are_ascending_in_a_sentence;
 pub mod p206_reverse_linked_list;
+pub mod p207_course_schedule;
 pub mod p2085_count_common_words_with_one_occurrence;
 pub mod p20_valid_parentheses;
 pub mod p2129_capitalize_the_title;
