@@ -347,7 +347,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3218. Minimum Cost for Cutting Cake I](src/leetcode/p3218_minimum_cost_for_cutting_cake_i)
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](src/leetcode/p3297_count_substrings_that_can_be_rearranged_to_contain_a_string_i)
 
-### Hard(71)
+### Hard(72)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -403,6 +403,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1483. Kth Ancestor of a Tree Node](src/leetcode/p1483_kth_ancestor_of_a_tree_node)
 - [1617. Count Subtrees With Max Distance Between Cities](src/leetcode/p1617_count_subtrees_with_max_distance_between_cities)
 - [1632. Rank Transform of a Matrix](src/leetcode/p1632_rank_transform_of_a_matrix)
+- [1776. Car Fleet II](src/leetcode/p1776_car_fleet_ii)
 - [1793. Maximum Score of a Good Subarray](src/leetcode/p1793_maximum_score_of_a_good_subarray)
 - [1819. Number of Different Subsequences GCDs](src/leetcode/p1819_number_of_different_subsequences_gcds)
 - [1825. Finding MK Average](src/leetcode/p1825_finding_mk_average)
