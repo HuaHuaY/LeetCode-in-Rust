@@ -371,6 +371,7 @@ pub mod p82_remove_duplicates_from_sorted_list_ii;
 pub mod p831_masking_personal_information;
 pub mod p83_remove_duplicates_from_sorted_list;
 pub mod p84_largest_rectangle_in_histogram;
+pub mod p853_car_fleet;
 pub mod p855_exam_room;
 pub mod p85_maximal_rectangle;
 pub mod p86_partition_list;
