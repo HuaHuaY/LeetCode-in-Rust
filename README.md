@@ -118,7 +118,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3270. Find the Key of the Numbers](src/leetcode/p3270_find_the_key_of_the_numbers)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(225)
+### Medium(226)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -186,6 +186,7 @@ Call test by running `cargo test p[xxx]_`.
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](src/leetcode/p105_construct_binary_tree_from_preorder_and_inorder_traversal)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](src/leetcode/p106_construct_binary_tree_from_inorder_and_postorder_traversal)
 - [107. Binary Tree Level Order Traversal II](src/leetcode/p107_binary_tree_level_order_traversal_ii)
+- [122. Best Time to Buy and Sell Stock II](src/leetcode/p122_best_time_to_buy_and_sell_stock_ii)
 - [128. Longest Consecutive Sequence](src/leetcode/p128_longest_consecutive_sequence)
 - [131. Palindrome Partitioning](src/leetcode/p131_palindrome_partitioning)
 - [134. Gas Station](src/leetcode/p134_gas_station)

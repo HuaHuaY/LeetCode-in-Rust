@@ -47,6 +47,7 @@ pub mod p1210_minimum_moves_to_reach_target_with_rotations;
 pub mod p121_best_time_to_buy_and_sell_stock;
 pub mod p1223_dice_roll_simulation;
 pub mod p1227_airplane_seat_assignment_probability;
+pub mod p122_best_time_to_buy_and_sell_stock_ii;
 pub mod p1233_remove_sub_folders_from_the_filesystem;
 pub mod p1234_replace_the_substring_for_balanced_string;
 pub mod p1237_find_positive_integer_solution_for_a_given_equation;
