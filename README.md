@@ -349,7 +349,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3218. Minimum Cost for Cutting Cake I](src/leetcode/p3218_minimum_cost_for_cutting_cake_i)
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](src/leetcode/p3297_count_substrings_that_can_be_rearranged_to_contain_a_string_i)
 
-### Hard(72)
+### Hard(73)
 
 - [4. Median of Two Sorted Arrays](src/leetcode/p4_median_of_two_sorted_arrays)
 - [10. Regular Expression Matching](src/leetcode/p10_regular_expression_matching)
@@ -394,6 +394,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1092. Shortest Common Supersequence ](src/leetcode/p1092_shortest_common_supersequence)
 - [1096. Brace Expansion II](src/leetcode/p1096_brace_expansion_ii)
 - [1147. Longest Chunked Palindrome Decomposition](src/leetcode/p1147_longest_chunked_palindrome_decomposition)
+- [1206. Design Skiplist](src/leetcode/p1206_design_skiplist)
 - [1210. Minimum Moves to Reach Target with Rotations](src/leetcode/p1210_minimum_moves_to_reach_target_with_rotations)
 - [1223. Dice Roll Simulation](src/leetcode/p1223_dice_roll_simulation)
 - [1250. Check If It Is a Good Array](src/leetcode/p1250_check_if_it_is_a_good_array)

@@ -43,6 +43,7 @@ pub mod p1161_maximum_level_sum_of_a_binary_tree;
 pub mod p1184_distance_between_bus_stops;
 pub mod p1185_day_of_the_week;
 pub mod p11_container_with_most_water;
+pub mod p1206_design_skiplist;
 pub mod p1210_minimum_moves_to_reach_target_with_rotations;
 pub mod p121_best_time_to_buy_and_sell_stock;
 pub mod p1223_dice_roll_simulation;
