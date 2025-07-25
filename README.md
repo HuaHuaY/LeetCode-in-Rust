@@ -118,7 +118,7 @@ Call test by running `cargo test p[xxx]_`.
 - [3270. Find the Key of the Numbers](src/leetcode/p3270_find_the_key_of_the_numbers)
 - [3280. Convert Date to Binary](src/leetcode/p3280_convert_date_to_binary)
 
-### Medium(226)
+### Medium(227)
 
 - [2. Add Two Numbers](src/leetcode/p2_add_two_numbers)
 - [3. Longest Substring Without Repeating Characters](src/leetcode/p3_longest_substring_without_repeating_characters)
@@ -296,6 +296,7 @@ Call test by running `cargo test p[xxx]_`.
 - [1696. Jump Game VI](src/leetcode/p1696_jump_game_vi)
 - [1702. Maximum Binary String After Change](src/leetcode/p1702_maximum_binary_string_after_change)
 - [1705. Maximum Number of Eaten Apples](src/leetcode/p1705_maximum_number_of_eaten_apples)
+- [1717. Maximum Score From Removing Substrings](src/leetcode/p1717_maximum_score_from_removing_substrings)
 - [1792. Maximum Average Pass Ratio](src/leetcode/p1792_maximum_average_pass_ratio)
 - [1797. Design Authentication Manager](src/leetcode/p1797_design_authentication_manager)
 - [1798. Maximum Number of Consecutive Values You Can Make](src/leetcode/p1798_maximum_number_of_consecutive_values_you_can_make)

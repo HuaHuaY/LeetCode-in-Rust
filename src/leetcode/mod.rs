@@ -115,6 +115,7 @@ pub mod p169_majority_element;
 pub mod p16_3sum_closest;
 pub mod p1702_maximum_binary_string_after_change;
 pub mod p1705_maximum_number_of_eaten_apples;
+pub mod p1717_maximum_score_from_removing_substrings;
 pub mod p173_binary_search_tree_iterator;
 pub mod p1776_car_fleet_ii;
 pub mod p1792_maximum_average_pass_ratio;
