@@ -277,6 +277,7 @@ pub mod p310_minimum_height_trees;
 pub mod p3138_minimum_length_of_anagram_concatenation;
 pub mod p3159_find_occurrences_of_an_element_in_an_array;
 pub mod p3162_find_the_number_of_good_pairs_i;
+pub mod p316_remove_duplicate_letters;
 pub mod p31_next_permutation;
 pub mod p3218_minimum_cost_for_cutting_cake_i;
 pub mod p3219_minimum_cost_for_cutting_cake_ii;

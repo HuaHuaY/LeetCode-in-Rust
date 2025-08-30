@@ -212,6 +212,7 @@ Call test by running `cargo test p[xxx]_`.
 - [299. Bulls and Cows](src/leetcode/p299_bulls_and_cows)
 - [300. Longest Increasing Subsequence](src/leetcode/p300_longest_increasing_subsequence)
 - [310. Minimum Height Trees](src/leetcode/p310_minimum_height_trees)
+- [316. Remove Duplicate Letters](src/leetcode/p316_remove_duplicate_letters)
 - [331. Verify Preorder Serialization of a Binary Tree](src/leetcode/p331_verify_preorder_serialization_of_a_binary_tree)
 - [338. Counting Bits](src/leetcode/p338_counting_bits)
 - [365. Water and Jug Problem](src/leetcode/p365_water_and_jug_problem)
